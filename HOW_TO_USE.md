@@ -53,4 +53,10 @@ Every hour, the agent:
 Yes, it stops when your Mac sleeps.
 - **Lid Closed/Sleep:** The agent pauses and won't send messages.
 - **Lid Opened/Wake:** The agent resumes automatically and catches up on any missed checks.
-- **Tip:** If you need 24/7 operation, keep your Mac awake using an app like "Amphetamine" or move the Gateway to a cloud server later.
+
+### 🔋 How to run 24/7 (Amphetamine Setup)
+To keep your SEO Manager working even when you close your laptop:
+1.  **Start a Session:** Click the Amphetamine icon in your menu bar and select **"Indefinite"**.
+2.  **Lid Closed Mode:** Go to `Amphetamine Preferences` -> `Settings` -> `Closed-Display Mode`.
+3.  **Check the box:** Ensure "Allow system to sleep when display is closed" is **UNCHECKED**.
+4.  **Keep it Plugged In:** MacBooks require a power adapter to stay awake with the lid closed.
