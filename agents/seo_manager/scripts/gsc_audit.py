@@ -4,24 +4,59 @@ GSC Audit Script - Pull performance data and identify opportunities
 """
 import json
 import os
+import requests
 from datetime import datetime, timedelta
 from google.oauth2 import service_account
 from googleapiclient.discovery import build
 
+TELEGRAM_BOT_TOKEN = os.getenv('TELEGRAM_BOT_TOKEN')
+TELEGRAM_CHAT_ID = os.getenv('TELEGRAM_CHAT_ID')
+
+def send_telegram_alert(message):
+    """Send failure alert to Michael via Telegram."""
+    if not TELEGRAM_BOT_TOKEN or not TELEGRAM_CHAT_ID:
+        print("⚠️  TELEGRAM NOT CONFIGURED — cannot send alert!")
+        print(f"ALERT: {message}")
+        return
+    try:
+        requests.post(
+            f'https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/sendMessage',
+            json={
+                'chat_id': TELEGRAM_CHAT_ID,
+                'text': message,
+                'parse_mode': 'Markdown'
+            },
+            timeout=10
+        )
+    except Exception as e:
+        print(f"⚠️  Failed to send Telegram alert: {e}")
+
 # Load credentials
 creds_json = os.environ.get('GSC_JSON_KEY')
 if not creds_json:
-    print("ERROR: GSC_JSON_KEY not found")
+    msg = ("🚨 *GSC AUDIT BLOCKED*\n"
+           "• `GSC_JSON_KEY` not found in environment\n"
+           "• Traffic drop detection and Page 2 analysis are offline\n"
+           "• Action needed: set the service account JSON key")
+    print(msg)
+    send_telegram_alert(msg)
     exit(1)
 
-creds_dict = json.loads(creds_json)
-credentials = service_account.Credentials.from_service_account_info(
-    creds_dict,
-    scopes=['https://www.googleapis.com/auth/webmasters.readonly']
-)
-
-# Build service
-service = build('searchconsole', 'v1', credentials=credentials)
+try:
+    creds_dict = json.loads(creds_json)
+    credentials = service_account.Credentials.from_service_account_info(
+        creds_dict,
+        scopes=['https://www.googleapis.com/auth/webmasters.readonly']
+    )
+    service = build('searchconsole', 'v1', credentials=credentials)
+except Exception as e:
+    msg = (f"🚨 *GSC AUDIT AUTH FAILED*\n"
+           f"• Error: `{str(e)[:200]}`\n"
+           f"• Cannot authenticate with Google Search Console\n"
+           f"• Check service account credentials")
+    print(msg)
+    send_telegram_alert(msg)
+    exit(1)
 
 # Site property
 SITE_URL = 'sc-domain:griddleking.com'
@@ -44,10 +79,19 @@ current_request = {
     'rowLimit': 100
 }
 
-current_response = service.searchanalytics().query(
-    siteUrl=SITE_URL,
-    body=current_request
-).execute()
+try:
+    current_response = service.searchanalytics().query(
+        siteUrl=SITE_URL,
+        body=current_request
+    ).execute()
+except Exception as e:
+    msg = (f"🚨 *GSC AUDIT QUERY FAILED*\n"
+           f"• Period: current ({start_date} to {end_date})\n"
+           f"• Error: `{str(e)[:200]}`\n"
+           f"• Traffic analysis is offline")
+    print(msg)
+    send_telegram_alert(msg)
+    exit(1)
 
 # Get previous period data
 prev_request = {
@@ -57,10 +101,19 @@ prev_request = {
     'rowLimit': 100
 }
 
-prev_response = service.searchanalytics().query(
-    siteUrl=SITE_URL,
-    body=prev_request
-).execute()
+try:
+    prev_response = service.searchanalytics().query(
+        siteUrl=SITE_URL,
+        body=prev_request
+    ).execute()
+except Exception as e:
+    msg = (f"🚨 *GSC AUDIT QUERY FAILED*\n"
+           f"• Period: previous ({prev_start} to {prev_end})\n"
+           f"• Error: `{str(e)[:200]}`\n"
+           f"• Cannot compare traffic periods")
+    print(msg)
+    send_telegram_alert(msg)
+    exit(1)
 
 # Build comparison
 current_pages = {}

@@ -20,16 +20,53 @@ WP_USERNAME = os.getenv('WP_USERNAME')
 WP_APP_PASS = os.getenv('WP_APP_PASS')
 BRAVE_API_KEY = os.getenv('BRAVE_SEARCH_API_KEY')
 GSC_JSON_KEY = os.getenv('GSC_JSON_KEY')
+TELEGRAM_BOT_TOKEN = os.getenv('TELEGRAM_BOT_TOKEN')
+TELEGRAM_CHAT_ID = os.getenv('TELEGRAM_CHAT_ID')
+
+def send_telegram_alert(message):
+    """Send failure alert to Michael via Telegram."""
+    if not TELEGRAM_BOT_TOKEN or not TELEGRAM_CHAT_ID:
+        print("⚠️  TELEGRAM NOT CONFIGURED — cannot send alert!")
+        print(f"ALERT: {message}")
+        return
+    try:
+        requests.post(
+            f'https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/sendMessage',
+            json={
+                'chat_id': TELEGRAM_CHAT_ID,
+                'text': message,
+                'parse_mode': 'Markdown'
+            },
+            timeout=10
+        )
+    except Exception as e:
+        print(f"⚠️  Failed to send Telegram alert: {e}")
 
 # Parse GSC credentials
-gsc_creds = json.loads(GSC_JSON_KEY)
-credentials = service_account.Credentials.from_service_account_info(
-    gsc_creds,
-    scopes=['https://www.googleapis.com/auth/webmasters.readonly']
-)
+if not GSC_JSON_KEY:
+    msg = ("🚨 *GSC API BLOCKED*\n"
+           "• `GSC_JSON_KEY` is not set in environment\n"
+           "• Traffic analysis, decline detection, and Page 2 opportunities are all offline\n"
+           "• Action needed: set the service account JSON key")
+    print(msg)
+    send_telegram_alert(msg)
+    exit(1)
 
-# Initialize GSC client
-gsc_service = build('searchconsole', 'v1', credentials=credentials)
+try:
+    gsc_creds = json.loads(GSC_JSON_KEY)
+    credentials = service_account.Credentials.from_service_account_info(
+        gsc_creds,
+        scopes=['https://www.googleapis.com/auth/webmasters.readonly']
+    )
+    gsc_service = build('searchconsole', 'v1', credentials=credentials)
+except Exception as e:
+    msg = (f"🚨 *GSC AUTHENTICATION FAILED*\n"
+           f"• Error: `{str(e)[:200]}`\n"
+           f"• Traffic analysis is completely offline\n"
+           f"• Check service account credentials")
+    print(msg)
+    send_telegram_alert(msg)
+    exit(1)
 
 print("🚀 SEO KICKSTART MISSION - GRIDDLE KING\n")
 
@@ -52,11 +89,20 @@ def query_gsc(start, end, dimensions=['page']):
         'dimensions': dimensions,
         'rowLimit': 25000
     }
-    response = gsc_service.searchanalytics().query(
-        siteUrl=SITE_URL, 
-        body=request
-    ).execute()
-    return response.get('rows', [])
+    try:
+        response = gsc_service.searchanalytics().query(
+            siteUrl=SITE_URL,
+            body=request
+        ).execute()
+        return response.get('rows', [])
+    except Exception as e:
+        msg = (f"🚨 *GSC QUERY FAILED*\n"
+               f"• Period: `{start}` to `{end}`\n"
+               f"• Error: `{str(e)[:200]}`\n"
+               f"• Traffic analysis is degraded")
+        print(msg)
+        send_telegram_alert(msg)
+        return []
 
 # Get recent and comparison data
 print(f"Querying recent period: {start_date_recent} to {end_date}")
@@ -107,25 +153,59 @@ print("\n📝 STEP 2: WordPress Content Audit")
 print("=" * 60)
 
 # Get all published posts
+if not WP_USERNAME or not WP_APP_PASS:
+    msg = ("🚨 *WORDPRESS API BLOCKED*\n"
+           "• `WP_USERNAME` or `WP_APP_PASS` not set in environment\n"
+           "• Content audit, orphan detection, and link audit are offline\n"
+           "• Action needed: set WordPress credentials")
+    print(msg)
+    send_telegram_alert(msg)
+    exit(1)
+
 wp_auth = (WP_USERNAME, WP_APP_PASS)
 all_posts = []
 page = 1
 
 print("Fetching WordPress posts...")
+wp_fetch_failed = False
 while True:
-    response = requests.get(
-        f"{WP_URL}/wp-json/wp/v2/posts",
-        params={'per_page': 100, 'page': page, 'status': 'publish'},
-        auth=wp_auth
-    )
-    if response.status_code != 200:
+    try:
+        response = requests.get(
+            f"{WP_URL}/wp-json/wp/v2/posts",
+            params={'per_page': 100, 'page': page, 'status': 'publish'},
+            auth=wp_auth,
+            timeout=30
+        )
+        if response.status_code == 401 or response.status_code == 403:
+            msg = (f"🚨 *WORDPRESS AUTH FAILED*\n"
+                   f"• Status code: `{response.status_code}`\n"
+                   f"• WordPress credentials are invalid or expired\n"
+                   f"• Content audit is offline")
+            print(msg)
+            send_telegram_alert(msg)
+            wp_fetch_failed = True
+            break
+        if response.status_code != 200:
+            break
+        posts = response.json()
+        if not posts:
+            break
+        all_posts.extend(posts)
+        page += 1
+        time.sleep(0.5)
+    except requests.exceptions.RequestException as e:
+        msg = (f"🚨 *WORDPRESS API ERROR*\n"
+               f"• Error: `{str(e)[:200]}`\n"
+               f"• Retrieved {len(all_posts)} posts before failure\n"
+               f"• Content audit may be incomplete")
+        print(msg)
+        send_telegram_alert(msg)
+        wp_fetch_failed = True
         break
-    posts = response.json()
-    if not posts:
-        break
-    all_posts.extend(posts)
-    page += 1
-    time.sleep(0.5)
+
+if wp_fetch_failed and len(all_posts) == 0:
+    print("❌ No posts retrieved. Cannot continue content audit.")
+    exit(1)
 
 print(f"✅ Retrieved {len(all_posts)} published posts")
 
