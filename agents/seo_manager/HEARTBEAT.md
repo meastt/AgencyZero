@@ -42,5 +42,24 @@ Send a Telegram summary ONLY if you:
 - Published a content update
 - Discovered a technical issue
 - Completed a weekly task
+- **ANY API or tool failure occurred** (see Step 2B below)
 
 Do NOT message Michael for routine "nothing to report" heartbeats. Silence means everything is fine.
+
+## Step 2B: API Health Check (MANDATORY — run before your main task)
+Before executing your main task, verify that all required APIs are reachable:
+1. **GSC API** — Can you authenticate and pull at least 1 row of data?
+2. **Brave Search API** (or replacement) — Does a test query return 200?
+3. **WordPress API** — Can you fetch at least 1 post?
+
+**If ANY check fails:**
+- **IMMEDIATELY** send Michael a Telegram alert with:
+  - Which API failed
+  - The error code/message (e.g. "Brave API returned 422: invalid subscription token")
+  - What capability is blocked (e.g. "Keyword research is offline")
+  - How long it's been broken (check `work_journal.md` for prior failures)
+- Log the failure in `work_journal.md`
+- Skip tasks that depend on the broken API — do NOT attempt workarounds that produce incomplete data
+- Proceed with tasks that use working APIs
+
+**Do NOT:** silently fall back to manual methods, log failures only to markdown files, or assume Michael already knows. If the API was broken last heartbeat and is still broken this heartbeat, alert again — once per day until resolved.

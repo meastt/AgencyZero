@@ -13,6 +13,28 @@ from datetime import datetime
 BRAVE_API_KEY = os.getenv('BRAVE_SEARCH_API_KEY')
 SITE_URL = 'griddleking.com'
 
+TELEGRAM_BOT_TOKEN = os.getenv('TELEGRAM_BOT_TOKEN')
+TELEGRAM_CHAT_ID = os.getenv('TELEGRAM_CHAT_ID')
+
+def send_telegram_alert(message):
+    """Send failure alert to Michael via Telegram."""
+    if not TELEGRAM_BOT_TOKEN or not TELEGRAM_CHAT_ID:
+        print("⚠️  TELEGRAM NOT CONFIGURED — cannot send alert!")
+        print(f"ALERT: {message}")
+        return
+    try:
+        requests.post(
+            f'https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/sendMessage',
+            json={
+                'chat_id': TELEGRAM_CHAT_ID,
+                'text': message,
+                'parse_mode': 'Markdown'
+            },
+            timeout=10
+        )
+    except Exception as e:
+        print(f"⚠️  Failed to send Telegram alert: {e}")
+
 # Top competitors in griddle/grill niche
 COMPETITORS = [
     'blackstonegriddles.com',
@@ -39,31 +61,50 @@ TARGET_KEYWORDS = [
 print("🔍 KEYWORD OPPORTUNITY ANALYSIS")
 print("=" * 60)
 
+# Pre-flight: check Brave API key exists
+if not BRAVE_API_KEY:
+    msg = ("🚨 *KEYWORD RESEARCH BLOCKED*\n"
+           "• `BRAVE_SEARCH_API_KEY` is not set in environment\n"
+           "• Keyword research is completely offline\n"
+           "• Action needed: set a valid API key")
+    print(msg)
+    send_telegram_alert(msg)
+    exit(1)
+
 keyword_opportunities = []
+api_failure_reported = False
 
 for keyword in TARGET_KEYWORDS:
     print(f"\nAnalyzing: {keyword}")
-    
+
     # Search using Brave API
     headers = {
         'Accept': 'application/json',
         'X-Subscription-Token': BRAVE_API_KEY
     }
-    
+
     params = {
         'q': keyword,
         'count': 20
     }
-    
+
     try:
         response = requests.get(
             'https://api.search.brave.com/res/v1/web/search',
             headers=headers,
             params=params
         )
-        
+
         if response.status_code != 200:
             print(f"   ⚠️  Error: {response.status_code}")
+            if not api_failure_reported:
+                api_failure_reported = True
+                msg = (f"🚨 *BRAVE SEARCH API FAILURE*\n"
+                       f"• Status code: `{response.status_code}`\n"
+                       f"• Response: `{response.text[:200]}`\n"
+                       f"• Keyword research is offline\n"
+                       f"• Check your Brave API subscription at brave.com/search/api")
+                send_telegram_alert(msg)
             continue
             
         data = response.json()
@@ -109,6 +150,12 @@ for keyword in TARGET_KEYWORDS:
         
     except Exception as e:
         print(f"   ⚠️  Error: {str(e)}")
+        if not api_failure_reported:
+            api_failure_reported = True
+            msg = (f"🚨 *BRAVE SEARCH API ERROR*\n"
+                   f"• Exception: `{str(e)[:200]}`\n"
+                   f"• Keyword research is offline")
+            send_telegram_alert(msg)
 
 # Sort by opportunity score
 keyword_opportunities.sort(key=lambda x: x['opportunity_score'], reverse=True)
