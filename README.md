@@ -13,8 +13,6 @@ We are currently accepting offers for the full acquisition of this codebase and 
 
 ---
 
-[... Your existing documentation follows below ...]
-
 # AgencyZero
 
 Autonomous SEO agency powered by Claude. Three self-directed agents each manage a WordPress niche site, coordinated by a Commander bot via Telegram.
