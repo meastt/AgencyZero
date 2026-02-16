@@ -3,6 +3,17 @@
 .env.local
 .env.*.local
 
+# Runtime state and generated data (contains operational/sensitive info)
+state/
+data/
+*.lock
+
+# Agent-specific audit outputs and caches
+agents/seo_manager/data/
+shared/scripts/data/
+shared/scripts/keyword_opportunities.json
+shared/scripts/seo_kickstart_results.json
+
 # Dependencies
 node_modules/
 dist/
@@ -17,6 +28,10 @@ yarn-error.log*
 # Python
 __pycache__/
 *.pyc
+*.pyo
+.venv/
+venv/
+env/
 
 # System Files
 .DS_Store

@@ -32,7 +32,7 @@ OpenClawSEO/
 **Goal:** Turn email from a distraction into a deal-flow pipeline.
 
 ### Architecture
-- **Input**: IMAP connection to `meastt09@gmail.com` (or niche specific emails).
+- **Input**: IMAP connection to your email (or niche-specific inboxes).
 - **Processing**: Agent scans unsanctioned emails every 60 mins.
 - **Output**: Telegram alerts for opportunities; Drafts for routine replies.
 
@@ -57,7 +57,7 @@ OpenClawSEO/
 - **Directives**: `SOUL.md` prioritizes commercial content and link fixes.
 
 ### Next Steps (Automation)
-1.  **Link Auditor Script**: Scan all posts for untagged Amazon links and auto-inject `?tag=griddleking01-20`.
+1.  **Link Auditor Script**: Scan all posts for untagged Amazon links and auto-inject `?tag=YOUR_AFFILIATE_TAG`.
 2.  **Stock Checker**: Periodic check of top 20 affiliate products; if OOS, swap with alternative or alert user.
 3.  **Revenue Dashboard**: Pull Amazon/Impact reports to correlate *specific posts* with *revenue*, feeding back into the content strategy.
 

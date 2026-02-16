@@ -95,10 +95,10 @@ data/                          # Generated audit outputs and logs
 1. Install Python dependencies:
 
 ```bash
-pip install requests python-dotenv google-auth google-api-python-client
+pip install -r requirements.txt
 ```
 
-2. Configure `.env` with credentials (see above).
+2. Copy `.env.example` to `.env` and fill in your credentials (see above). **Never commit `.env`** — it contains secrets.
 
 3. Start the Commander bot:
 
@@ -175,6 +175,11 @@ URL-level impact windows are tracked in `recent_url_actions` with `review_not_be
 - Runtime applies a hybrid model (agent proposal + system signals from tools/snapshot/content age) to determine final cooldown.
 - Active cooldown URLs are injected into the next assessment prompt to avoid unnecessary rapid rework.
 - `/portfolio` exposes latest cooldown rationale and the next reassessment timestamp per agent.
+
+## Security
+
+- **Never commit `.env`** — it contains API keys, WordPress credentials, and Telegram tokens. Use `.env.example` as a template.
+- `state/` and `data/` are gitignored — they contain operational data and audit outputs.
 
 ## Safety Notes
 

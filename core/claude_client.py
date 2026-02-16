@@ -10,8 +10,8 @@ Model tiers:
 import json
 import requests
 
-MODEL_SONNET = "claude-sonnet-4-5-20250514"
-MODEL_HAIKU = "claude-haiku-4-5-20250514"
+MODEL_SONNET = "claude-sonnet-4-5-20250929"
+MODEL_HAIKU = "claude-haiku-4-5-20251001"
 
 # Default for backwards compatibility
 DEFAULT_MODEL = MODEL_SONNET

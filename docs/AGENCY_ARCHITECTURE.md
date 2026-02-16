@@ -264,7 +264,7 @@ GSC_JSON_KEY={shared service account JSON}
 **WordPress agents — namespaced per site:**
 ```
 WP_URL_GRIDDLEKING=https://griddleking.com/
-WP_USERNAME_GRIDDLEKING=meastt09@gmail.com
+WP_USERNAME_GRIDDLEKING={your-email}
 WP_APP_PASS_GRIDDLEKING={app-password}
 
 WP_URL_PHOTOTIPSGUY=https://phototipsguy.com/
@@ -296,7 +296,7 @@ Each agent's SOUL.md tells it which namespaced variables to use (e.g., "Your cre
 **Alternative (Docker isolation):** Run each agent in its own Docker container with a dedicated `.env` file. This is the officially documented multi-agent isolation pattern but adds operational complexity.
 
 ### GSC Service Account
-The existing service account (`openclaw-seo@gen-lang-client-0455698266.iam.gserviceaccount.com`) already has access to 3 properties. Add the remaining 4:
+The shared GSC service account (from `GSC_JSON_KEY`) has access to your properties. Add the remaining 4:
 - [ ] ebikepsi.com
 - [ ] protocol21blackjack.com
 - [ ] cranksmith.com
