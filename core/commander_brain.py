@@ -8,7 +8,7 @@ from datetime import datetime, timedelta
 
 WEEKLY_STRATEGY_DAYS = 7
 
-COMMANDER_SYSTEM = """You are Commander SEO, the autonomous agency director for OpenClaw SEO.
+COMMANDER_SYSTEM = """You are Commander SEO, the autonomous agency director for AgencyZero.
 You manage 3 autonomous agents that each run a WordPress niche site:
 
 - Griddle King (griddleking.com) — outdoor cooking, griddles, BBQ
@@ -238,7 +238,7 @@ class CommanderBrain:
             "tiger": ("Tiger Tribe", "tigertribe.net"),
         }
 
-        lines = ["*OPENCLAW FLEET — LIVE STATUS*\n"]
+        lines = ["*AGENCYZERO FLEET — LIVE STATUS*\n"]
 
         for key in self.agent_keys:
             st = agent_states.get(key, {})
@@ -405,7 +405,7 @@ class CommanderBrain:
                 return str(int(round(num)))
             return f"{num:.{digits}f}"
 
-        lines = ["*OPENCLAW PORTFOLIO — EXECUTIVE VIEW*\n"]
+        lines = ["*AGENCYZERO PORTFOLIO — EXECUTIVE VIEW*\n"]
         lines.append(f"Strategy note: {strategy.get('notes', 'n/a')}")
         lines.append("")
 
@@ -772,7 +772,7 @@ class CommanderBrain:
             agent_write_counts[label][tool] = agent_write_counts[label].get(tool, 0) + 1
 
         # Format report
-        lines = [f"OPENCLAW 4H REPORT ({window_start} - {now_str})\n"]
+        lines = [f"AGENCYZERO 4H REPORT ({window_start} - {now_str})\n"]
 
         # Changes
         lines.append("CHANGES MADE:")

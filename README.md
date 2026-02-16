@@ -1,4 +1,21 @@
-# OpenClawSEO
+
+# AgencyZero: Autonomous SEO Infrastructure
+### Production-Ready Multi-Agent System for WordPress
+**Current Status:** Active Development | **License:** Commercial Source Code Available
+
+---
+
+## 🛑 Buying This Technology
+This repository contains the core architecture for the AgencyZero autonomous fleet.
+We are currently accepting offers for the full acquisition of this codebase and IP.
+
+**[View Listing on Acquire.com](LINK_TO_YOUR_LISTING)** *(Add this link once your listing is live)*
+
+---
+
+[... Your existing documentation follows below ...]
+
+# AgencyZero
 
 Autonomous SEO agency powered by Claude. Three self-directed agents each manage a WordPress niche site, coordinated by a Commander bot via Telegram.
 

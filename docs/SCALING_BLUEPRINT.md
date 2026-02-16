@@ -5,7 +5,7 @@
 
 ### Architecture
 ```markdown
-OpenClawSEO/
+AgencyZero/
 ├── agents/
 │   ├── seo_manager/          # Griddle King (Active)
 │   ├── photo_manager/        # Photography Blog (New)

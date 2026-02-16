@@ -152,7 +152,7 @@ def run_agent_script(agent_key, task_name):
 
 def get_fleet_status():
     """Build a quick fleet status message by reading strategic plans."""
-    lines = ["🚀 *OPENCLAW FLEET STATUS*\n"]
+    lines = ["🚀 *AGENCYZERO FLEET STATUS*\n"]
     for key, agent in AGENTS.items():
         plan_path = os.path.join(agent["agent_dir"], "STRATEGIC_PLAN.md")
         if os.path.exists(plan_path):

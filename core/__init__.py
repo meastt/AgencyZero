@@ -1,1 +1,1 @@
-# Core modules for the OpenClaw SEO autonomous agency
+# Core modules for the AgencyZero autonomous agency

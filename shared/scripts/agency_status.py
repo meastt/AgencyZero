@@ -34,7 +34,7 @@ def get_mission(content):
     return match.group(1).strip() if match else "Unknown"
 
 def main():
-    print("\n🚀 OPENCLAW AGENCY STATUS REPORT")
+    print("\n🚀 AGENCYZERO AGENCY STATUS REPORT")
     print("==================================================")
     
     for name, path in AGENTS.items():

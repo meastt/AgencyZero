@@ -309,14 +309,14 @@ class StateStore:
         self._remove_pending_review(agent_key)
 
     def reject_plan(self, agent_key, feedback=""):
-        """Commander rejects an agent's plan."""
+        """Commander rejects an agent's plan. Clears pending_plan and last_assessment
+        so the agent re-assesses on next tick (with Commander feedback in timeline)."""
         state = self.get_agent(agent_key)
         if state.get("pending_plan"):
             plan_name = state["pending_plan"].get("plan", {}).get("plan", {}).get("name", "Unnamed plan")
             state["pending_plan"]["status"] = "rejected"
             state["pending_plan"]["feedback"] = feedback
             state["pending_plan"]["rejected_at"] = _now()
-            state["status"] = "idle"
             self._append_timeline(
                 state,
                 self._timeline_event(
@@ -325,6 +325,10 @@ class StateStore:
                     {"feedback": feedback[:300]},
                 ),
             )
+            # Clear so agent re-assesses on next tick instead of waiting for stale window
+            state["pending_plan"] = None
+            state["last_assessment"] = None
+            state["status"] = "idle"
         self.save_agent(agent_key, state)
         self.log_commander_timeline(
             "plan_rejected",

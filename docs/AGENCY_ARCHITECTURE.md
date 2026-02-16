@@ -1,4 +1,4 @@
-# OpenClaw SEO Agency Architecture
+# AgencyZero Agency Architecture
 
 ## Overview
 
@@ -357,7 +357,7 @@ The Head agent owns the Telegram channel. Workers do not have direct Telegram ac
 ## Directory Structure
 
 ```
-OpenClawSEO/
+AgencyZero/
   agents/
     agency_head/
       SOUL.md              # Portfolio strategist persona

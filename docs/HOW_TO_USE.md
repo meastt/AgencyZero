@@ -1,15 +1,15 @@
-# 🦞 OpenClawSEO: The "For Dummies" Guide
+# 🦞 AgencyZero: The "For Dummies" Guide
 
-Welcome! If you're feeling lost, don't worry. OpenClaw is a bit different from normal programs because it lives in the **background** of your Mac, like a quiet assistant.
+Welcome! If you're feeling lost, don't worry. AgencyZero is a bit different from normal programs because it lives in the **background** of your Mac, like a quiet assistant.
 
 ## 1. Is it "Running"?
-Unlike a game or an app you "open," OpenClaw runs as a **Service**. 
+Unlike a game or an app you "open," AgencyZero runs as a **Service**. 
 
 *   **Background (The Gateway):** This is the "brain's house." It starts automatically when you turn on your Mac. You don't need to keep a terminal window open for it to work.
 *   **Foreground (The Agent):** This is your SEO Manager. It wakes up every 60 minutes, does its job, and goes back to sleep.
 
 ### Important Commands to Know:
-Open your terminal inside the `OpenClawSEO` folder and use these the most:
+Open your terminal inside the `AgencyZero` folder and use these the most:
 
 | Command | What it does |
 | :--- | :--- |

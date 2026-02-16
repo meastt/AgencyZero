@@ -2,7 +2,7 @@
 **Owner:** SEO Manager Agent  
 **Mission:** Transform neglected site → SEO beast  
 **Date:** 2026-02-14 18:46 MST
-**Source of Truth:** This document is the primary tactical roadmap. Operational procedures are documented in [OPERATIONAL_PLAYBOOK.md](file:///Users/michaeleast/OpenClawSEO/agents/seo_manager/OPERATIONAL_PLAYBOOK.md).
+**Source of Truth:** This document is the primary tactical roadmap. Operational procedures are documented in [OPERATIONAL_PLAYBOOK.md](file:///Users/michaeleast/AgencyZero/agents/seo_manager/OPERATIONAL_PLAYBOOK.md).
 
 ## 🤖 TECHNICAL IDENTITY
 **Your Site Prefix:** `WP_GRIDDLEKING`
@@ -232,7 +232,7 @@
 
 ## 🛠️ OPERATIONAL FRAMEWORK
 For detailed step-by-step execution workflows (CTR Overhaul, Authority Mapping, Orphan Rescue, etc.), refer to:
-👉 [OPERATIONAL_PLAYBOOK.md](file:///Users/michaeleast/OpenClawSEO/agents/seo_manager/OPERATIONAL_PLAYBOOK.md)
+👉 [OPERATIONAL_PLAYBOOK.md](file:///Users/michaeleast/AgencyZero/agents/seo_manager/OPERATIONAL_PLAYBOOK.md)
 
 ---
 

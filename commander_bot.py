@@ -81,7 +81,7 @@ def relay_agent_update(agent_key, agent_name, message):
 def _send_help(chat_id):
     send_message(
         "*Commander SEO Bot Online*\n\n"
-        "I'm the director of OpenClaw SEO. Here's what I can do:\n\n"
+        "I'm the director of AgencyZero. Here's what I can do:\n\n"
         "*Site Commands:*\n"
         "/griddle -- Griddle King operations\n"
         "/photo -- Photo Tips Guy operations\n"

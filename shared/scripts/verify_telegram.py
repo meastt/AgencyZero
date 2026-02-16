@@ -25,7 +25,7 @@ def test_alerts():
         os.environ['SITE_PREFIX'] = prefix
         
         try:
-            send_telegram_alert(f"🦁 *OpenClaw System Alert*\nConfiguration confirmed for: *{name}*\nStatus: *ONLINE*")
+            send_telegram_alert(f"🦁 *AgencyZero System Alert*\nConfiguration confirmed for: *{name}*\nStatus: *ONLINE*")
             print(f"✅ Alert sent successfully for {name}")
         except Exception as e:
             print(f"❌ Failed to send alert for {name}: {e}")
