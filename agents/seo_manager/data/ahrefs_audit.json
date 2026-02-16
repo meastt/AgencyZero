@@ -1,0 +1,61 @@
+{
+    "site_status": "Zombie / Critical",
+    "authority": {
+        "dr": 0.6,
+        "referring_domains": 10,
+        "ahrefs_rank": 21437605
+    },
+    "traffic": {
+        "monthly_estimate": 0,
+        "value": 0,
+        "organic_keywords": 73
+    },
+    "technical_audit": {
+        "health_score": 92,
+        "critical_repairs": [
+            {
+                "issue": "404 Errors",
+                "count": 17,
+                "examples": [
+                    "/how-long-will-a-griddle-last/",
+                    "/outdoor-cooking-base-steel-made/"
+                ],
+                "instruction": "301 Redirect to relevant existing articles."
+            },
+            {
+                "issue": "Sitemap Redirects",
+                "count": 1,
+                "examples": [
+                    "/category/pizza-ovens/"
+                ],
+                "instruction": "Replace with final destination URL in XML sitemap."
+            }
+        ],
+        "structural_clarity": [
+            {
+                "issue": "Multiple H1 Tags",
+                "count": 404,
+                "impact": "60% of site",
+                "instruction": "Ensure only Article Title is H1; demote others to H2/H3."
+            },
+            {
+                "issue": "Noindex Pages",
+                "count": 89,
+                "instruction": "Verify no valuable content is accidentally hidden."
+            }
+        ],
+        "low_hanging_fruit": [
+            {
+                "issue": "Missing Alt Text",
+                "count": 113,
+                "instruction": "Generate descriptive alt text from surrounding context."
+            },
+            {
+                "issue": "Meta Description Length",
+                "short_count": 205,
+                "long_count": 42,
+                "instruction": "Rewrite to 150-160 characters with keyword and hook."
+            }
+        ]
+    }
+}

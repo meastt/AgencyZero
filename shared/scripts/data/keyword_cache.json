@@ -1,0 +1,47 @@
+{
+  "best flat top grill": {
+    "timestamp": "2026-02-15T15:14:46.428938",
+    "opportunity": {
+      "keyword": "best flat top grill",
+      "current_position": null,
+      "competitors_top10": 2,
+      "opportunity_score": 1
+    }
+  },
+  "blackstone griddle recipes": {
+    "timestamp": "2026-02-15T15:14:46.428938",
+    "opportunity": {
+      "keyword": "blackstone griddle recipes",
+      "current_position": null,
+      "competitors_top10": 1,
+      "opportunity_score": 0
+    }
+  },
+  "how to season a griddle": {
+    "timestamp": "2026-02-15T15:14:46.428938",
+    "opportunity": {
+      "keyword": "how to season a griddle",
+      "current_position": null,
+      "competitors_top10": 0,
+      "opportunity_score": -1
+    }
+  },
+  "outdoor griddle reviews": {
+    "timestamp": "2026-02-15T15:14:46.428938",
+    "opportunity": {
+      "keyword": "outdoor griddle reviews",
+      "current_position": null,
+      "competitors_top10": 3,
+      "opportunity_score": 2
+    }
+  },
+  "commercial griddle buying guide": {
+    "timestamp": "2026-02-15T15:14:46.428938",
+    "opportunity": {
+      "keyword": "commercial griddle buying guide",
+      "current_position": null,
+      "competitors_top10": 0,
+      "opportunity_score": -1
+    }
+  }
+}

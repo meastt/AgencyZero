@@ -1,0 +1,6119 @@
+{
+  "agent_key": "photo",
+  "status": "idle",
+  "current_task": null,
+  "pending_plan": null,
+  "completed_tasks": [
+    {
+      "completed_at": "2026-02-16T07:44:58.417978",
+      "summary": "Plan 'Fresh Territory Revenue Hunt' completed"
+    },
+    {
+      "completed_at": "2026-02-16T07:44:05.980775",
+      "summary": "Plan 'Fresh Territory Revenue Hunt' completed"
+    },
+    {
+      "completed_at": "2026-02-16T07:43:08.097161",
+      "summary": "Plan 'Page 2 CTR Emergency: Title + Content Overhaul' completed"
+    },
+    {
+      "completed_at": "2026-02-16T07:42:14.235805",
+      "summary": "Plan 'Fresh Revenue Territory Hunt' completed"
+    },
+    {
+      "completed_at": "2026-02-16T06:41:02.561904",
+      "summary": "Plan 'Fresh Revenue Territory Hunt' completed"
+    },
+    {
+      "completed_at": "2026-02-16T06:40:03.119456",
+      "summary": "Plan 'Fresh Revenue Territory Hunt' completed"
+    },
+    {
+      "completed_at": "2026-02-16T06:39:20.353684",
+      "summary": "Plan 'Fresh Revenue Territory Hunt' completed"
+    },
+    {
+      "completed_at": "2026-02-16T06:38:22.775278",
+      "summary": "Plan 'Traffic Collapse: Fresh Target Discovery' completed"
+    },
+    {
+      "completed_at": "2026-02-16T06:37:35.434069",
+      "summary": "Plan 'Emergency: Fresh Inventory Revenue Scan' completed"
+    },
+    {
+      "completed_at": "2026-02-16T06:36:45.098808",
+      "summary": "Plan 'Untapped Inventory Revenue Discovery' completed"
+    },
+    {
+      "completed_at": "2026-02-16T05:35:44.751189",
+      "summary": "Plan 'Fresh Territory Revenue Scan + Monetization Gaps' completed"
+    },
+    {
+      "completed_at": "2026-02-16T05:34:57.203482",
+      "summary": "Plan 'Fresh Territory Revenue Scan + Monetization Gaps' completed"
+    },
+    {
+      "completed_at": "2026-02-16T04:33:58.882446",
+      "summary": "Plan 'Fresh Territory Revenue Scan + Monetization Gaps' completed"
+    },
+    {
+      "completed_at": "2026-02-16T04:33:12.134785",
+      "summary": "Plan 'Emergency: Fresh Inventory Revenue Scan' completed"
+    },
+    {
+      "completed_at": "2026-02-16T04:32:24.443481",
+      "summary": "Plan 'Emergency: Break Loop + Untapped Revenue Discovery' completed"
+    },
+    {
+      "completed_at": "2026-02-16T04:31:34.824367",
+      "summary": "Plan 'Emergency: Escape URL Tunnel + Fresh Revenue Strike' completed"
+    },
+    {
+      "completed_at": "2026-02-16T03:30:32.900028",
+      "summary": "Plan 'Emergency: Stop Overlap + Fresh Revenue Discovery' completed"
+    },
+    {
+      "completed_at": "2026-02-16T03:29:37.421317",
+      "summary": "Plan 'Emergency: Full Site Diagnostic + Fresh Territory' completed"
+    },
+    {
+      "completed_at": "2026-02-16T03:28:45.294873",
+      "summary": "Plan 'Fresh Revenue Discovery: Untapped Inventory Scan' completed"
+    },
+    {
+      "completed_at": "2026-02-16T00:27:10.059279",
+      "summary": "Plan 'Fresh Revenue Targets: Untapped URL Discovery' completed"
+    },
+    {
+      "completed_at": "2026-02-16T00:26:27.355904",
+      "summary": "Plan 'Emergency: Untouched Revenue Discovery' completed"
+    },
+    {
+      "completed_at": "2026-02-16T00:25:40.481616",
+      "summary": "Plan 'Fresh Territory Discovery: Untouched Revenue Targets' completed"
+    },
+    {
+      "completed_at": "2026-02-16T00:24:46.659788",
+      "summary": "Plan 'Emergency: Fresh Revenue Territory Discovery' completed"
+    },
+    {
+      "completed_at": "2026-02-16T00:23:55.749460",
+      "summary": "Plan 'Cooling Compliance: Fresh Territory Scan' completed"
+    },
+    {
+      "completed_at": "2026-02-16T00:23:06.938776",
+      "summary": "Plan 'Cooldown Compliance: Fresh Target Hunt' completed"
+    },
+    {
+      "completed_at": "2026-02-16T00:22:10.823553",
+      "summary": "Plan 'Fresh Blood: New Target Discovery + Revenue Architecture' completed"
+    },
+    {
+      "completed_at": "2026-02-16T00:21:16.346938",
+      "summary": "Plan 'Cooldown Validation + Alternative Target Discovery' completed"
+    },
+    {
+      "completed_at": "2026-02-16T00:20:27.781994",
+      "summary": "Plan 'Cooling Period + Fresh Data Validation' completed"
+    },
+    {
+      "completed_at": "2026-02-16T00:19:45.432475",
+      "summary": "Plan 'Page 2 Monetization Conversion Fix' completed"
+    },
+    {
+      "completed_at": "2026-02-16T00:18:58.746790",
+      "summary": "Plan 'Fresh Target Discovery + Revenue Audit' completed"
+    },
+    {
+      "completed_at": "2026-02-15T23:18:03.453728",
+      "summary": "Plan 'Fresh Target Discovery + Revenue Audit' completed"
+    },
+    {
+      "completed_at": "2026-02-15T23:17:15.739909",
+      "summary": "Plan 'Fresh Target Discovery + Revenue Audit' completed"
+    },
+    {
+      "completed_at": "2026-02-15T23:16:26.777471",
+      "summary": "Plan 'Fresh Target Discovery + Revenue Audit' completed"
+    },
+    {
+      "completed_at": "2026-02-15T23:15:44.395743",
+      "summary": "Plan 'Impact Window Hold + Fresh Target Discovery' completed"
+    },
+    {
+      "completed_at": "2026-02-15T23:14:59.726819",
+      "summary": "Plan 'Impact Window Hold + Fresh Target Discovery' completed"
+    },
+    {
+      "completed_at": "2026-02-15T23:14:11.790537",
+      "summary": "Plan 'Impact Window Hold + Fresh Target Discovery' completed"
+    },
+    {
+      "completed_at": "2026-02-15T23:13:20.722529",
+      "summary": "Plan 'Impact Window Hold + Fresh Target Discovery' completed"
+    },
+    {
+      "completed_at": "2026-02-15T23:12:28.132454",
+      "summary": "Plan 'Impact Window Hold + Fresh Data Prep' completed"
+    },
+    {
+      "completed_at": "2026-02-15T23:11:44.901761",
+      "summary": "Plan 'Impact Window Hold + Fresh Data Prep' completed"
+    },
+    {
+      "completed_at": "2026-02-15T23:11:04.499990",
+      "summary": "Plan 'Page 2 Conversion Blockage: Title Surgery + Fresh Target Hunt' completed"
+    },
+    {
+      "completed_at": "2026-02-15T23:10:14.501140",
+      "summary": "Plan 'Fresh Data + New Target Discovery' completed"
+    },
+    {
+      "completed_at": "2026-02-15T23:09:22.111475",
+      "summary": "Plan 'Revenue Discovery: Full Site Scan' completed"
+    },
+    {
+      "completed_at": "2026-02-15T23:08:30.924278",
+      "summary": "Plan 'Site-Wide Discovery: Break the 3-URL Loop' completed"
+    },
+    {
+      "completed_at": "2026-02-15T23:07:41.269626",
+      "summary": "Plan 'Emergency: Full Site Inventory + Decline Hunt' completed"
+    },
+    {
+      "completed_at": "2026-02-15T23:01:55.245066",
+      "summary": "Plan 'Fresh URL Mining: Revenue + Page 1 Defense' completed"
+    },
+    {
+      "completed_at": "2026-02-15T23:00:56.744842",
+      "summary": "Plan 'Traffic Diversification: Fresh URL Discovery' completed"
+    },
+    {
+      "completed_at": "2026-02-15T23:00:11.870070",
+      "summary": "Plan 'Fresh Discovery: Revenue + Competition Scan' completed"
+    },
+    {
+      "completed_at": "2026-02-15T22:59:17.677532",
+      "summary": "Plan 'Fresh Blood: Revenue + Decline Discovery' completed"
+    },
+    {
+      "completed_at": "2026-02-15T21:57:58.335204",
+      "summary": "Plan 'Emergency Fresh URL Discovery' completed"
+    },
+    {
+      "completed_at": "2026-02-15T21:56:54.088569",
+      "summary": "Plan 'Emergency Traffic Diversification' completed"
+    }
+  ],
+  "site_snapshot": {
+    "total_clicks": 15,
+    "prev_clicks": 37,
+    "clicks_change_pct": -59.45945945945946,
+    "declining_pages": 2,
+    "page2_opportunities": 2,
+    "top_page2": [
+      {
+        "url": "https://phototipsguy.com/dwarf-ii-smart-telescope-review/",
+        "position": 18.769980506822613,
+        "clicks": 1,
+        "impressions": 513,
+        "ctr": 0.001949317738791423
+      },
+      {
+        "url": "https://phototipsguy.com/asi585mc-pro-review/",
+        "position": 12.685082872928177,
+        "clicks": 1,
+        "impressions": 362,
+        "ctr": 0.0027624309392265192
+      }
+    ],
+    "updated_at": "2026-02-16T07:45:14.193371"
+  },
+  "error_log": [],
+  "last_assessment": null,
+  "last_tick": "2026-02-16T08:30:31.085444",
+  "last_updated": "2026-02-16T08:30:31.085462",
+  "mission": {
+    "objective": "Grow this niche site to $1k/month revenue while improving SEO health.",
+    "revenue_target_monthly_usd": 1000,
+    "focus": "Revenue leaks, rankings growth, and content quality execution.",
+    "last_progress_note": "Plan 'Fresh Territory Revenue Hunt' completed",
+    "last_progress_at": "2026-02-16T07:44:58.417984"
+  },
+  "kpis": {
+    "organic_clicks_28d": 15,
+    "top20_keywords_count": 2,
+    "affiliate_ctr_pct": null,
+    "revenue_per_session_usd": null,
+    "monthly_revenue_usd": null,
+    "orphan_pages_count": null,
+    "last_updated": "2026-02-16T07:45:14.199389",
+    "source": "gsc_audit"
+  },
+  "execution_history": [
+    {
+      "at": "2026-02-16T07:44:58.397913",
+      "plan_name": "Fresh Territory Revenue Hunt",
+      "baseline_kpis": {
+        "organic_clicks_28d": 15,
+        "top20_keywords_count": 2,
+        "affiliate_ctr_pct": null,
+        "revenue_per_session_usd": null,
+        "monthly_revenue_usd": null,
+        "orphan_pages_count": null,
+        "last_updated": "2026-02-16T07:44:21.770189",
+        "source": "gsc_audit"
+      },
+      "post_kpis": {
+        "organic_clicks_28d": 15,
+        "top20_keywords_count": 2,
+        "affiliate_ctr_pct": null,
+        "revenue_per_session_usd": null,
+        "monthly_revenue_usd": null,
+        "orphan_pages_count": null,
+        "last_updated": "2026-02-16T07:44:21.770189",
+        "source": "gsc_audit"
+      },
+      "deltas": {
+        "organic_clicks_28d": {
+          "absolute": 0.0,
+          "pct": 0.0
+        },
+        "top20_keywords_count": {
+          "absolute": 0.0,
+          "pct": 0.0
+        },
+        "affiliate_ctr_pct": {
+          "absolute": null,
+          "pct": null
+        },
+        "revenue_per_session_usd": {
+          "absolute": null,
+          "pct": null
+        },
+        "monthly_revenue_usd": {
+          "absolute": null,
+          "pct": null
+        },
+        "orphan_pages_count": {
+          "absolute": null,
+          "pct": null
+        }
+      },
+      "notes": "4/4 steps succeeded",
+      "confidence": "high"
+    },
+    {
+      "at": "2026-02-16T07:44:05.963063",
+      "plan_name": "Fresh Territory Revenue Hunt",
+      "baseline_kpis": {
+        "organic_clicks_28d": 15,
+        "top20_keywords_count": 2,
+        "affiliate_ctr_pct": null,
+        "revenue_per_session_usd": null,
+        "monthly_revenue_usd": null,
+        "orphan_pages_count": null,
+        "last_updated": "2026-02-16T07:43:23.882508",
+        "source": "gsc_audit"
+      },
+      "post_kpis": {
+        "organic_clicks_28d": 15,
+        "top20_keywords_count": 2,
+        "affiliate_ctr_pct": null,
+        "revenue_per_session_usd": null,
+        "monthly_revenue_usd": null,
+        "orphan_pages_count": null,
+        "last_updated": "2026-02-16T07:43:23.882508",
+        "source": "gsc_audit"
+      },
+      "deltas": {
+        "organic_clicks_28d": {
+          "absolute": 0.0,
+          "pct": 0.0
+        },
+        "top20_keywords_count": {
+          "absolute": 0.0,
+          "pct": 0.0
+        },
+        "affiliate_ctr_pct": {
+          "absolute": null,
+          "pct": null
+        },
+        "revenue_per_session_usd": {
+          "absolute": null,
+          "pct": null
+        },
+        "monthly_revenue_usd": {
+          "absolute": null,
+          "pct": null
+        },
+        "orphan_pages_count": {
+          "absolute": null,
+          "pct": null
+        }
+      },
+      "notes": "4/4 steps succeeded",
+      "confidence": "high"
+    },
+    {
+      "at": "2026-02-16T07:43:08.074636",
+      "plan_name": "Page 2 CTR Emergency: Title + Content Overhaul",
+      "baseline_kpis": {
+        "organic_clicks_28d": 15,
+        "top20_keywords_count": 2,
+        "affiliate_ctr_pct": null,
+        "revenue_per_session_usd": null,
+        "monthly_revenue_usd": null,
+        "orphan_pages_count": null,
+        "last_updated": "2026-02-16T07:42:30.152974",
+        "source": "gsc_audit"
+      },
+      "post_kpis": {
+        "organic_clicks_28d": 15,
+        "top20_keywords_count": 2,
+        "affiliate_ctr_pct": null,
+        "revenue_per_session_usd": null,
+        "monthly_revenue_usd": null,
+        "orphan_pages_count": null,
+        "last_updated": "2026-02-16T07:43:08.068763",
+        "source": "post_execution_refresh"
+      },
+      "deltas": {
+        "organic_clicks_28d": {
+          "absolute": 0.0,
+          "pct": 0.0
+        },
+        "top20_keywords_count": {
+          "absolute": 0.0,
+          "pct": 0.0
+        },
+        "affiliate_ctr_pct": {
+          "absolute": null,
+          "pct": null
+        },
+        "revenue_per_session_usd": {
+          "absolute": null,
+          "pct": null
+        },
+        "monthly_revenue_usd": {
+          "absolute": null,
+          "pct": null
+        },
+        "orphan_pages_count": {
+          "absolute": null,
+          "pct": null
+        }
+      },
+      "notes": "3/3 steps succeeded",
+      "confidence": "high"
+    },
+    {
+      "at": "2026-02-16T07:42:14.211837",
+      "plan_name": "Fresh Revenue Territory Hunt",
+      "baseline_kpis": {
+        "organic_clicks_28d": 15,
+        "top20_keywords_count": 2,
+        "affiliate_ctr_pct": null,
+        "revenue_per_session_usd": null,
+        "monthly_revenue_usd": null,
+        "orphan_pages_count": null,
+        "last_updated": "2026-02-16T07:41:30.549459",
+        "source": "gsc_audit"
+      },
+      "post_kpis": {
+        "organic_clicks_28d": 15,
+        "top20_keywords_count": 2,
+        "affiliate_ctr_pct": null,
+        "revenue_per_session_usd": null,
+        "monthly_revenue_usd": null,
+        "orphan_pages_count": null,
+        "last_updated": "2026-02-16T07:41:30.549459",
+        "source": "gsc_audit"
+      },
+      "deltas": {
+        "organic_clicks_28d": {
+          "absolute": 0.0,
+          "pct": 0.0
+        },
+        "top20_keywords_count": {
+          "absolute": 0.0,
+          "pct": 0.0
+        },
+        "affiliate_ctr_pct": {
+          "absolute": null,
+          "pct": null
+        },
+        "revenue_per_session_usd": {
+          "absolute": null,
+          "pct": null
+        },
+        "monthly_revenue_usd": {
+          "absolute": null,
+          "pct": null
+        },
+        "orphan_pages_count": {
+          "absolute": null,
+          "pct": null
+        }
+      },
+      "notes": "4/4 steps succeeded",
+      "confidence": "high"
+    },
+    {
+      "at": "2026-02-16T06:41:02.539586",
+      "plan_name": "Fresh Revenue Territory Hunt",
+      "baseline_kpis": {
+        "organic_clicks_28d": 15,
+        "top20_keywords_count": 2,
+        "affiliate_ctr_pct": null,
+        "revenue_per_session_usd": null,
+        "monthly_revenue_usd": null,
+        "orphan_pages_count": null,
+        "last_updated": "2026-02-16T06:40:19.037114",
+        "source": "gsc_audit"
+      },
+      "post_kpis": {
+        "organic_clicks_28d": 15,
+        "top20_keywords_count": 2,
+        "affiliate_ctr_pct": null,
+        "revenue_per_session_usd": null,
+        "monthly_revenue_usd": null,
+        "orphan_pages_count": null,
+        "last_updated": "2026-02-16T06:40:19.037114",
+        "source": "gsc_audit"
+      },
+      "deltas": {
+        "organic_clicks_28d": {
+          "absolute": 0.0,
+          "pct": 0.0
+        },
+        "top20_keywords_count": {
+          "absolute": 0.0,
+          "pct": 0.0
+        },
+        "affiliate_ctr_pct": {
+          "absolute": null,
+          "pct": null
+        },
+        "revenue_per_session_usd": {
+          "absolute": null,
+          "pct": null
+        },
+        "monthly_revenue_usd": {
+          "absolute": null,
+          "pct": null
+        },
+        "orphan_pages_count": {
+          "absolute": null,
+          "pct": null
+        }
+      },
+      "notes": "4/4 steps succeeded",
+      "confidence": "high"
+    },
+    {
+      "at": "2026-02-16T06:40:03.107727",
+      "plan_name": "Fresh Revenue Territory Hunt",
+      "baseline_kpis": {
+        "organic_clicks_28d": 15,
+        "top20_keywords_count": 2,
+        "affiliate_ctr_pct": null,
+        "revenue_per_session_usd": null,
+        "monthly_revenue_usd": null,
+        "orphan_pages_count": null,
+        "last_updated": "2026-02-16T06:39:36.154007",
+        "source": "gsc_audit"
+      },
+      "post_kpis": {
+        "organic_clicks_28d": 15,
+        "top20_keywords_count": 2,
+        "affiliate_ctr_pct": null,
+        "revenue_per_session_usd": null,
+        "monthly_revenue_usd": null,
+        "orphan_pages_count": null,
+        "last_updated": "2026-02-16T06:40:03.102049",
+        "source": "post_execution_refresh"
+      },
+      "deltas": {
+        "organic_clicks_28d": {
+          "absolute": 0.0,
+          "pct": 0.0
+        },
+        "top20_keywords_count": {
+          "absolute": 0.0,
+          "pct": 0.0
+        },
+        "affiliate_ctr_pct": {
+          "absolute": null,
+          "pct": null
+        },
+        "revenue_per_session_usd": {
+          "absolute": null,
+          "pct": null
+        },
+        "monthly_revenue_usd": {
+          "absolute": null,
+          "pct": null
+        },
+        "orphan_pages_count": {
+          "absolute": null,
+          "pct": null
+        }
+      },
+      "notes": "3/3 steps succeeded",
+      "confidence": "high"
+    },
+    {
+      "at": "2026-02-16T06:39:20.331423",
+      "plan_name": "Fresh Revenue Territory Hunt",
+      "baseline_kpis": {
+        "organic_clicks_28d": 15,
+        "top20_keywords_count": 2,
+        "affiliate_ctr_pct": null,
+        "revenue_per_session_usd": null,
+        "monthly_revenue_usd": null,
+        "orphan_pages_count": null,
+        "last_updated": "2026-02-16T06:38:38.585373",
+        "source": "gsc_audit"
+      },
+      "post_kpis": {
+        "organic_clicks_28d": 15,
+        "top20_keywords_count": 2,
+        "affiliate_ctr_pct": null,
+        "revenue_per_session_usd": null,
+        "monthly_revenue_usd": null,
+        "orphan_pages_count": null,
+        "last_updated": "2026-02-16T06:38:38.585373",
+        "source": "gsc_audit"
+      },
+      "deltas": {
+        "organic_clicks_28d": {
+          "absolute": 0.0,
+          "pct": 0.0
+        },
+        "top20_keywords_count": {
+          "absolute": 0.0,
+          "pct": 0.0
+        },
+        "affiliate_ctr_pct": {
+          "absolute": null,
+          "pct": null
+        },
+        "revenue_per_session_usd": {
+          "absolute": null,
+          "pct": null
+        },
+        "monthly_revenue_usd": {
+          "absolute": null,
+          "pct": null
+        },
+        "orphan_pages_count": {
+          "absolute": null,
+          "pct": null
+        }
+      },
+      "notes": "4/4 steps succeeded",
+      "confidence": "high"
+    },
+    {
+      "at": "2026-02-16T06:38:22.751862",
+      "plan_name": "Traffic Collapse: Fresh Target Discovery",
+      "baseline_kpis": {
+        "organic_clicks_28d": 15,
+        "top20_keywords_count": 2,
+        "affiliate_ctr_pct": null,
+        "revenue_per_session_usd": null,
+        "monthly_revenue_usd": null,
+        "orphan_pages_count": null,
+        "last_updated": "2026-02-16T06:37:51.222541",
+        "source": "gsc_audit"
+      },
+      "post_kpis": {
+        "organic_clicks_28d": 15,
+        "top20_keywords_count": 2,
+        "affiliate_ctr_pct": null,
+        "revenue_per_session_usd": null,
+        "monthly_revenue_usd": null,
+        "orphan_pages_count": null,
+        "last_updated": "2026-02-16T06:37:51.222541",
+        "source": "gsc_audit"
+      },
+      "deltas": {
+        "organic_clicks_28d": {
+          "absolute": 0.0,
+          "pct": 0.0
+        },
+        "top20_keywords_count": {
+          "absolute": 0.0,
+          "pct": 0.0
+        },
+        "affiliate_ctr_pct": {
+          "absolute": null,
+          "pct": null
+        },
+        "revenue_per_session_usd": {
+          "absolute": null,
+          "pct": null
+        },
+        "monthly_revenue_usd": {
+          "absolute": null,
+          "pct": null
+        },
+        "orphan_pages_count": {
+          "absolute": null,
+          "pct": null
+        }
+      },
+      "notes": "3/3 steps succeeded",
+      "confidence": "high"
+    },
+    {
+      "at": "2026-02-16T06:37:35.422052",
+      "plan_name": "Emergency: Fresh Inventory Revenue Scan",
+      "baseline_kpis": {
+        "organic_clicks_28d": 15,
+        "top20_keywords_count": 2,
+        "affiliate_ctr_pct": null,
+        "revenue_per_session_usd": null,
+        "monthly_revenue_usd": null,
+        "orphan_pages_count": null,
+        "last_updated": "2026-02-16T06:37:01.006947",
+        "source": "gsc_audit"
+      },
+      "post_kpis": {
+        "organic_clicks_28d": 15,
+        "top20_keywords_count": 2,
+        "affiliate_ctr_pct": null,
+        "revenue_per_session_usd": null,
+        "monthly_revenue_usd": null,
+        "orphan_pages_count": null,
+        "last_updated": "2026-02-16T06:37:01.006947",
+        "source": "gsc_audit"
+      },
+      "deltas": {
+        "organic_clicks_28d": {
+          "absolute": 0.0,
+          "pct": 0.0
+        },
+        "top20_keywords_count": {
+          "absolute": 0.0,
+          "pct": 0.0
+        },
+        "affiliate_ctr_pct": {
+          "absolute": null,
+          "pct": null
+        },
+        "revenue_per_session_usd": {
+          "absolute": null,
+          "pct": null
+        },
+        "monthly_revenue_usd": {
+          "absolute": null,
+          "pct": null
+        },
+        "orphan_pages_count": {
+          "absolute": null,
+          "pct": null
+        }
+      },
+      "notes": "3/3 steps succeeded",
+      "confidence": "high"
+    },
+    {
+      "at": "2026-02-16T06:36:45.080657",
+      "plan_name": "Untapped Inventory Revenue Discovery",
+      "baseline_kpis": {
+        "organic_clicks_28d": 15,
+        "top20_keywords_count": 2,
+        "affiliate_ctr_pct": null,
+        "revenue_per_session_usd": null,
+        "monthly_revenue_usd": null,
+        "orphan_pages_count": null,
+        "last_updated": "2026-02-16T06:36:12.174571",
+        "source": "gsc_audit"
+      },
+      "post_kpis": {
+        "organic_clicks_28d": 15,
+        "top20_keywords_count": 2,
+        "affiliate_ctr_pct": null,
+        "revenue_per_session_usd": null,
+        "monthly_revenue_usd": null,
+        "orphan_pages_count": null,
+        "last_updated": "2026-02-16T06:36:12.174571",
+        "source": "gsc_audit"
+      },
+      "deltas": {
+        "organic_clicks_28d": {
+          "absolute": 0.0,
+          "pct": 0.0
+        },
+        "top20_keywords_count": {
+          "absolute": 0.0,
+          "pct": 0.0
+        },
+        "affiliate_ctr_pct": {
+          "absolute": null,
+          "pct": null
+        },
+        "revenue_per_session_usd": {
+          "absolute": null,
+          "pct": null
+        },
+        "monthly_revenue_usd": {
+          "absolute": null,
+          "pct": null
+        },
+        "orphan_pages_count": {
+          "absolute": null,
+          "pct": null
+        }
+      },
+      "notes": "3/3 steps succeeded",
+      "confidence": "high"
+    },
+    {
+      "at": "2026-02-16T05:35:44.739501",
+      "plan_name": "Fresh Territory Revenue Scan + Monetization Gaps",
+      "baseline_kpis": {
+        "organic_clicks_28d": 15,
+        "top20_keywords_count": 2,
+        "affiliate_ctr_pct": null,
+        "revenue_per_session_usd": null,
+        "monthly_revenue_usd": null,
+        "orphan_pages_count": null,
+        "last_updated": "2026-02-16T05:35:12.997623",
+        "source": "gsc_audit"
+      },
+      "post_kpis": {
+        "organic_clicks_28d": 15,
+        "top20_keywords_count": 2,
+        "affiliate_ctr_pct": null,
+        "revenue_per_session_usd": null,
+        "monthly_revenue_usd": null,
+        "orphan_pages_count": null,
+        "last_updated": "2026-02-16T05:35:44.733759",
+        "source": "post_execution_refresh"
+      },
+      "deltas": {
+        "organic_clicks_28d": {
+          "absolute": 0.0,
+          "pct": 0.0
+        },
+        "top20_keywords_count": {
+          "absolute": 0.0,
+          "pct": 0.0
+        },
+        "affiliate_ctr_pct": {
+          "absolute": null,
+          "pct": null
+        },
+        "revenue_per_session_usd": {
+          "absolute": null,
+          "pct": null
+        },
+        "monthly_revenue_usd": {
+          "absolute": null,
+          "pct": null
+        },
+        "orphan_pages_count": {
+          "absolute": null,
+          "pct": null
+        }
+      },
+      "notes": "3/3 steps succeeded",
+      "confidence": "high"
+    },
+    {
+      "at": "2026-02-16T05:34:57.191986",
+      "plan_name": "Fresh Territory Revenue Scan + Monetization Gaps",
+      "baseline_kpis": {
+        "organic_clicks_28d": 15,
+        "top20_keywords_count": 2,
+        "affiliate_ctr_pct": null,
+        "revenue_per_session_usd": null,
+        "monthly_revenue_usd": null,
+        "orphan_pages_count": null,
+        "last_updated": "2026-02-16T05:34:26.713068",
+        "source": "gsc_audit"
+      },
+      "post_kpis": {
+        "organic_clicks_28d": 15,
+        "top20_keywords_count": 2,
+        "affiliate_ctr_pct": null,
+        "revenue_per_session_usd": null,
+        "monthly_revenue_usd": null,
+        "orphan_pages_count": null,
+        "last_updated": "2026-02-16T05:34:57.186316",
+        "source": "post_execution_refresh"
+      },
+      "deltas": {
+        "organic_clicks_28d": {
+          "absolute": 0.0,
+          "pct": 0.0
+        },
+        "top20_keywords_count": {
+          "absolute": 0.0,
+          "pct": 0.0
+        },
+        "affiliate_ctr_pct": {
+          "absolute": null,
+          "pct": null
+        },
+        "revenue_per_session_usd": {
+          "absolute": null,
+          "pct": null
+        },
+        "monthly_revenue_usd": {
+          "absolute": null,
+          "pct": null
+        },
+        "orphan_pages_count": {
+          "absolute": null,
+          "pct": null
+        }
+      },
+      "notes": "4/4 steps succeeded",
+      "confidence": "high"
+    },
+    {
+      "at": "2026-02-16T04:33:58.870811",
+      "plan_name": "Fresh Territory Revenue Scan + Monetization Gaps",
+      "baseline_kpis": {
+        "organic_clicks_28d": 15,
+        "top20_keywords_count": 2,
+        "affiliate_ctr_pct": null,
+        "revenue_per_session_usd": null,
+        "monthly_revenue_usd": null,
+        "orphan_pages_count": null,
+        "last_updated": "2026-02-16T04:33:27.931571",
+        "source": "gsc_audit"
+      },
+      "post_kpis": {
+        "organic_clicks_28d": 15,
+        "top20_keywords_count": 2,
+        "affiliate_ctr_pct": null,
+        "revenue_per_session_usd": null,
+        "monthly_revenue_usd": null,
+        "orphan_pages_count": null,
+        "last_updated": "2026-02-16T04:33:27.931571",
+        "source": "gsc_audit"
+      },
+      "deltas": {
+        "organic_clicks_28d": {
+          "absolute": 0.0,
+          "pct": 0.0
+        },
+        "top20_keywords_count": {
+          "absolute": 0.0,
+          "pct": 0.0
+        },
+        "affiliate_ctr_pct": {
+          "absolute": null,
+          "pct": null
+        },
+        "revenue_per_session_usd": {
+          "absolute": null,
+          "pct": null
+        },
+        "monthly_revenue_usd": {
+          "absolute": null,
+          "pct": null
+        },
+        "orphan_pages_count": {
+          "absolute": null,
+          "pct": null
+        }
+      },
+      "notes": "3/3 steps succeeded",
+      "confidence": "high"
+    },
+    {
+      "at": "2026-02-16T04:33:12.112262",
+      "plan_name": "Emergency: Fresh Inventory Revenue Scan",
+      "baseline_kpis": {
+        "organic_clicks_28d": 15,
+        "top20_keywords_count": 2,
+        "affiliate_ctr_pct": null,
+        "revenue_per_session_usd": null,
+        "monthly_revenue_usd": null,
+        "orphan_pages_count": null,
+        "last_updated": "2026-02-16T04:32:40.216401",
+        "source": "gsc_audit"
+      },
+      "post_kpis": {
+        "organic_clicks_28d": 15,
+        "top20_keywords_count": 2,
+        "affiliate_ctr_pct": null,
+        "revenue_per_session_usd": null,
+        "monthly_revenue_usd": null,
+        "orphan_pages_count": null,
+        "last_updated": "2026-02-16T04:32:40.216401",
+        "source": "gsc_audit"
+      },
+      "deltas": {
+        "organic_clicks_28d": {
+          "absolute": 0.0,
+          "pct": 0.0
+        },
+        "top20_keywords_count": {
+          "absolute": 0.0,
+          "pct": 0.0
+        },
+        "affiliate_ctr_pct": {
+          "absolute": null,
+          "pct": null
+        },
+        "revenue_per_session_usd": {
+          "absolute": null,
+          "pct": null
+        },
+        "monthly_revenue_usd": {
+          "absolute": null,
+          "pct": null
+        },
+        "orphan_pages_count": {
+          "absolute": null,
+          "pct": null
+        }
+      },
+      "notes": "3/3 steps succeeded",
+      "confidence": "high"
+    },
+    {
+      "at": "2026-02-16T04:32:24.424943",
+      "plan_name": "Emergency: Break Loop + Untapped Revenue Discovery",
+      "baseline_kpis": {
+        "organic_clicks_28d": 15,
+        "top20_keywords_count": 2,
+        "affiliate_ctr_pct": null,
+        "revenue_per_session_usd": null,
+        "monthly_revenue_usd": null,
+        "orphan_pages_count": null,
+        "last_updated": "2026-02-16T04:31:50.858995",
+        "source": "gsc_audit"
+      },
+      "post_kpis": {
+        "organic_clicks_28d": 15,
+        "top20_keywords_count": 2,
+        "affiliate_ctr_pct": null,
+        "revenue_per_session_usd": null,
+        "monthly_revenue_usd": null,
+        "orphan_pages_count": null,
+        "last_updated": "2026-02-16T04:31:50.858995",
+        "source": "gsc_audit"
+      },
+      "deltas": {
+        "organic_clicks_28d": {
+          "absolute": 0.0,
+          "pct": 0.0
+        },
+        "top20_keywords_count": {
+          "absolute": 0.0,
+          "pct": 0.0
+        },
+        "affiliate_ctr_pct": {
+          "absolute": null,
+          "pct": null
+        },
+        "revenue_per_session_usd": {
+          "absolute": null,
+          "pct": null
+        },
+        "monthly_revenue_usd": {
+          "absolute": null,
+          "pct": null
+        },
+        "orphan_pages_count": {
+          "absolute": null,
+          "pct": null
+        }
+      },
+      "notes": "4/4 steps succeeded",
+      "confidence": "high"
+    },
+    {
+      "at": "2026-02-16T04:31:34.803421",
+      "plan_name": "Emergency: Escape URL Tunnel + Fresh Revenue Strike",
+      "baseline_kpis": {
+        "organic_clicks_28d": 15,
+        "top20_keywords_count": 2,
+        "affiliate_ctr_pct": null,
+        "revenue_per_session_usd": null,
+        "monthly_revenue_usd": null,
+        "orphan_pages_count": null,
+        "last_updated": "2026-02-16T04:31:02.947123",
+        "source": "gsc_audit"
+      },
+      "post_kpis": {
+        "organic_clicks_28d": 15,
+        "top20_keywords_count": 2,
+        "affiliate_ctr_pct": null,
+        "revenue_per_session_usd": null,
+        "monthly_revenue_usd": null,
+        "orphan_pages_count": null,
+        "last_updated": "2026-02-16T04:31:02.947123",
+        "source": "gsc_audit"
+      },
+      "deltas": {
+        "organic_clicks_28d": {
+          "absolute": 0.0,
+          "pct": 0.0
+        },
+        "top20_keywords_count": {
+          "absolute": 0.0,
+          "pct": 0.0
+        },
+        "affiliate_ctr_pct": {
+          "absolute": null,
+          "pct": null
+        },
+        "revenue_per_session_usd": {
+          "absolute": null,
+          "pct": null
+        },
+        "monthly_revenue_usd": {
+          "absolute": null,
+          "pct": null
+        },
+        "orphan_pages_count": {
+          "absolute": null,
+          "pct": null
+        }
+      },
+      "notes": "3/3 steps succeeded",
+      "confidence": "high"
+    },
+    {
+      "at": "2026-02-16T03:30:32.877229",
+      "plan_name": "Emergency: Stop Overlap + Fresh Revenue Discovery",
+      "baseline_kpis": {
+        "organic_clicks_28d": 15,
+        "top20_keywords_count": 2,
+        "affiliate_ctr_pct": null,
+        "revenue_per_session_usd": null,
+        "monthly_revenue_usd": null,
+        "orphan_pages_count": null,
+        "last_updated": "2026-02-16T03:29:53.204608",
+        "source": "gsc_audit"
+      },
+      "post_kpis": {
+        "organic_clicks_28d": 15,
+        "top20_keywords_count": 2,
+        "affiliate_ctr_pct": null,
+        "revenue_per_session_usd": null,
+        "monthly_revenue_usd": null,
+        "orphan_pages_count": null,
+        "last_updated": "2026-02-16T03:29:53.204608",
+        "source": "gsc_audit"
+      },
+      "deltas": {
+        "organic_clicks_28d": {
+          "absolute": 0.0,
+          "pct": 0.0
+        },
+        "top20_keywords_count": {
+          "absolute": 0.0,
+          "pct": 0.0
+        },
+        "affiliate_ctr_pct": {
+          "absolute": null,
+          "pct": null
+        },
+        "revenue_per_session_usd": {
+          "absolute": null,
+          "pct": null
+        },
+        "monthly_revenue_usd": {
+          "absolute": null,
+          "pct": null
+        },
+        "orphan_pages_count": {
+          "absolute": null,
+          "pct": null
+        }
+      },
+      "notes": "4/4 steps succeeded",
+      "confidence": "high"
+    },
+    {
+      "at": "2026-02-16T03:29:37.397610",
+      "plan_name": "Emergency: Full Site Diagnostic + Fresh Territory",
+      "baseline_kpis": {
+        "organic_clicks_28d": 15,
+        "top20_keywords_count": 2,
+        "affiliate_ctr_pct": null,
+        "revenue_per_session_usd": null,
+        "monthly_revenue_usd": null,
+        "orphan_pages_count": null,
+        "last_updated": "2026-02-16T03:29:01.057819",
+        "source": "gsc_audit"
+      },
+      "post_kpis": {
+        "organic_clicks_28d": 15,
+        "top20_keywords_count": 2,
+        "affiliate_ctr_pct": null,
+        "revenue_per_session_usd": null,
+        "monthly_revenue_usd": null,
+        "orphan_pages_count": null,
+        "last_updated": "2026-02-16T03:29:01.057819",
+        "source": "gsc_audit"
+      },
+      "deltas": {
+        "organic_clicks_28d": {
+          "absolute": 0.0,
+          "pct": 0.0
+        },
+        "top20_keywords_count": {
+          "absolute": 0.0,
+          "pct": 0.0
+        },
+        "affiliate_ctr_pct": {
+          "absolute": null,
+          "pct": null
+        },
+        "revenue_per_session_usd": {
+          "absolute": null,
+          "pct": null
+        },
+        "monthly_revenue_usd": {
+          "absolute": null,
+          "pct": null
+        },
+        "orphan_pages_count": {
+          "absolute": null,
+          "pct": null
+        }
+      },
+      "notes": "4/4 steps succeeded",
+      "confidence": "high"
+    },
+    {
+      "at": "2026-02-16T03:28:45.277993",
+      "plan_name": "Fresh Revenue Discovery: Untapped Inventory Scan",
+      "baseline_kpis": {
+        "organic_clicks_28d": 15,
+        "top20_keywords_count": 2,
+        "affiliate_ctr_pct": null,
+        "revenue_per_session_usd": null,
+        "monthly_revenue_usd": null,
+        "orphan_pages_count": null,
+        "last_updated": "2026-02-16T03:28:05.984717",
+        "source": "gsc_audit"
+      },
+      "post_kpis": {
+        "organic_clicks_28d": 15,
+        "top20_keywords_count": 2,
+        "affiliate_ctr_pct": null,
+        "revenue_per_session_usd": null,
+        "monthly_revenue_usd": null,
+        "orphan_pages_count": null,
+        "last_updated": "2026-02-16T03:28:05.984717",
+        "source": "gsc_audit"
+      },
+      "deltas": {
+        "organic_clicks_28d": {
+          "absolute": 0.0,
+          "pct": 0.0
+        },
+        "top20_keywords_count": {
+          "absolute": 0.0,
+          "pct": 0.0
+        },
+        "affiliate_ctr_pct": {
+          "absolute": null,
+          "pct": null
+        },
+        "revenue_per_session_usd": {
+          "absolute": null,
+          "pct": null
+        },
+        "monthly_revenue_usd": {
+          "absolute": null,
+          "pct": null
+        },
+        "orphan_pages_count": {
+          "absolute": null,
+          "pct": null
+        }
+      },
+      "notes": "4/4 steps succeeded",
+      "confidence": "high"
+    },
+    {
+      "at": "2026-02-16T00:27:10.048601",
+      "plan_name": "Fresh Revenue Targets: Untapped URL Discovery",
+      "baseline_kpis": {
+        "organic_clicks_28d": 15,
+        "top20_keywords_count": 2,
+        "affiliate_ctr_pct": null,
+        "revenue_per_session_usd": null,
+        "monthly_revenue_usd": null,
+        "orphan_pages_count": null,
+        "last_updated": "2026-02-16T00:26:43.102339",
+        "source": "gsc_audit"
+      },
+      "post_kpis": {
+        "organic_clicks_28d": 15,
+        "top20_keywords_count": 2,
+        "affiliate_ctr_pct": null,
+        "revenue_per_session_usd": null,
+        "monthly_revenue_usd": null,
+        "orphan_pages_count": null,
+        "last_updated": "2026-02-16T00:27:10.043630",
+        "source": "post_execution_refresh"
+      },
+      "deltas": {
+        "organic_clicks_28d": {
+          "absolute": 0.0,
+          "pct": 0.0
+        },
+        "top20_keywords_count": {
+          "absolute": 0.0,
+          "pct": 0.0
+        },
+        "affiliate_ctr_pct": {
+          "absolute": null,
+          "pct": null
+        },
+        "revenue_per_session_usd": {
+          "absolute": null,
+          "pct": null
+        },
+        "monthly_revenue_usd": {
+          "absolute": null,
+          "pct": null
+        },
+        "orphan_pages_count": {
+          "absolute": null,
+          "pct": null
+        }
+      },
+      "notes": "3/3 steps succeeded",
+      "confidence": "high"
+    },
+    {
+      "at": "2026-02-16T00:26:27.337574",
+      "plan_name": "Emergency: Untouched Revenue Discovery",
+      "baseline_kpis": {
+        "organic_clicks_28d": 15,
+        "top20_keywords_count": 2,
+        "affiliate_ctr_pct": null,
+        "revenue_per_session_usd": null,
+        "monthly_revenue_usd": null,
+        "orphan_pages_count": null,
+        "last_updated": "2026-02-16T00:25:56.267090",
+        "source": "gsc_audit"
+      },
+      "post_kpis": {
+        "organic_clicks_28d": 15,
+        "top20_keywords_count": 2,
+        "affiliate_ctr_pct": null,
+        "revenue_per_session_usd": null,
+        "monthly_revenue_usd": null,
+        "orphan_pages_count": null,
+        "last_updated": "2026-02-16T00:25:56.267090",
+        "source": "gsc_audit"
+      },
+      "deltas": {
+        "organic_clicks_28d": {
+          "absolute": 0.0,
+          "pct": 0.0
+        },
+        "top20_keywords_count": {
+          "absolute": 0.0,
+          "pct": 0.0
+        },
+        "affiliate_ctr_pct": {
+          "absolute": null,
+          "pct": null
+        },
+        "revenue_per_session_usd": {
+          "absolute": null,
+          "pct": null
+        },
+        "monthly_revenue_usd": {
+          "absolute": null,
+          "pct": null
+        },
+        "orphan_pages_count": {
+          "absolute": null,
+          "pct": null
+        }
+      },
+      "notes": "3/3 steps succeeded",
+      "confidence": "high"
+    },
+    {
+      "at": "2026-02-16T00:25:40.462044",
+      "plan_name": "Fresh Territory Discovery: Untouched Revenue Targets",
+      "baseline_kpis": {
+        "organic_clicks_28d": 15,
+        "top20_keywords_count": 2,
+        "affiliate_ctr_pct": null,
+        "revenue_per_session_usd": null,
+        "monthly_revenue_usd": null,
+        "orphan_pages_count": null,
+        "last_updated": "2026-02-16T00:25:02.408800",
+        "source": "gsc_audit"
+      },
+      "post_kpis": {
+        "organic_clicks_28d": 15,
+        "top20_keywords_count": 2,
+        "affiliate_ctr_pct": null,
+        "revenue_per_session_usd": null,
+        "monthly_revenue_usd": null,
+        "orphan_pages_count": null,
+        "last_updated": "2026-02-16T00:25:02.408800",
+        "source": "gsc_audit"
+      },
+      "deltas": {
+        "organic_clicks_28d": {
+          "absolute": 0.0,
+          "pct": 0.0
+        },
+        "top20_keywords_count": {
+          "absolute": 0.0,
+          "pct": 0.0
+        },
+        "affiliate_ctr_pct": {
+          "absolute": null,
+          "pct": null
+        },
+        "revenue_per_session_usd": {
+          "absolute": null,
+          "pct": null
+        },
+        "monthly_revenue_usd": {
+          "absolute": null,
+          "pct": null
+        },
+        "orphan_pages_count": {
+          "absolute": null,
+          "pct": null
+        }
+      },
+      "notes": "4/4 steps succeeded",
+      "confidence": "high"
+    },
+    {
+      "at": "2026-02-16T00:24:46.638184",
+      "plan_name": "Emergency: Fresh Revenue Territory Discovery",
+      "baseline_kpis": {
+        "organic_clicks_28d": 15,
+        "top20_keywords_count": 2,
+        "affiliate_ctr_pct": null,
+        "revenue_per_session_usd": null,
+        "monthly_revenue_usd": null,
+        "orphan_pages_count": null,
+        "last_updated": "2026-02-16T00:24:11.482962",
+        "source": "gsc_audit"
+      },
+      "post_kpis": {
+        "organic_clicks_28d": 15,
+        "top20_keywords_count": 2,
+        "affiliate_ctr_pct": null,
+        "revenue_per_session_usd": null,
+        "monthly_revenue_usd": null,
+        "orphan_pages_count": null,
+        "last_updated": "2026-02-16T00:24:11.482962",
+        "source": "gsc_audit"
+      },
+      "deltas": {
+        "organic_clicks_28d": {
+          "absolute": 0.0,
+          "pct": 0.0
+        },
+        "top20_keywords_count": {
+          "absolute": 0.0,
+          "pct": 0.0
+        },
+        "affiliate_ctr_pct": {
+          "absolute": null,
+          "pct": null
+        },
+        "revenue_per_session_usd": {
+          "absolute": null,
+          "pct": null
+        },
+        "monthly_revenue_usd": {
+          "absolute": null,
+          "pct": null
+        },
+        "orphan_pages_count": {
+          "absolute": null,
+          "pct": null
+        }
+      },
+      "notes": "4/4 steps succeeded",
+      "confidence": "high"
+    },
+    {
+      "at": "2026-02-16T00:23:55.727866",
+      "plan_name": "Cooling Compliance: Fresh Territory Scan",
+      "baseline_kpis": {
+        "organic_clicks_28d": 15,
+        "top20_keywords_count": 2,
+        "affiliate_ctr_pct": null,
+        "revenue_per_session_usd": null,
+        "monthly_revenue_usd": null,
+        "orphan_pages_count": null,
+        "last_updated": "2026-02-16T00:23:22.817306",
+        "source": "gsc_audit"
+      },
+      "post_kpis": {
+        "organic_clicks_28d": 15,
+        "top20_keywords_count": 2,
+        "affiliate_ctr_pct": null,
+        "revenue_per_session_usd": null,
+        "monthly_revenue_usd": null,
+        "orphan_pages_count": null,
+        "last_updated": "2026-02-16T00:23:22.817306",
+        "source": "gsc_audit"
+      },
+      "deltas": {
+        "organic_clicks_28d": {
+          "absolute": 0.0,
+          "pct": 0.0
+        },
+        "top20_keywords_count": {
+          "absolute": 0.0,
+          "pct": 0.0
+        },
+        "affiliate_ctr_pct": {
+          "absolute": null,
+          "pct": null
+        },
+        "revenue_per_session_usd": {
+          "absolute": null,
+          "pct": null
+        },
+        "monthly_revenue_usd": {
+          "absolute": null,
+          "pct": null
+        },
+        "orphan_pages_count": {
+          "absolute": null,
+          "pct": null
+        }
+      },
+      "notes": "3/3 steps succeeded",
+      "confidence": "high"
+    },
+    {
+      "at": "2026-02-16T00:23:06.923415",
+      "plan_name": "Cooldown Compliance: Fresh Target Hunt",
+      "baseline_kpis": {
+        "organic_clicks_28d": 15,
+        "top20_keywords_count": 2,
+        "affiliate_ctr_pct": null,
+        "revenue_per_session_usd": null,
+        "monthly_revenue_usd": null,
+        "orphan_pages_count": null,
+        "last_updated": "2026-02-16T00:22:26.609280",
+        "source": "gsc_audit"
+      },
+      "post_kpis": {
+        "organic_clicks_28d": 15,
+        "top20_keywords_count": 2,
+        "affiliate_ctr_pct": null,
+        "revenue_per_session_usd": null,
+        "monthly_revenue_usd": null,
+        "orphan_pages_count": null,
+        "last_updated": "2026-02-16T00:22:26.609280",
+        "source": "gsc_audit"
+      },
+      "deltas": {
+        "organic_clicks_28d": {
+          "absolute": 0.0,
+          "pct": 0.0
+        },
+        "top20_keywords_count": {
+          "absolute": 0.0,
+          "pct": 0.0
+        },
+        "affiliate_ctr_pct": {
+          "absolute": null,
+          "pct": null
+        },
+        "revenue_per_session_usd": {
+          "absolute": null,
+          "pct": null
+        },
+        "monthly_revenue_usd": {
+          "absolute": null,
+          "pct": null
+        },
+        "orphan_pages_count": {
+          "absolute": null,
+          "pct": null
+        }
+      },
+      "notes": "4/4 steps succeeded",
+      "confidence": "high"
+    },
+    {
+      "at": "2026-02-16T00:22:10.802300",
+      "plan_name": "Fresh Blood: New Target Discovery + Revenue Architecture",
+      "baseline_kpis": {
+        "organic_clicks_28d": 15,
+        "top20_keywords_count": 2,
+        "affiliate_ctr_pct": null,
+        "revenue_per_session_usd": null,
+        "monthly_revenue_usd": null,
+        "orphan_pages_count": null,
+        "last_updated": "2026-02-16T00:21:32.109192",
+        "source": "gsc_audit"
+      },
+      "post_kpis": {
+        "organic_clicks_28d": 15,
+        "top20_keywords_count": 2,
+        "affiliate_ctr_pct": null,
+        "revenue_per_session_usd": null,
+        "monthly_revenue_usd": null,
+        "orphan_pages_count": null,
+        "last_updated": "2026-02-16T00:21:32.109192",
+        "source": "gsc_audit"
+      },
+      "deltas": {
+        "organic_clicks_28d": {
+          "absolute": 0.0,
+          "pct": 0.0
+        },
+        "top20_keywords_count": {
+          "absolute": 0.0,
+          "pct": 0.0
+        },
+        "affiliate_ctr_pct": {
+          "absolute": null,
+          "pct": null
+        },
+        "revenue_per_session_usd": {
+          "absolute": null,
+          "pct": null
+        },
+        "monthly_revenue_usd": {
+          "absolute": null,
+          "pct": null
+        },
+        "orphan_pages_count": {
+          "absolute": null,
+          "pct": null
+        }
+      },
+      "notes": "4/4 steps succeeded",
+      "confidence": "high"
+    },
+    {
+      "at": "2026-02-16T00:21:16.336281",
+      "plan_name": "Cooldown Validation + Alternative Target Discovery",
+      "baseline_kpis": {
+        "organic_clicks_28d": 15,
+        "top20_keywords_count": 2,
+        "affiliate_ctr_pct": null,
+        "revenue_per_session_usd": null,
+        "monthly_revenue_usd": null,
+        "orphan_pages_count": null,
+        "last_updated": "2026-02-16T00:20:43.519772",
+        "source": "gsc_audit"
+      },
+      "post_kpis": {
+        "organic_clicks_28d": 15,
+        "top20_keywords_count": 2,
+        "affiliate_ctr_pct": null,
+        "revenue_per_session_usd": null,
+        "monthly_revenue_usd": null,
+        "orphan_pages_count": null,
+        "last_updated": "2026-02-16T00:20:43.519772",
+        "source": "gsc_audit"
+      },
+      "deltas": {
+        "organic_clicks_28d": {
+          "absolute": 0.0,
+          "pct": 0.0
+        },
+        "top20_keywords_count": {
+          "absolute": 0.0,
+          "pct": 0.0
+        },
+        "affiliate_ctr_pct": {
+          "absolute": null,
+          "pct": null
+        },
+        "revenue_per_session_usd": {
+          "absolute": null,
+          "pct": null
+        },
+        "monthly_revenue_usd": {
+          "absolute": null,
+          "pct": null
+        },
+        "orphan_pages_count": {
+          "absolute": null,
+          "pct": null
+        }
+      },
+      "notes": "3/3 steps succeeded",
+      "confidence": "high"
+    },
+    {
+      "at": "2026-02-16T00:20:27.761377",
+      "plan_name": "Cooling Period + Fresh Data Validation",
+      "baseline_kpis": {
+        "organic_clicks_28d": 15,
+        "top20_keywords_count": 2,
+        "affiliate_ctr_pct": null,
+        "revenue_per_session_usd": null,
+        "monthly_revenue_usd": null,
+        "orphan_pages_count": null,
+        "last_updated": "2026-02-16T00:20:01.210768",
+        "source": "gsc_audit"
+      },
+      "post_kpis": {
+        "organic_clicks_28d": 15,
+        "top20_keywords_count": 2,
+        "affiliate_ctr_pct": null,
+        "revenue_per_session_usd": null,
+        "monthly_revenue_usd": null,
+        "orphan_pages_count": null,
+        "last_updated": "2026-02-16T00:20:01.210768",
+        "source": "gsc_audit"
+      },
+      "deltas": {
+        "organic_clicks_28d": {
+          "absolute": 0.0,
+          "pct": 0.0
+        },
+        "top20_keywords_count": {
+          "absolute": 0.0,
+          "pct": 0.0
+        },
+        "affiliate_ctr_pct": {
+          "absolute": null,
+          "pct": null
+        },
+        "revenue_per_session_usd": {
+          "absolute": null,
+          "pct": null
+        },
+        "monthly_revenue_usd": {
+          "absolute": null,
+          "pct": null
+        },
+        "orphan_pages_count": {
+          "absolute": null,
+          "pct": null
+        }
+      },
+      "notes": "2/2 steps succeeded",
+      "confidence": "high"
+    },
+    {
+      "at": "2026-02-16T00:19:45.413437",
+      "plan_name": "Page 2 Monetization Conversion Fix",
+      "baseline_kpis": {
+        "organic_clicks_28d": 15,
+        "top20_keywords_count": 2,
+        "affiliate_ctr_pct": null,
+        "revenue_per_session_usd": null,
+        "monthly_revenue_usd": null,
+        "orphan_pages_count": null,
+        "last_updated": "2026-02-16T00:19:14.751058",
+        "source": "gsc_audit"
+      },
+      "post_kpis": {
+        "organic_clicks_28d": 15,
+        "top20_keywords_count": 2,
+        "affiliate_ctr_pct": null,
+        "revenue_per_session_usd": null,
+        "monthly_revenue_usd": null,
+        "orphan_pages_count": null,
+        "last_updated": "2026-02-16T00:19:45.408236",
+        "source": "post_execution_refresh"
+      },
+      "deltas": {
+        "organic_clicks_28d": {
+          "absolute": 0.0,
+          "pct": 0.0
+        },
+        "top20_keywords_count": {
+          "absolute": 0.0,
+          "pct": 0.0
+        },
+        "affiliate_ctr_pct": {
+          "absolute": null,
+          "pct": null
+        },
+        "revenue_per_session_usd": {
+          "absolute": null,
+          "pct": null
+        },
+        "monthly_revenue_usd": {
+          "absolute": null,
+          "pct": null
+        },
+        "orphan_pages_count": {
+          "absolute": null,
+          "pct": null
+        }
+      },
+      "notes": "3/3 steps succeeded",
+      "confidence": "high"
+    },
+    {
+      "at": "2026-02-16T00:18:58.736466",
+      "plan_name": "Fresh Target Discovery + Revenue Audit",
+      "baseline_kpis": {
+        "organic_clicks_28d": 15,
+        "top20_keywords_count": 2,
+        "affiliate_ctr_pct": null,
+        "revenue_per_session_usd": null,
+        "monthly_revenue_usd": null,
+        "orphan_pages_count": null,
+        "last_updated": "2026-02-16T00:18:29.766032",
+        "source": "gsc_audit"
+      },
+      "post_kpis": {
+        "organic_clicks_28d": 15,
+        "top20_keywords_count": 2,
+        "affiliate_ctr_pct": null,
+        "revenue_per_session_usd": null,
+        "monthly_revenue_usd": null,
+        "orphan_pages_count": null,
+        "last_updated": "2026-02-16T00:18:29.766032",
+        "source": "gsc_audit"
+      },
+      "deltas": {
+        "organic_clicks_28d": {
+          "absolute": 0.0,
+          "pct": 0.0
+        },
+        "top20_keywords_count": {
+          "absolute": 0.0,
+          "pct": 0.0
+        },
+        "affiliate_ctr_pct": {
+          "absolute": null,
+          "pct": null
+        },
+        "revenue_per_session_usd": {
+          "absolute": null,
+          "pct": null
+        },
+        "monthly_revenue_usd": {
+          "absolute": null,
+          "pct": null
+        },
+        "orphan_pages_count": {
+          "absolute": null,
+          "pct": null
+        }
+      },
+      "notes": "3/3 steps succeeded",
+      "confidence": "high"
+    },
+    {
+      "at": "2026-02-15T23:18:03.443863",
+      "plan_name": "Fresh Target Discovery + Revenue Audit",
+      "baseline_kpis": {
+        "organic_clicks_28d": 15,
+        "top20_keywords_count": 3,
+        "affiliate_ctr_pct": null,
+        "revenue_per_session_usd": null,
+        "monthly_revenue_usd": null,
+        "orphan_pages_count": null,
+        "last_updated": "2026-02-15T23:17:31.465988",
+        "source": "gsc_audit"
+      },
+      "post_kpis": {
+        "organic_clicks_28d": 15,
+        "top20_keywords_count": 3,
+        "affiliate_ctr_pct": null,
+        "revenue_per_session_usd": null,
+        "monthly_revenue_usd": null,
+        "orphan_pages_count": null,
+        "last_updated": "2026-02-15T23:18:03.438777",
+        "source": "post_execution_refresh"
+      },
+      "deltas": {
+        "organic_clicks_28d": {
+          "absolute": 0.0,
+          "pct": 0.0
+        },
+        "top20_keywords_count": {
+          "absolute": 0.0,
+          "pct": 0.0
+        },
+        "affiliate_ctr_pct": {
+          "absolute": null,
+          "pct": null
+        },
+        "revenue_per_session_usd": {
+          "absolute": null,
+          "pct": null
+        },
+        "monthly_revenue_usd": {
+          "absolute": null,
+          "pct": null
+        },
+        "orphan_pages_count": {
+          "absolute": null,
+          "pct": null
+        }
+      },
+      "notes": "3/3 steps succeeded",
+      "confidence": "high"
+    },
+    {
+      "at": "2026-02-15T23:17:15.729722",
+      "plan_name": "Fresh Target Discovery + Revenue Audit",
+      "baseline_kpis": {
+        "organic_clicks_28d": 15,
+        "top20_keywords_count": 3,
+        "affiliate_ctr_pct": null,
+        "revenue_per_session_usd": null,
+        "monthly_revenue_usd": null,
+        "orphan_pages_count": null,
+        "last_updated": "2026-02-15T23:16:42.513203",
+        "source": "gsc_audit"
+      },
+      "post_kpis": {
+        "organic_clicks_28d": 15,
+        "top20_keywords_count": 3,
+        "affiliate_ctr_pct": null,
+        "revenue_per_session_usd": null,
+        "monthly_revenue_usd": null,
+        "orphan_pages_count": null,
+        "last_updated": "2026-02-15T23:16:42.513203",
+        "source": "gsc_audit"
+      },
+      "deltas": {
+        "organic_clicks_28d": {
+          "absolute": 0.0,
+          "pct": 0.0
+        },
+        "top20_keywords_count": {
+          "absolute": 0.0,
+          "pct": 0.0
+        },
+        "affiliate_ctr_pct": {
+          "absolute": null,
+          "pct": null
+        },
+        "revenue_per_session_usd": {
+          "absolute": null,
+          "pct": null
+        },
+        "monthly_revenue_usd": {
+          "absolute": null,
+          "pct": null
+        },
+        "orphan_pages_count": {
+          "absolute": null,
+          "pct": null
+        }
+      },
+      "notes": "3/3 steps succeeded",
+      "confidence": "high"
+    },
+    {
+      "at": "2026-02-15T23:16:26.767925",
+      "plan_name": "Fresh Target Discovery + Revenue Audit",
+      "baseline_kpis": {
+        "organic_clicks_28d": 15,
+        "top20_keywords_count": 3,
+        "affiliate_ctr_pct": null,
+        "revenue_per_session_usd": null,
+        "monthly_revenue_usd": null,
+        "orphan_pages_count": null,
+        "last_updated": "2026-02-15T23:16:00.156705",
+        "source": "gsc_audit"
+      },
+      "post_kpis": {
+        "organic_clicks_28d": 15,
+        "top20_keywords_count": 3,
+        "affiliate_ctr_pct": null,
+        "revenue_per_session_usd": null,
+        "monthly_revenue_usd": null,
+        "orphan_pages_count": null,
+        "last_updated": "2026-02-15T23:16:00.156705",
+        "source": "gsc_audit"
+      },
+      "deltas": {
+        "organic_clicks_28d": {
+          "absolute": 0.0,
+          "pct": 0.0
+        },
+        "top20_keywords_count": {
+          "absolute": 0.0,
+          "pct": 0.0
+        },
+        "affiliate_ctr_pct": {
+          "absolute": null,
+          "pct": null
+        },
+        "revenue_per_session_usd": {
+          "absolute": null,
+          "pct": null
+        },
+        "monthly_revenue_usd": {
+          "absolute": null,
+          "pct": null
+        },
+        "orphan_pages_count": {
+          "absolute": null,
+          "pct": null
+        }
+      },
+      "notes": "3/3 steps succeeded",
+      "confidence": "high"
+    },
+    {
+      "at": "2026-02-15T23:15:44.375441",
+      "plan_name": "Impact Window Hold + Fresh Target Discovery",
+      "baseline_kpis": {
+        "organic_clicks_28d": 15,
+        "top20_keywords_count": 3,
+        "affiliate_ctr_pct": null,
+        "revenue_per_session_usd": null,
+        "monthly_revenue_usd": null,
+        "orphan_pages_count": null,
+        "last_updated": "2026-02-15T23:15:15.481842",
+        "source": "gsc_audit"
+      },
+      "post_kpis": {
+        "organic_clicks_28d": 15,
+        "top20_keywords_count": 3,
+        "affiliate_ctr_pct": null,
+        "revenue_per_session_usd": null,
+        "monthly_revenue_usd": null,
+        "orphan_pages_count": null,
+        "last_updated": "2026-02-15T23:15:15.481842",
+        "source": "gsc_audit"
+      },
+      "deltas": {
+        "organic_clicks_28d": {
+          "absolute": 0.0,
+          "pct": 0.0
+        },
+        "top20_keywords_count": {
+          "absolute": 0.0,
+          "pct": 0.0
+        },
+        "affiliate_ctr_pct": {
+          "absolute": null,
+          "pct": null
+        },
+        "revenue_per_session_usd": {
+          "absolute": null,
+          "pct": null
+        },
+        "monthly_revenue_usd": {
+          "absolute": null,
+          "pct": null
+        },
+        "orphan_pages_count": {
+          "absolute": null,
+          "pct": null
+        }
+      },
+      "notes": "3/3 steps succeeded",
+      "confidence": "high"
+    },
+    {
+      "at": "2026-02-15T23:14:59.708358",
+      "plan_name": "Impact Window Hold + Fresh Target Discovery",
+      "baseline_kpis": {
+        "organic_clicks_28d": 15,
+        "top20_keywords_count": 3,
+        "affiliate_ctr_pct": null,
+        "revenue_per_session_usd": null,
+        "monthly_revenue_usd": null,
+        "orphan_pages_count": null,
+        "last_updated": "2026-02-15T23:14:27.549718",
+        "source": "gsc_audit"
+      },
+      "post_kpis": {
+        "organic_clicks_28d": 15,
+        "top20_keywords_count": 3,
+        "affiliate_ctr_pct": null,
+        "revenue_per_session_usd": null,
+        "monthly_revenue_usd": null,
+        "orphan_pages_count": null,
+        "last_updated": "2026-02-15T23:14:27.549718",
+        "source": "gsc_audit"
+      },
+      "deltas": {
+        "organic_clicks_28d": {
+          "absolute": 0.0,
+          "pct": 0.0
+        },
+        "top20_keywords_count": {
+          "absolute": 0.0,
+          "pct": 0.0
+        },
+        "affiliate_ctr_pct": {
+          "absolute": null,
+          "pct": null
+        },
+        "revenue_per_session_usd": {
+          "absolute": null,
+          "pct": null
+        },
+        "monthly_revenue_usd": {
+          "absolute": null,
+          "pct": null
+        },
+        "orphan_pages_count": {
+          "absolute": null,
+          "pct": null
+        }
+      },
+      "notes": "3/3 steps succeeded",
+      "confidence": "high"
+    },
+    {
+      "at": "2026-02-15T23:14:11.770370",
+      "plan_name": "Impact Window Hold + Fresh Target Discovery",
+      "baseline_kpis": {
+        "organic_clicks_28d": 15,
+        "top20_keywords_count": 3,
+        "affiliate_ctr_pct": null,
+        "revenue_per_session_usd": null,
+        "monthly_revenue_usd": null,
+        "orphan_pages_count": null,
+        "last_updated": "2026-02-15T23:13:36.461652",
+        "source": "gsc_audit"
+      },
+      "post_kpis": {
+        "organic_clicks_28d": 15,
+        "top20_keywords_count": 3,
+        "affiliate_ctr_pct": null,
+        "revenue_per_session_usd": null,
+        "monthly_revenue_usd": null,
+        "orphan_pages_count": null,
+        "last_updated": "2026-02-15T23:13:36.461652",
+        "source": "gsc_audit"
+      },
+      "deltas": {
+        "organic_clicks_28d": {
+          "absolute": 0.0,
+          "pct": 0.0
+        },
+        "top20_keywords_count": {
+          "absolute": 0.0,
+          "pct": 0.0
+        },
+        "affiliate_ctr_pct": {
+          "absolute": null,
+          "pct": null
+        },
+        "revenue_per_session_usd": {
+          "absolute": null,
+          "pct": null
+        },
+        "monthly_revenue_usd": {
+          "absolute": null,
+          "pct": null
+        },
+        "orphan_pages_count": {
+          "absolute": null,
+          "pct": null
+        }
+      },
+      "notes": "3/3 steps succeeded",
+      "confidence": "high"
+    },
+    {
+      "at": "2026-02-15T23:13:20.702660",
+      "plan_name": "Impact Window Hold + Fresh Target Discovery",
+      "baseline_kpis": {
+        "organic_clicks_28d": 15,
+        "top20_keywords_count": 3,
+        "affiliate_ctr_pct": null,
+        "revenue_per_session_usd": null,
+        "monthly_revenue_usd": null,
+        "orphan_pages_count": null,
+        "last_updated": "2026-02-15T23:12:43.873991",
+        "source": "gsc_audit"
+      },
+      "post_kpis": {
+        "organic_clicks_28d": 15,
+        "top20_keywords_count": 3,
+        "affiliate_ctr_pct": null,
+        "revenue_per_session_usd": null,
+        "monthly_revenue_usd": null,
+        "orphan_pages_count": null,
+        "last_updated": "2026-02-15T23:12:43.873991",
+        "source": "gsc_audit"
+      },
+      "deltas": {
+        "organic_clicks_28d": {
+          "absolute": 0.0,
+          "pct": 0.0
+        },
+        "top20_keywords_count": {
+          "absolute": 0.0,
+          "pct": 0.0
+        },
+        "affiliate_ctr_pct": {
+          "absolute": null,
+          "pct": null
+        },
+        "revenue_per_session_usd": {
+          "absolute": null,
+          "pct": null
+        },
+        "monthly_revenue_usd": {
+          "absolute": null,
+          "pct": null
+        },
+        "orphan_pages_count": {
+          "absolute": null,
+          "pct": null
+        }
+      },
+      "notes": "3/3 steps succeeded",
+      "confidence": "high"
+    },
+    {
+      "at": "2026-02-15T23:12:28.112723",
+      "plan_name": "Impact Window Hold + Fresh Data Prep",
+      "baseline_kpis": {
+        "organic_clicks_28d": 15,
+        "top20_keywords_count": 3,
+        "affiliate_ctr_pct": null,
+        "revenue_per_session_usd": null,
+        "monthly_revenue_usd": null,
+        "orphan_pages_count": null,
+        "last_updated": "2026-02-15T23:12:00.655668",
+        "source": "gsc_audit"
+      },
+      "post_kpis": {
+        "organic_clicks_28d": 15,
+        "top20_keywords_count": 3,
+        "affiliate_ctr_pct": null,
+        "revenue_per_session_usd": null,
+        "monthly_revenue_usd": null,
+        "orphan_pages_count": null,
+        "last_updated": "2026-02-15T23:12:00.655668",
+        "source": "gsc_audit"
+      },
+      "deltas": {
+        "organic_clicks_28d": {
+          "absolute": 0.0,
+          "pct": 0.0
+        },
+        "top20_keywords_count": {
+          "absolute": 0.0,
+          "pct": 0.0
+        },
+        "affiliate_ctr_pct": {
+          "absolute": null,
+          "pct": null
+        },
+        "revenue_per_session_usd": {
+          "absolute": null,
+          "pct": null
+        },
+        "monthly_revenue_usd": {
+          "absolute": null,
+          "pct": null
+        },
+        "orphan_pages_count": {
+          "absolute": null,
+          "pct": null
+        }
+      },
+      "notes": "2/2 steps succeeded",
+      "confidence": "high"
+    },
+    {
+      "at": "2026-02-15T23:11:44.892509",
+      "plan_name": "Impact Window Hold + Fresh Data Prep",
+      "baseline_kpis": {
+        "organic_clicks_28d": 15,
+        "top20_keywords_count": 3,
+        "affiliate_ctr_pct": null,
+        "revenue_per_session_usd": null,
+        "monthly_revenue_usd": null,
+        "orphan_pages_count": null,
+        "last_updated": "2026-02-15T23:11:20.405889",
+        "source": "gsc_audit"
+      },
+      "post_kpis": {
+        "organic_clicks_28d": 15,
+        "top20_keywords_count": 3,
+        "affiliate_ctr_pct": null,
+        "revenue_per_session_usd": null,
+        "monthly_revenue_usd": null,
+        "orphan_pages_count": null,
+        "last_updated": "2026-02-15T23:11:20.405889",
+        "source": "gsc_audit"
+      },
+      "deltas": {
+        "organic_clicks_28d": {
+          "absolute": 0.0,
+          "pct": 0.0
+        },
+        "top20_keywords_count": {
+          "absolute": 0.0,
+          "pct": 0.0
+        },
+        "affiliate_ctr_pct": {
+          "absolute": null,
+          "pct": null
+        },
+        "revenue_per_session_usd": {
+          "absolute": null,
+          "pct": null
+        },
+        "monthly_revenue_usd": {
+          "absolute": null,
+          "pct": null
+        },
+        "orphan_pages_count": {
+          "absolute": null,
+          "pct": null
+        }
+      },
+      "notes": "1/2 steps succeeded",
+      "confidence": "medium"
+    },
+    {
+      "at": "2026-02-15T23:11:04.470202",
+      "plan_name": "Page 2 Conversion Blockage: Title Surgery + Fresh Target Hunt",
+      "baseline_kpis": {
+        "organic_clicks_28d": 15,
+        "top20_keywords_count": 3,
+        "affiliate_ctr_pct": null,
+        "revenue_per_session_usd": null,
+        "monthly_revenue_usd": null,
+        "orphan_pages_count": null,
+        "last_updated": "2026-02-15T23:10:30.284847",
+        "source": "gsc_audit"
+      },
+      "post_kpis": {
+        "organic_clicks_28d": 15,
+        "top20_keywords_count": 3,
+        "affiliate_ctr_pct": null,
+        "revenue_per_session_usd": null,
+        "monthly_revenue_usd": null,
+        "orphan_pages_count": null,
+        "last_updated": "2026-02-15T23:10:30.284847",
+        "source": "gsc_audit"
+      },
+      "deltas": {
+        "organic_clicks_28d": {
+          "absolute": 0.0,
+          "pct": 0.0
+        },
+        "top20_keywords_count": {
+          "absolute": 0.0,
+          "pct": 0.0
+        },
+        "affiliate_ctr_pct": {
+          "absolute": null,
+          "pct": null
+        },
+        "revenue_per_session_usd": {
+          "absolute": null,
+          "pct": null
+        },
+        "monthly_revenue_usd": {
+          "absolute": null,
+          "pct": null
+        },
+        "orphan_pages_count": {
+          "absolute": null,
+          "pct": null
+        }
+      },
+      "notes": "3/3 steps succeeded",
+      "confidence": "high"
+    },
+    {
+      "at": "2026-02-15T23:10:14.485505",
+      "plan_name": "Fresh Data + New Target Discovery",
+      "baseline_kpis": {
+        "organic_clicks_28d": 15,
+        "top20_keywords_count": 3,
+        "affiliate_ctr_pct": null,
+        "revenue_per_session_usd": null,
+        "monthly_revenue_usd": null,
+        "orphan_pages_count": null,
+        "last_updated": "2026-02-15T23:09:37.876994",
+        "source": "gsc_audit"
+      },
+      "post_kpis": {
+        "organic_clicks_28d": 15,
+        "top20_keywords_count": 3,
+        "affiliate_ctr_pct": null,
+        "revenue_per_session_usd": null,
+        "monthly_revenue_usd": null,
+        "orphan_pages_count": null,
+        "last_updated": "2026-02-15T23:09:37.876994",
+        "source": "gsc_audit"
+      },
+      "deltas": {
+        "organic_clicks_28d": {
+          "absolute": 0.0,
+          "pct": 0.0
+        },
+        "top20_keywords_count": {
+          "absolute": 0.0,
+          "pct": 0.0
+        },
+        "affiliate_ctr_pct": {
+          "absolute": null,
+          "pct": null
+        },
+        "revenue_per_session_usd": {
+          "absolute": null,
+          "pct": null
+        },
+        "monthly_revenue_usd": {
+          "absolute": null,
+          "pct": null
+        },
+        "orphan_pages_count": {
+          "absolute": null,
+          "pct": null
+        }
+      },
+      "notes": "4/4 steps succeeded",
+      "confidence": "high"
+    },
+    {
+      "at": "2026-02-15T23:09:22.093407",
+      "plan_name": "Revenue Discovery: Full Site Scan",
+      "baseline_kpis": {
+        "organic_clicks_28d": 15,
+        "top20_keywords_count": 3,
+        "affiliate_ctr_pct": null,
+        "revenue_per_session_usd": null,
+        "monthly_revenue_usd": null,
+        "orphan_pages_count": null,
+        "last_updated": "2026-02-15T23:08:46.707757",
+        "source": "gsc_audit"
+      },
+      "post_kpis": {
+        "organic_clicks_28d": 15,
+        "top20_keywords_count": 3,
+        "affiliate_ctr_pct": null,
+        "revenue_per_session_usd": null,
+        "monthly_revenue_usd": null,
+        "orphan_pages_count": null,
+        "last_updated": "2026-02-15T23:08:46.707757",
+        "source": "gsc_audit"
+      },
+      "deltas": {
+        "organic_clicks_28d": {
+          "absolute": 0.0,
+          "pct": 0.0
+        },
+        "top20_keywords_count": {
+          "absolute": 0.0,
+          "pct": 0.0
+        },
+        "affiliate_ctr_pct": {
+          "absolute": null,
+          "pct": null
+        },
+        "revenue_per_session_usd": {
+          "absolute": null,
+          "pct": null
+        },
+        "monthly_revenue_usd": {
+          "absolute": null,
+          "pct": null
+        },
+        "orphan_pages_count": {
+          "absolute": null,
+          "pct": null
+        }
+      },
+      "notes": "4/4 steps succeeded",
+      "confidence": "high"
+    },
+    {
+      "at": "2026-02-15T23:08:30.905362",
+      "plan_name": "Site-Wide Discovery: Break the 3-URL Loop",
+      "baseline_kpis": {
+        "organic_clicks_28d": 15,
+        "top20_keywords_count": 3,
+        "affiliate_ctr_pct": null,
+        "revenue_per_session_usd": null,
+        "monthly_revenue_usd": null,
+        "orphan_pages_count": null,
+        "last_updated": "2026-02-15T23:07:57.030348",
+        "source": "gsc_audit"
+      },
+      "post_kpis": {
+        "organic_clicks_28d": 15,
+        "top20_keywords_count": 3,
+        "affiliate_ctr_pct": null,
+        "revenue_per_session_usd": null,
+        "monthly_revenue_usd": null,
+        "orphan_pages_count": null,
+        "last_updated": "2026-02-15T23:07:57.030348",
+        "source": "gsc_audit"
+      },
+      "deltas": {
+        "organic_clicks_28d": {
+          "absolute": 0.0,
+          "pct": 0.0
+        },
+        "top20_keywords_count": {
+          "absolute": 0.0,
+          "pct": 0.0
+        },
+        "affiliate_ctr_pct": {
+          "absolute": null,
+          "pct": null
+        },
+        "revenue_per_session_usd": {
+          "absolute": null,
+          "pct": null
+        },
+        "monthly_revenue_usd": {
+          "absolute": null,
+          "pct": null
+        },
+        "orphan_pages_count": {
+          "absolute": null,
+          "pct": null
+        }
+      },
+      "notes": "4/4 steps succeeded",
+      "confidence": "high"
+    },
+    {
+      "at": "2026-02-15T23:07:41.257028",
+      "plan_name": "Emergency: Full Site Inventory + Decline Hunt",
+      "baseline_kpis": {
+        "organic_clicks_28d": 15,
+        "top20_keywords_count": 3,
+        "affiliate_ctr_pct": null,
+        "revenue_per_session_usd": null,
+        "monthly_revenue_usd": null,
+        "orphan_pages_count": null,
+        "last_updated": "2026-02-15T23:07:03.725538",
+        "source": "gsc_audit"
+      },
+      "post_kpis": {
+        "organic_clicks_28d": 15,
+        "top20_keywords_count": 3,
+        "affiliate_ctr_pct": null,
+        "revenue_per_session_usd": null,
+        "monthly_revenue_usd": null,
+        "orphan_pages_count": null,
+        "last_updated": "2026-02-15T23:07:03.725538",
+        "source": "gsc_audit"
+      },
+      "deltas": {
+        "organic_clicks_28d": {
+          "absolute": 0.0,
+          "pct": 0.0
+        },
+        "top20_keywords_count": {
+          "absolute": 0.0,
+          "pct": 0.0
+        },
+        "affiliate_ctr_pct": {
+          "absolute": null,
+          "pct": null
+        },
+        "revenue_per_session_usd": {
+          "absolute": null,
+          "pct": null
+        },
+        "monthly_revenue_usd": {
+          "absolute": null,
+          "pct": null
+        },
+        "orphan_pages_count": {
+          "absolute": null,
+          "pct": null
+        }
+      },
+      "notes": "3/3 steps succeeded",
+      "confidence": "high"
+    },
+    {
+      "at": "2026-02-15T23:01:55.177090",
+      "plan_name": "Fresh URL Mining: Revenue + Page 1 Defense",
+      "baseline_kpis": {
+        "organic_clicks_28d": 15,
+        "top20_keywords_count": 3,
+        "affiliate_ctr_pct": null,
+        "revenue_per_session_usd": null,
+        "monthly_revenue_usd": null,
+        "orphan_pages_count": null,
+        "last_updated": "2026-02-15T23:01:14.499834",
+        "source": "gsc_audit"
+      },
+      "post_kpis": {
+        "organic_clicks_28d": 15,
+        "top20_keywords_count": 3,
+        "affiliate_ctr_pct": null,
+        "revenue_per_session_usd": null,
+        "monthly_revenue_usd": null,
+        "orphan_pages_count": null,
+        "last_updated": "2026-02-15T23:01:14.499834",
+        "source": "gsc_audit"
+      },
+      "deltas": {
+        "organic_clicks_28d": {
+          "absolute": 0.0,
+          "pct": 0.0
+        },
+        "top20_keywords_count": {
+          "absolute": 0.0,
+          "pct": 0.0
+        },
+        "affiliate_ctr_pct": {
+          "absolute": null,
+          "pct": null
+        },
+        "revenue_per_session_usd": {
+          "absolute": null,
+          "pct": null
+        },
+        "monthly_revenue_usd": {
+          "absolute": null,
+          "pct": null
+        },
+        "orphan_pages_count": {
+          "absolute": null,
+          "pct": null
+        }
+      },
+      "notes": "4/4 steps succeeded",
+      "confidence": "high"
+    },
+    {
+      "at": "2026-02-15T23:00:56.690564",
+      "plan_name": "Traffic Diversification: Fresh URL Discovery",
+      "baseline_kpis": {
+        "organic_clicks_28d": 15,
+        "top20_keywords_count": 3,
+        "affiliate_ctr_pct": null,
+        "revenue_per_session_usd": null,
+        "monthly_revenue_usd": null,
+        "orphan_pages_count": null,
+        "last_updated": "2026-02-15T23:00:29.738442",
+        "source": "gsc_audit"
+      },
+      "post_kpis": {
+        "organic_clicks_28d": 15,
+        "top20_keywords_count": 3,
+        "affiliate_ctr_pct": null,
+        "revenue_per_session_usd": null,
+        "monthly_revenue_usd": null,
+        "orphan_pages_count": null,
+        "last_updated": "2026-02-15T23:00:56.668003",
+        "source": "post_execution_refresh"
+      },
+      "deltas": {
+        "organic_clicks_28d": {
+          "absolute": 0.0,
+          "pct": 0.0
+        },
+        "top20_keywords_count": {
+          "absolute": 0.0,
+          "pct": 0.0
+        },
+        "affiliate_ctr_pct": {
+          "absolute": null,
+          "pct": null
+        },
+        "revenue_per_session_usd": {
+          "absolute": null,
+          "pct": null
+        },
+        "monthly_revenue_usd": {
+          "absolute": null,
+          "pct": null
+        },
+        "orphan_pages_count": {
+          "absolute": null,
+          "pct": null
+        }
+      },
+      "notes": "3/3 steps succeeded",
+      "confidence": "high"
+    },
+    {
+      "at": "2026-02-15T23:00:11.821589",
+      "plan_name": "Fresh Discovery: Revenue + Competition Scan",
+      "baseline_kpis": {
+        "organic_clicks_28d": 15,
+        "top20_keywords_count": 3,
+        "affiliate_ctr_pct": null,
+        "revenue_per_session_usd": null,
+        "monthly_revenue_usd": null,
+        "orphan_pages_count": null,
+        "last_updated": "2026-02-15T22:59:36.195233",
+        "source": "gsc_audit"
+      },
+      "post_kpis": {
+        "organic_clicks_28d": 15,
+        "top20_keywords_count": 3,
+        "affiliate_ctr_pct": null,
+        "revenue_per_session_usd": null,
+        "monthly_revenue_usd": null,
+        "orphan_pages_count": null,
+        "last_updated": "2026-02-15T22:59:36.195233",
+        "source": "gsc_audit"
+      },
+      "deltas": {
+        "organic_clicks_28d": {
+          "absolute": 0.0,
+          "pct": 0.0
+        },
+        "top20_keywords_count": {
+          "absolute": 0.0,
+          "pct": 0.0
+        },
+        "affiliate_ctr_pct": {
+          "absolute": null,
+          "pct": null
+        },
+        "revenue_per_session_usd": {
+          "absolute": null,
+          "pct": null
+        },
+        "monthly_revenue_usd": {
+          "absolute": null,
+          "pct": null
+        },
+        "orphan_pages_count": {
+          "absolute": null,
+          "pct": null
+        }
+      },
+      "notes": "3/3 steps succeeded",
+      "confidence": "high"
+    },
+    {
+      "at": "2026-02-15T22:59:17.610524",
+      "plan_name": "Fresh Blood: Revenue + Decline Discovery",
+      "baseline_kpis": {
+        "organic_clicks_28d": 15,
+        "top20_keywords_count": 3,
+        "affiliate_ctr_pct": null,
+        "revenue_per_session_usd": null,
+        "monthly_revenue_usd": null,
+        "orphan_pages_count": null,
+        "last_updated": "2026-02-15T22:58:35.197555",
+        "source": "gsc_audit"
+      },
+      "post_kpis": {
+        "organic_clicks_28d": 15,
+        "top20_keywords_count": 3,
+        "affiliate_ctr_pct": null,
+        "revenue_per_session_usd": null,
+        "monthly_revenue_usd": null,
+        "orphan_pages_count": null,
+        "last_updated": "2026-02-15T22:58:35.197555",
+        "source": "gsc_audit"
+      },
+      "deltas": {
+        "organic_clicks_28d": {
+          "absolute": 0.0,
+          "pct": 0.0
+        },
+        "top20_keywords_count": {
+          "absolute": 0.0,
+          "pct": 0.0
+        },
+        "affiliate_ctr_pct": {
+          "absolute": null,
+          "pct": null
+        },
+        "revenue_per_session_usd": {
+          "absolute": null,
+          "pct": null
+        },
+        "monthly_revenue_usd": {
+          "absolute": null,
+          "pct": null
+        },
+        "orphan_pages_count": {
+          "absolute": null,
+          "pct": null
+        }
+      },
+      "notes": "3/3 steps succeeded",
+      "confidence": "high"
+    },
+    {
+      "at": "2026-02-15T21:57:58.230108",
+      "plan_name": "Emergency Fresh URL Discovery",
+      "baseline_kpis": {
+        "organic_clicks_28d": 15,
+        "top20_keywords_count": 3,
+        "affiliate_ctr_pct": null,
+        "revenue_per_session_usd": null,
+        "monthly_revenue_usd": null,
+        "orphan_pages_count": null,
+        "last_updated": "2026-02-15T21:57:13.138678",
+        "source": "gsc_audit"
+      },
+      "post_kpis": {
+        "organic_clicks_28d": 15,
+        "top20_keywords_count": 3,
+        "affiliate_ctr_pct": null,
+        "revenue_per_session_usd": null,
+        "monthly_revenue_usd": null,
+        "orphan_pages_count": null,
+        "last_updated": "2026-02-15T21:57:13.138678",
+        "source": "gsc_audit"
+      },
+      "deltas": {
+        "organic_clicks_28d": {
+          "absolute": 0.0,
+          "pct": 0.0
+        },
+        "top20_keywords_count": {
+          "absolute": 0.0,
+          "pct": 0.0
+        },
+        "affiliate_ctr_pct": {
+          "absolute": null,
+          "pct": null
+        },
+        "revenue_per_session_usd": {
+          "absolute": null,
+          "pct": null
+        },
+        "monthly_revenue_usd": {
+          "absolute": null,
+          "pct": null
+        },
+        "orphan_pages_count": {
+          "absolute": null,
+          "pct": null
+        }
+      },
+      "notes": "4/4 steps succeeded",
+      "confidence": "high"
+    },
+    {
+      "at": "2026-02-15T21:56:54.033915",
+      "plan_name": "Emergency Traffic Diversification",
+      "baseline_kpis": {
+        "organic_clicks_28d": 15,
+        "top20_keywords_count": 3,
+        "affiliate_ctr_pct": null,
+        "revenue_per_session_usd": null,
+        "monthly_revenue_usd": null,
+        "orphan_pages_count": null,
+        "last_updated": "2026-02-15T21:56:12.898959",
+        "source": "gsc_audit"
+      },
+      "post_kpis": {
+        "organic_clicks_28d": 15,
+        "top20_keywords_count": 3,
+        "affiliate_ctr_pct": null,
+        "revenue_per_session_usd": null,
+        "monthly_revenue_usd": null,
+        "orphan_pages_count": null,
+        "last_updated": "2026-02-15T21:56:12.898959",
+        "source": "gsc_audit"
+      },
+      "deltas": {
+        "organic_clicks_28d": {
+          "absolute": 0.0,
+          "pct": 0.0
+        },
+        "top20_keywords_count": {
+          "absolute": 0.0,
+          "pct": 0.0
+        },
+        "affiliate_ctr_pct": {
+          "absolute": null,
+          "pct": null
+        },
+        "revenue_per_session_usd": {
+          "absolute": null,
+          "pct": null
+        },
+        "monthly_revenue_usd": {
+          "absolute": null,
+          "pct": null
+        },
+        "orphan_pages_count": {
+          "absolute": null,
+          "pct": null
+        }
+      },
+      "notes": "4/4 steps succeeded",
+      "confidence": "high"
+    },
+    {
+      "at": "2026-02-15T21:55:53.095226",
+      "plan_name": "Fresh Discovery: Escape Impact Window Gridlock",
+      "baseline_kpis": {
+        "organic_clicks_28d": 15,
+        "top20_keywords_count": 3,
+        "affiliate_ctr_pct": null,
+        "revenue_per_session_usd": null,
+        "monthly_revenue_usd": null,
+        "orphan_pages_count": null,
+        "last_updated": "2026-02-15T21:55:16.710947",
+        "source": "gsc_audit"
+      },
+      "post_kpis": {
+        "organic_clicks_28d": 15,
+        "top20_keywords_count": 3,
+        "affiliate_ctr_pct": null,
+        "revenue_per_session_usd": null,
+        "monthly_revenue_usd": null,
+        "orphan_pages_count": null,
+        "last_updated": "2026-02-15T21:55:16.710947",
+        "source": "gsc_audit"
+      },
+      "deltas": {
+        "organic_clicks_28d": {
+          "absolute": 0.0,
+          "pct": 0.0
+        },
+        "top20_keywords_count": {
+          "absolute": 0.0,
+          "pct": 0.0
+        },
+        "affiliate_ctr_pct": {
+          "absolute": null,
+          "pct": null
+        },
+        "revenue_per_session_usd": {
+          "absolute": null,
+          "pct": null
+        },
+        "monthly_revenue_usd": {
+          "absolute": null,
+          "pct": null
+        },
+        "orphan_pages_count": {
+          "absolute": null,
+          "pct": null
+        }
+      },
+      "notes": "2/2 steps succeeded",
+      "confidence": "high"
+    },
+    {
+      "at": "2026-02-15T21:54:57.237485",
+      "plan_name": "Fresh Data Pull + New Target Discovery",
+      "baseline_kpis": {
+        "organic_clicks_28d": 15,
+        "top20_keywords_count": 3,
+        "affiliate_ctr_pct": null,
+        "revenue_per_session_usd": null,
+        "monthly_revenue_usd": null,
+        "orphan_pages_count": null,
+        "last_updated": "2026-02-15T21:54:22.420186",
+        "source": "gsc_audit"
+      },
+      "post_kpis": {
+        "organic_clicks_28d": 15,
+        "top20_keywords_count": 3,
+        "affiliate_ctr_pct": null,
+        "revenue_per_session_usd": null,
+        "monthly_revenue_usd": null,
+        "orphan_pages_count": null,
+        "last_updated": "2026-02-15T21:54:22.420186",
+        "source": "gsc_audit"
+      },
+      "deltas": {
+        "organic_clicks_28d": {
+          "absolute": 0.0,
+          "pct": 0.0
+        },
+        "top20_keywords_count": {
+          "absolute": 0.0,
+          "pct": 0.0
+        },
+        "affiliate_ctr_pct": {
+          "absolute": null,
+          "pct": null
+        },
+        "revenue_per_session_usd": {
+          "absolute": null,
+          "pct": null
+        },
+        "monthly_revenue_usd": {
+          "absolute": null,
+          "pct": null
+        },
+        "orphan_pages_count": {
+          "absolute": null,
+          "pct": null
+        }
+      },
+      "notes": "2/2 steps succeeded",
+      "confidence": "high"
+    },
+    {
+      "at": "2026-02-15T21:54:03.405598",
+      "plan_name": "Fresh Target Discovery: Untapped Revenue URLs",
+      "baseline_kpis": {
+        "organic_clicks_28d": 15,
+        "top20_keywords_count": 3,
+        "affiliate_ctr_pct": null,
+        "revenue_per_session_usd": null,
+        "monthly_revenue_usd": null,
+        "orphan_pages_count": null,
+        "last_updated": "2026-02-15T21:53:19.999436",
+        "source": "gsc_audit"
+      },
+      "post_kpis": {
+        "organic_clicks_28d": 15,
+        "top20_keywords_count": 3,
+        "affiliate_ctr_pct": null,
+        "revenue_per_session_usd": null,
+        "monthly_revenue_usd": null,
+        "orphan_pages_count": null,
+        "last_updated": "2026-02-15T21:53:19.999436",
+        "source": "gsc_audit"
+      },
+      "deltas": {
+        "organic_clicks_28d": {
+          "absolute": 0.0,
+          "pct": 0.0
+        },
+        "top20_keywords_count": {
+          "absolute": 0.0,
+          "pct": 0.0
+        },
+        "affiliate_ctr_pct": {
+          "absolute": null,
+          "pct": null
+        },
+        "revenue_per_session_usd": {
+          "absolute": null,
+          "pct": null
+        },
+        "monthly_revenue_usd": {
+          "absolute": null,
+          "pct": null
+        },
+        "orphan_pages_count": {
+          "absolute": null,
+          "pct": null
+        }
+      },
+      "notes": "4/4 steps succeeded",
+      "confidence": "high"
+    },
+    {
+      "at": "2026-02-15T21:53:01.484077",
+      "plan_name": "Page 2 CTR Emergency Surgery",
+      "baseline_kpis": {
+        "organic_clicks_28d": 15,
+        "top20_keywords_count": 3,
+        "affiliate_ctr_pct": null,
+        "revenue_per_session_usd": null,
+        "monthly_revenue_usd": null,
+        "orphan_pages_count": null,
+        "last_updated": "2026-02-15T21:52:29.253470",
+        "source": "gsc_audit"
+      },
+      "post_kpis": {
+        "organic_clicks_28d": 15,
+        "top20_keywords_count": 3,
+        "affiliate_ctr_pct": null,
+        "revenue_per_session_usd": null,
+        "monthly_revenue_usd": null,
+        "orphan_pages_count": null,
+        "last_updated": "2026-02-15T21:53:01.459896",
+        "source": "post_execution_refresh"
+      },
+      "deltas": {
+        "organic_clicks_28d": {
+          "absolute": 0.0,
+          "pct": 0.0
+        },
+        "top20_keywords_count": {
+          "absolute": 0.0,
+          "pct": 0.0
+        },
+        "affiliate_ctr_pct": {
+          "absolute": null,
+          "pct": null
+        },
+        "revenue_per_session_usd": {
+          "absolute": null,
+          "pct": null
+        },
+        "monthly_revenue_usd": {
+          "absolute": null,
+          "pct": null
+        },
+        "orphan_pages_count": {
+          "absolute": null,
+          "pct": null
+        }
+      },
+      "notes": "2/2 steps succeeded",
+      "confidence": "high"
+    },
+    {
+      "at": "2026-02-15T21:52:10.922598",
+      "plan_name": "Traffic Crisis Root Cause Analysis",
+      "baseline_kpis": {
+        "organic_clicks_28d": 15,
+        "top20_keywords_count": 3,
+        "affiliate_ctr_pct": null,
+        "revenue_per_session_usd": null,
+        "monthly_revenue_usd": null,
+        "orphan_pages_count": null,
+        "last_updated": "2026-02-15T21:51:30.640596",
+        "source": "gsc_audit"
+      },
+      "post_kpis": {
+        "organic_clicks_28d": 15,
+        "top20_keywords_count": 3,
+        "affiliate_ctr_pct": null,
+        "revenue_per_session_usd": null,
+        "monthly_revenue_usd": null,
+        "orphan_pages_count": null,
+        "last_updated": "2026-02-15T21:51:30.640596",
+        "source": "gsc_audit"
+      },
+      "deltas": {
+        "organic_clicks_28d": {
+          "absolute": 0.0,
+          "pct": 0.0
+        },
+        "top20_keywords_count": {
+          "absolute": 0.0,
+          "pct": 0.0
+        },
+        "affiliate_ctr_pct": {
+          "absolute": null,
+          "pct": null
+        },
+        "revenue_per_session_usd": {
+          "absolute": null,
+          "pct": null
+        },
+        "monthly_revenue_usd": {
+          "absolute": null,
+          "pct": null
+        },
+        "orphan_pages_count": {
+          "absolute": null,
+          "pct": null
+        }
+      },
+      "notes": "3/3 steps succeeded",
+      "confidence": "high"
+    },
+    {
+      "at": "2026-02-15T21:51:11.076566",
+      "plan_name": "Cooldown Bypass: Fresh Page 2 Mining",
+      "baseline_kpis": {
+        "organic_clicks_28d": 15,
+        "top20_keywords_count": 3,
+        "affiliate_ctr_pct": null,
+        "revenue_per_session_usd": null,
+        "monthly_revenue_usd": null,
+        "orphan_pages_count": null,
+        "last_updated": "2026-02-15T21:50:35.114103",
+        "source": "gsc_audit"
+      },
+      "post_kpis": {
+        "organic_clicks_28d": 15,
+        "top20_keywords_count": 3,
+        "affiliate_ctr_pct": null,
+        "revenue_per_session_usd": null,
+        "monthly_revenue_usd": null,
+        "orphan_pages_count": null,
+        "last_updated": "2026-02-15T21:51:11.041581",
+        "source": "post_execution_refresh"
+      },
+      "deltas": {
+        "organic_clicks_28d": {
+          "absolute": 0.0,
+          "pct": 0.0
+        },
+        "top20_keywords_count": {
+          "absolute": 0.0,
+          "pct": 0.0
+        },
+        "affiliate_ctr_pct": {
+          "absolute": null,
+          "pct": null
+        },
+        "revenue_per_session_usd": {
+          "absolute": null,
+          "pct": null
+        },
+        "monthly_revenue_usd": {
+          "absolute": null,
+          "pct": null
+        },
+        "orphan_pages_count": {
+          "absolute": null,
+          "pct": null
+        }
+      },
+      "notes": "3/3 steps succeeded",
+      "confidence": "high"
+    },
+    {
+      "at": "2026-02-15T21:50:16.780213",
+      "plan_name": "Fresh Target Excavation: Untouched Page 2 Revenue",
+      "baseline_kpis": {
+        "organic_clicks_28d": 15,
+        "top20_keywords_count": 3,
+        "affiliate_ctr_pct": null,
+        "revenue_per_session_usd": null,
+        "monthly_revenue_usd": null,
+        "orphan_pages_count": null,
+        "last_updated": "2026-02-15T21:49:41.380503",
+        "source": "gsc_audit"
+      },
+      "post_kpis": {
+        "organic_clicks_28d": 15,
+        "top20_keywords_count": 3,
+        "affiliate_ctr_pct": null,
+        "revenue_per_session_usd": null,
+        "monthly_revenue_usd": null,
+        "orphan_pages_count": null,
+        "last_updated": "2026-02-15T21:49:41.380503",
+        "source": "gsc_audit"
+      },
+      "deltas": {
+        "organic_clicks_28d": {
+          "absolute": 0.0,
+          "pct": 0.0
+        },
+        "top20_keywords_count": {
+          "absolute": 0.0,
+          "pct": 0.0
+        },
+        "affiliate_ctr_pct": {
+          "absolute": null,
+          "pct": null
+        },
+        "revenue_per_session_usd": {
+          "absolute": null,
+          "pct": null
+        },
+        "monthly_revenue_usd": {
+          "absolute": null,
+          "pct": null
+        },
+        "orphan_pages_count": {
+          "absolute": null,
+          "pct": null
+        }
+      },
+      "notes": "4/4 steps succeeded",
+      "confidence": "high"
+    },
+    {
+      "at": "2026-02-15T21:49:23.084584",
+      "plan_name": "Parallel Attack: CTR Revival + Fresh Target Mining",
+      "baseline_kpis": {
+        "organic_clicks_28d": 15,
+        "top20_keywords_count": 3,
+        "affiliate_ctr_pct": null,
+        "revenue_per_session_usd": null,
+        "monthly_revenue_usd": null,
+        "orphan_pages_count": null,
+        "last_updated": "2026-02-15T21:48:35.894175",
+        "source": "gsc_audit"
+      },
+      "post_kpis": {
+        "organic_clicks_28d": 15,
+        "top20_keywords_count": 3,
+        "affiliate_ctr_pct": null,
+        "revenue_per_session_usd": null,
+        "monthly_revenue_usd": null,
+        "orphan_pages_count": null,
+        "last_updated": "2026-02-15T21:48:35.894175",
+        "source": "gsc_audit"
+      },
+      "deltas": {
+        "organic_clicks_28d": {
+          "absolute": 0.0,
+          "pct": 0.0
+        },
+        "top20_keywords_count": {
+          "absolute": 0.0,
+          "pct": 0.0
+        },
+        "affiliate_ctr_pct": {
+          "absolute": null,
+          "pct": null
+        },
+        "revenue_per_session_usd": {
+          "absolute": null,
+          "pct": null
+        },
+        "monthly_revenue_usd": {
+          "absolute": null,
+          "pct": null
+        },
+        "orphan_pages_count": {
+          "absolute": null,
+          "pct": null
+        }
+      },
+      "notes": "4/4 steps succeeded",
+      "confidence": "high"
+    },
+    {
+      "at": "2026-02-15T21:48:16.904357",
+      "plan_name": "Emergency State Validation + Fresh Opportunity Mining",
+      "baseline_kpis": {
+        "organic_clicks_28d": 15,
+        "top20_keywords_count": 3,
+        "affiliate_ctr_pct": null,
+        "revenue_per_session_usd": null,
+        "monthly_revenue_usd": null,
+        "orphan_pages_count": null,
+        "last_updated": "2026-02-15T21:47:33.248307",
+        "source": "gsc_audit"
+      },
+      "post_kpis": {
+        "organic_clicks_28d": 15,
+        "top20_keywords_count": 3,
+        "affiliate_ctr_pct": null,
+        "revenue_per_session_usd": null,
+        "monthly_revenue_usd": null,
+        "orphan_pages_count": null,
+        "last_updated": "2026-02-15T21:47:33.248307",
+        "source": "gsc_audit"
+      },
+      "deltas": {
+        "organic_clicks_28d": {
+          "absolute": 0.0,
+          "pct": 0.0
+        },
+        "top20_keywords_count": {
+          "absolute": 0.0,
+          "pct": 0.0
+        },
+        "affiliate_ctr_pct": {
+          "absolute": null,
+          "pct": null
+        },
+        "revenue_per_session_usd": {
+          "absolute": null,
+          "pct": null
+        },
+        "monthly_revenue_usd": {
+          "absolute": null,
+          "pct": null
+        },
+        "orphan_pages_count": {
+          "absolute": null,
+          "pct": null
+        }
+      },
+      "notes": "4/4 steps succeeded",
+      "confidence": "high"
+    },
+    {
+      "at": "2026-02-15T21:47:14.980044",
+      "plan_name": "Revenue Leak Emergency Patch",
+      "baseline_kpis": {
+        "organic_clicks_28d": 15,
+        "top20_keywords_count": 3,
+        "affiliate_ctr_pct": null,
+        "revenue_per_session_usd": null,
+        "monthly_revenue_usd": null,
+        "orphan_pages_count": null,
+        "last_updated": "2026-02-15T21:46:42.060076",
+        "source": "gsc_audit"
+      },
+      "post_kpis": {
+        "organic_clicks_28d": 15,
+        "top20_keywords_count": 3,
+        "affiliate_ctr_pct": null,
+        "revenue_per_session_usd": null,
+        "monthly_revenue_usd": null,
+        "orphan_pages_count": null,
+        "last_updated": "2026-02-15T21:47:14.962253",
+        "source": "post_execution_refresh"
+      },
+      "deltas": {
+        "organic_clicks_28d": {
+          "absolute": 0.0,
+          "pct": 0.0
+        },
+        "top20_keywords_count": {
+          "absolute": 0.0,
+          "pct": 0.0
+        },
+        "affiliate_ctr_pct": {
+          "absolute": null,
+          "pct": null
+        },
+        "revenue_per_session_usd": {
+          "absolute": null,
+          "pct": null
+        },
+        "monthly_revenue_usd": {
+          "absolute": null,
+          "pct": null
+        },
+        "orphan_pages_count": {
+          "absolute": null,
+          "pct": null
+        }
+      },
+      "notes": "2/2 steps succeeded",
+      "confidence": "high"
+    },
+    {
+      "at": "2026-02-15T20:46:10.107366",
+      "plan_name": "CTR Emergency: Title + Snippet Overhaul",
+      "baseline_kpis": {
+        "organic_clicks_28d": 14,
+        "top20_keywords_count": 3,
+        "affiliate_ctr_pct": null,
+        "revenue_per_session_usd": null,
+        "monthly_revenue_usd": null,
+        "orphan_pages_count": null,
+        "last_updated": "2026-02-15T20:45:41.979554",
+        "source": "gsc_audit"
+      },
+      "post_kpis": {
+        "organic_clicks_28d": 14,
+        "top20_keywords_count": 3,
+        "affiliate_ctr_pct": null,
+        "revenue_per_session_usd": null,
+        "monthly_revenue_usd": null,
+        "orphan_pages_count": null,
+        "last_updated": "2026-02-15T20:46:10.104675",
+        "source": "post_execution_refresh"
+      },
+      "deltas": {
+        "organic_clicks_28d": {
+          "absolute": 0.0,
+          "pct": 0.0
+        },
+        "top20_keywords_count": {
+          "absolute": 0.0,
+          "pct": 0.0
+        },
+        "affiliate_ctr_pct": {
+          "absolute": null,
+          "pct": null
+        },
+        "revenue_per_session_usd": {
+          "absolute": null,
+          "pct": null
+        },
+        "monthly_revenue_usd": {
+          "absolute": null,
+          "pct": null
+        },
+        "orphan_pages_count": {
+          "absolute": null,
+          "pct": null
+        }
+      },
+      "notes": "2/2 steps succeeded",
+      "confidence": "high"
+    },
+    {
+      "at": "2026-02-15T20:45:26.082801",
+      "plan_name": "Untapped Revenue Mining While Cooling",
+      "baseline_kpis": {
+        "organic_clicks_28d": 14,
+        "top20_keywords_count": 3,
+        "affiliate_ctr_pct": null,
+        "revenue_per_session_usd": null,
+        "monthly_revenue_usd": null,
+        "orphan_pages_count": null,
+        "last_updated": "2026-02-15T20:44:53.265024",
+        "source": "gsc_audit"
+      },
+      "post_kpis": {
+        "organic_clicks_28d": 14,
+        "top20_keywords_count": 3,
+        "affiliate_ctr_pct": null,
+        "revenue_per_session_usd": null,
+        "monthly_revenue_usd": null,
+        "orphan_pages_count": null,
+        "last_updated": "2026-02-15T20:45:26.079861",
+        "source": "post_execution_refresh"
+      },
+      "deltas": {
+        "organic_clicks_28d": {
+          "absolute": 0.0,
+          "pct": 0.0
+        },
+        "top20_keywords_count": {
+          "absolute": 0.0,
+          "pct": 0.0
+        },
+        "affiliate_ctr_pct": {
+          "absolute": null,
+          "pct": null
+        },
+        "revenue_per_session_usd": {
+          "absolute": null,
+          "pct": null
+        },
+        "monthly_revenue_usd": {
+          "absolute": null,
+          "pct": null
+        },
+        "orphan_pages_count": {
+          "absolute": null,
+          "pct": null
+        }
+      },
+      "notes": "3/3 steps succeeded",
+      "confidence": "high"
+    },
+    {
+      "at": "2026-02-15T20:44:37.476852",
+      "plan_name": "Revenue Discovery Beyond Cooldown Zone",
+      "baseline_kpis": {
+        "organic_clicks_28d": 14,
+        "top20_keywords_count": 3,
+        "affiliate_ctr_pct": null,
+        "revenue_per_session_usd": null,
+        "monthly_revenue_usd": null,
+        "orphan_pages_count": null,
+        "last_updated": "2026-02-15T20:44:03.190878",
+        "source": "gsc_audit"
+      },
+      "post_kpis": {
+        "organic_clicks_28d": 14,
+        "top20_keywords_count": 3,
+        "affiliate_ctr_pct": null,
+        "revenue_per_session_usd": null,
+        "monthly_revenue_usd": null,
+        "orphan_pages_count": null,
+        "last_updated": "2026-02-15T20:44:03.190878",
+        "source": "gsc_audit"
+      },
+      "deltas": {
+        "organic_clicks_28d": {
+          "absolute": 0.0,
+          "pct": 0.0
+        },
+        "top20_keywords_count": {
+          "absolute": 0.0,
+          "pct": 0.0
+        },
+        "affiliate_ctr_pct": {
+          "absolute": null,
+          "pct": null
+        },
+        "revenue_per_session_usd": {
+          "absolute": null,
+          "pct": null
+        },
+        "monthly_revenue_usd": {
+          "absolute": null,
+          "pct": null
+        },
+        "orphan_pages_count": {
+          "absolute": null,
+          "pct": null
+        }
+      },
+      "notes": "4/4 steps succeeded",
+      "confidence": "high"
+    },
+    {
+      "at": "2026-02-15T20:43:47.402620",
+      "plan_name": "Fresh Revenue Discovery Beyond Cooldown",
+      "baseline_kpis": {
+        "organic_clicks_28d": 14,
+        "top20_keywords_count": 3,
+        "affiliate_ctr_pct": null,
+        "revenue_per_session_usd": null,
+        "monthly_revenue_usd": null,
+        "orphan_pages_count": null,
+        "last_updated": "2026-02-15T20:43:16.600560",
+        "source": "gsc_audit"
+      },
+      "post_kpis": {
+        "organic_clicks_28d": 14,
+        "top20_keywords_count": 3,
+        "affiliate_ctr_pct": null,
+        "revenue_per_session_usd": null,
+        "monthly_revenue_usd": null,
+        "orphan_pages_count": null,
+        "last_updated": "2026-02-15T20:43:16.600560",
+        "source": "gsc_audit"
+      },
+      "deltas": {
+        "organic_clicks_28d": {
+          "absolute": 0.0,
+          "pct": 0.0
+        },
+        "top20_keywords_count": {
+          "absolute": 0.0,
+          "pct": 0.0
+        },
+        "affiliate_ctr_pct": {
+          "absolute": null,
+          "pct": null
+        },
+        "revenue_per_session_usd": {
+          "absolute": null,
+          "pct": null
+        },
+        "monthly_revenue_usd": {
+          "absolute": null,
+          "pct": null
+        },
+        "orphan_pages_count": {
+          "absolute": null,
+          "pct": null
+        }
+      },
+      "notes": "3/3 steps succeeded",
+      "confidence": "high"
+    },
+    {
+      "at": "2026-02-15T20:43:00.805073",
+      "plan_name": "Fresh Revenue Hunting While Cooling",
+      "baseline_kpis": {
+        "organic_clicks_28d": 14,
+        "top20_keywords_count": 3,
+        "affiliate_ctr_pct": null,
+        "revenue_per_session_usd": null,
+        "monthly_revenue_usd": null,
+        "orphan_pages_count": null,
+        "last_updated": "2026-02-15T20:42:28.448099",
+        "source": "gsc_audit"
+      },
+      "post_kpis": {
+        "organic_clicks_28d": 14,
+        "top20_keywords_count": 3,
+        "affiliate_ctr_pct": null,
+        "revenue_per_session_usd": null,
+        "monthly_revenue_usd": null,
+        "orphan_pages_count": null,
+        "last_updated": "2026-02-15T20:42:28.448099",
+        "source": "gsc_audit"
+      },
+      "deltas": {
+        "organic_clicks_28d": {
+          "absolute": 0.0,
+          "pct": 0.0
+        },
+        "top20_keywords_count": {
+          "absolute": 0.0,
+          "pct": 0.0
+        },
+        "affiliate_ctr_pct": {
+          "absolute": null,
+          "pct": null
+        },
+        "revenue_per_session_usd": {
+          "absolute": null,
+          "pct": null
+        },
+        "monthly_revenue_usd": {
+          "absolute": null,
+          "pct": null
+        },
+        "orphan_pages_count": {
+          "absolute": null,
+          "pct": null
+        }
+      },
+      "notes": "4/4 steps succeeded",
+      "confidence": "high"
+    },
+    {
+      "at": "2026-02-15T20:42:12.678864",
+      "plan_name": "Post-Emergency Impact Check",
+      "baseline_kpis": {
+        "organic_clicks_28d": 14,
+        "top20_keywords_count": 3,
+        "affiliate_ctr_pct": null,
+        "revenue_per_session_usd": null,
+        "monthly_revenue_usd": null,
+        "orphan_pages_count": null,
+        "last_updated": "2026-02-15T20:41:43.886682",
+        "source": "gsc_audit"
+      },
+      "post_kpis": {
+        "organic_clicks_28d": 14,
+        "top20_keywords_count": 3,
+        "affiliate_ctr_pct": null,
+        "revenue_per_session_usd": null,
+        "monthly_revenue_usd": null,
+        "orphan_pages_count": null,
+        "last_updated": "2026-02-15T20:41:43.886682",
+        "source": "gsc_audit"
+      },
+      "deltas": {
+        "organic_clicks_28d": {
+          "absolute": 0.0,
+          "pct": 0.0
+        },
+        "top20_keywords_count": {
+          "absolute": 0.0,
+          "pct": 0.0
+        },
+        "affiliate_ctr_pct": {
+          "absolute": null,
+          "pct": null
+        },
+        "revenue_per_session_usd": {
+          "absolute": null,
+          "pct": null
+        },
+        "monthly_revenue_usd": {
+          "absolute": null,
+          "pct": null
+        },
+        "orphan_pages_count": {
+          "absolute": null,
+          "pct": null
+        }
+      },
+      "notes": "3/3 steps succeeded",
+      "confidence": "high"
+    },
+    {
+      "at": "2026-02-15T20:41:28.051338",
+      "plan_name": "Fresh Blood Revenue Expansion",
+      "baseline_kpis": {
+        "organic_clicks_28d": 14,
+        "top20_keywords_count": 3,
+        "affiliate_ctr_pct": null,
+        "revenue_per_session_usd": null,
+        "monthly_revenue_usd": null,
+        "orphan_pages_count": null,
+        "last_updated": "2026-02-15T20:40:52.587469",
+        "source": "gsc_audit"
+      },
+      "post_kpis": {
+        "organic_clicks_28d": 14,
+        "top20_keywords_count": 3,
+        "affiliate_ctr_pct": null,
+        "revenue_per_session_usd": null,
+        "monthly_revenue_usd": null,
+        "orphan_pages_count": null,
+        "last_updated": "2026-02-15T20:40:52.587469",
+        "source": "gsc_audit"
+      },
+      "deltas": {
+        "organic_clicks_28d": {
+          "absolute": 0.0,
+          "pct": 0.0
+        },
+        "top20_keywords_count": {
+          "absolute": 0.0,
+          "pct": 0.0
+        },
+        "affiliate_ctr_pct": {
+          "absolute": null,
+          "pct": null
+        },
+        "revenue_per_session_usd": {
+          "absolute": null,
+          "pct": null
+        },
+        "monthly_revenue_usd": {
+          "absolute": null,
+          "pct": null
+        },
+        "orphan_pages_count": {
+          "absolute": null,
+          "pct": null
+        }
+      },
+      "notes": "4/4 steps succeeded",
+      "confidence": "high"
+    },
+    {
+      "at": "2026-02-15T20:40:36.806971",
+      "plan_name": "Revenue Foundation Audit While Cooling",
+      "baseline_kpis": {
+        "organic_clicks_28d": 14,
+        "top20_keywords_count": 3,
+        "affiliate_ctr_pct": null,
+        "revenue_per_session_usd": null,
+        "monthly_revenue_usd": null,
+        "orphan_pages_count": null,
+        "last_updated": "2026-02-15T20:40:03.270544",
+        "source": "gsc_audit"
+      },
+      "post_kpis": {
+        "organic_clicks_28d": 14,
+        "top20_keywords_count": 3,
+        "affiliate_ctr_pct": null,
+        "revenue_per_session_usd": null,
+        "monthly_revenue_usd": null,
+        "orphan_pages_count": null,
+        "last_updated": "2026-02-15T20:40:03.270544",
+        "source": "gsc_audit"
+      },
+      "deltas": {
+        "organic_clicks_28d": {
+          "absolute": 0.0,
+          "pct": 0.0
+        },
+        "top20_keywords_count": {
+          "absolute": 0.0,
+          "pct": 0.0
+        },
+        "affiliate_ctr_pct": {
+          "absolute": null,
+          "pct": null
+        },
+        "revenue_per_session_usd": {
+          "absolute": null,
+          "pct": null
+        },
+        "monthly_revenue_usd": {
+          "absolute": null,
+          "pct": null
+        },
+        "orphan_pages_count": {
+          "absolute": null,
+          "pct": null
+        }
+      },
+      "notes": "3/3 steps succeeded",
+      "confidence": "high"
+    },
+    {
+      "at": "2026-02-15T20:39:47.495440",
+      "plan_name": "Emergency Revenue Architecture Audit",
+      "baseline_kpis": {
+        "organic_clicks_28d": 14,
+        "top20_keywords_count": 3,
+        "affiliate_ctr_pct": null,
+        "revenue_per_session_usd": null,
+        "monthly_revenue_usd": null,
+        "orphan_pages_count": null,
+        "last_updated": "2026-02-15T20:39:15.597109",
+        "source": "gsc_audit"
+      },
+      "post_kpis": {
+        "organic_clicks_28d": 14,
+        "top20_keywords_count": 3,
+        "affiliate_ctr_pct": null,
+        "revenue_per_session_usd": null,
+        "monthly_revenue_usd": null,
+        "orphan_pages_count": null,
+        "last_updated": "2026-02-15T20:39:15.597109",
+        "source": "gsc_audit"
+      },
+      "deltas": {
+        "organic_clicks_28d": {
+          "absolute": 0.0,
+          "pct": 0.0
+        },
+        "top20_keywords_count": {
+          "absolute": 0.0,
+          "pct": 0.0
+        },
+        "affiliate_ctr_pct": {
+          "absolute": null,
+          "pct": null
+        },
+        "revenue_per_session_usd": {
+          "absolute": null,
+          "pct": null
+        },
+        "monthly_revenue_usd": {
+          "absolute": null,
+          "pct": null
+        },
+        "orphan_pages_count": {
+          "absolute": null,
+          "pct": null
+        }
+      },
+      "notes": "3/3 steps succeeded",
+      "confidence": "high"
+    },
+    {
+      "at": "2026-02-15T20:38:59.863691",
+      "plan_name": "Revenue Diagnostic Deep Dive",
+      "baseline_kpis": {
+        "organic_clicks_28d": 14,
+        "top20_keywords_count": 3,
+        "affiliate_ctr_pct": null,
+        "revenue_per_session_usd": null,
+        "monthly_revenue_usd": null,
+        "orphan_pages_count": null,
+        "last_updated": "2026-02-15T20:38:30.518333",
+        "source": "gsc_audit"
+      },
+      "post_kpis": {
+        "organic_clicks_28d": 14,
+        "top20_keywords_count": 3,
+        "affiliate_ctr_pct": null,
+        "revenue_per_session_usd": null,
+        "monthly_revenue_usd": null,
+        "orphan_pages_count": null,
+        "last_updated": "2026-02-15T20:38:59.861576",
+        "source": "post_execution_refresh"
+      },
+      "deltas": {
+        "organic_clicks_28d": {
+          "absolute": 0.0,
+          "pct": 0.0
+        },
+        "top20_keywords_count": {
+          "absolute": 0.0,
+          "pct": 0.0
+        },
+        "affiliate_ctr_pct": {
+          "absolute": null,
+          "pct": null
+        },
+        "revenue_per_session_usd": {
+          "absolute": null,
+          "pct": null
+        },
+        "monthly_revenue_usd": {
+          "absolute": null,
+          "pct": null
+        },
+        "orphan_pages_count": {
+          "absolute": null,
+          "pct": null
+        }
+      },
+      "notes": "3/3 steps succeeded",
+      "confidence": "high"
+    },
+    {
+      "at": "2026-02-15T20:38:14.771480",
+      "plan_name": "Traffic Collapse Investigation",
+      "baseline_kpis": {
+        "organic_clicks_28d": 14,
+        "top20_keywords_count": 3,
+        "affiliate_ctr_pct": null,
+        "revenue_per_session_usd": null,
+        "monthly_revenue_usd": null,
+        "orphan_pages_count": null,
+        "last_updated": "2026-02-15T20:37:38.738556",
+        "source": "gsc_audit"
+      },
+      "post_kpis": {
+        "organic_clicks_28d": 14,
+        "top20_keywords_count": 3,
+        "affiliate_ctr_pct": null,
+        "revenue_per_session_usd": null,
+        "monthly_revenue_usd": null,
+        "orphan_pages_count": null,
+        "last_updated": "2026-02-15T20:37:38.738556",
+        "source": "gsc_audit"
+      },
+      "deltas": {
+        "organic_clicks_28d": {
+          "absolute": 0.0,
+          "pct": 0.0
+        },
+        "top20_keywords_count": {
+          "absolute": 0.0,
+          "pct": 0.0
+        },
+        "affiliate_ctr_pct": {
+          "absolute": null,
+          "pct": null
+        },
+        "revenue_per_session_usd": {
+          "absolute": null,
+          "pct": null
+        },
+        "monthly_revenue_usd": {
+          "absolute": null,
+          "pct": null
+        },
+        "orphan_pages_count": {
+          "absolute": null,
+          "pct": null
+        }
+      },
+      "notes": "4/4 steps succeeded",
+      "confidence": "high"
+    },
+    {
+      "at": "2026-02-15T20:37:22.988441",
+      "plan_name": "Declining Page Emergency Rescue",
+      "baseline_kpis": {
+        "organic_clicks_28d": 14,
+        "top20_keywords_count": 3,
+        "affiliate_ctr_pct": null,
+        "revenue_per_session_usd": null,
+        "monthly_revenue_usd": null,
+        "orphan_pages_count": null,
+        "last_updated": "2026-02-15T20:36:54.100393",
+        "source": "gsc_audit"
+      },
+      "post_kpis": {
+        "organic_clicks_28d": 14,
+        "top20_keywords_count": 3,
+        "affiliate_ctr_pct": null,
+        "revenue_per_session_usd": null,
+        "monthly_revenue_usd": null,
+        "orphan_pages_count": null,
+        "last_updated": "2026-02-15T20:36:54.100393",
+        "source": "gsc_audit"
+      },
+      "deltas": {
+        "organic_clicks_28d": {
+          "absolute": 0.0,
+          "pct": 0.0
+        },
+        "top20_keywords_count": {
+          "absolute": 0.0,
+          "pct": 0.0
+        },
+        "affiliate_ctr_pct": {
+          "absolute": null,
+          "pct": null
+        },
+        "revenue_per_session_usd": {
+          "absolute": null,
+          "pct": null
+        },
+        "monthly_revenue_usd": {
+          "absolute": null,
+          "pct": null
+        },
+        "orphan_pages_count": {
+          "absolute": null,
+          "pct": null
+        }
+      },
+      "notes": "3/3 steps succeeded",
+      "confidence": "high"
+    },
+    {
+      "at": "2026-02-15T20:36:38.380964",
+      "plan_name": "Revenue Leak Detection",
+      "baseline_kpis": {
+        "organic_clicks_28d": 14,
+        "top20_keywords_count": 3,
+        "affiliate_ctr_pct": null,
+        "revenue_per_session_usd": null,
+        "monthly_revenue_usd": null,
+        "orphan_pages_count": null,
+        "last_updated": "2026-02-15T20:36:12.269280",
+        "source": "gsc_audit"
+      },
+      "post_kpis": {
+        "organic_clicks_28d": 14,
+        "top20_keywords_count": 3,
+        "affiliate_ctr_pct": null,
+        "revenue_per_session_usd": null,
+        "monthly_revenue_usd": null,
+        "orphan_pages_count": null,
+        "last_updated": "2026-02-15T20:36:12.269280",
+        "source": "gsc_audit"
+      },
+      "deltas": {
+        "organic_clicks_28d": {
+          "absolute": 0.0,
+          "pct": 0.0
+        },
+        "top20_keywords_count": {
+          "absolute": 0.0,
+          "pct": 0.0
+        },
+        "affiliate_ctr_pct": {
+          "absolute": null,
+          "pct": null
+        },
+        "revenue_per_session_usd": {
+          "absolute": null,
+          "pct": null
+        },
+        "monthly_revenue_usd": {
+          "absolute": null,
+          "pct": null
+        },
+        "orphan_pages_count": {
+          "absolute": null,
+          "pct": null
+        }
+      },
+      "notes": "2/2 steps succeeded",
+      "confidence": "high"
+    },
+    {
+      "at": "2026-02-15T20:35:56.502497",
+      "plan_name": "Traffic Stabilization + Discovery",
+      "baseline_kpis": {
+        "organic_clicks_28d": 14,
+        "top20_keywords_count": 3,
+        "affiliate_ctr_pct": null,
+        "revenue_per_session_usd": null,
+        "monthly_revenue_usd": null,
+        "orphan_pages_count": null,
+        "last_updated": "2026-02-15T20:35:24.810514",
+        "source": "gsc_audit"
+      },
+      "post_kpis": {
+        "organic_clicks_28d": 14,
+        "top20_keywords_count": 3,
+        "affiliate_ctr_pct": null,
+        "revenue_per_session_usd": null,
+        "monthly_revenue_usd": null,
+        "orphan_pages_count": null,
+        "last_updated": "2026-02-15T20:35:24.810514",
+        "source": "gsc_audit"
+      },
+      "deltas": {
+        "organic_clicks_28d": {
+          "absolute": 0.0,
+          "pct": 0.0
+        },
+        "top20_keywords_count": {
+          "absolute": 0.0,
+          "pct": 0.0
+        },
+        "affiliate_ctr_pct": {
+          "absolute": null,
+          "pct": null
+        },
+        "revenue_per_session_usd": {
+          "absolute": null,
+          "pct": null
+        },
+        "monthly_revenue_usd": {
+          "absolute": null,
+          "pct": null
+        },
+        "orphan_pages_count": {
+          "absolute": null,
+          "pct": null
+        }
+      },
+      "notes": "3/3 steps succeeded",
+      "confidence": "high"
+    },
+    {
+      "at": "2026-02-15T20:35:09.100307",
+      "plan_name": "Fresh Discovery Sweep",
+      "baseline_kpis": {
+        "organic_clicks_28d": 14,
+        "top20_keywords_count": 3,
+        "affiliate_ctr_pct": null,
+        "revenue_per_session_usd": null,
+        "monthly_revenue_usd": null,
+        "orphan_pages_count": null,
+        "last_updated": "2026-02-15T20:34:33.171410",
+        "source": "gsc_audit"
+      },
+      "post_kpis": {
+        "organic_clicks_28d": 14,
+        "top20_keywords_count": 3,
+        "affiliate_ctr_pct": null,
+        "revenue_per_session_usd": null,
+        "monthly_revenue_usd": null,
+        "orphan_pages_count": null,
+        "last_updated": "2026-02-15T20:34:33.171410",
+        "source": "gsc_audit"
+      },
+      "deltas": {
+        "organic_clicks_28d": {
+          "absolute": 0.0,
+          "pct": 0.0
+        },
+        "top20_keywords_count": {
+          "absolute": 0.0,
+          "pct": 0.0
+        },
+        "affiliate_ctr_pct": {
+          "absolute": null,
+          "pct": null
+        },
+        "revenue_per_session_usd": {
+          "absolute": null,
+          "pct": null
+        },
+        "monthly_revenue_usd": {
+          "absolute": null,
+          "pct": null
+        },
+        "orphan_pages_count": {
+          "absolute": null,
+          "pct": null
+        }
+      },
+      "notes": "4/4 steps succeeded",
+      "confidence": "high"
+    },
+    {
+      "at": "2026-02-15T20:29:37.691557",
+      "plan_name": "Post-Cooldown Discovery Sweep",
+      "baseline_kpis": {
+        "organic_clicks_28d": 14,
+        "top20_keywords_count": 3,
+        "affiliate_ctr_pct": null,
+        "revenue_per_session_usd": null,
+        "monthly_revenue_usd": null,
+        "orphan_pages_count": null,
+        "last_updated": "2026-02-15T20:29:04.978505",
+        "source": "gsc_audit"
+      },
+      "post_kpis": {
+        "organic_clicks_28d": 14,
+        "top20_keywords_count": 3,
+        "affiliate_ctr_pct": null,
+        "revenue_per_session_usd": null,
+        "monthly_revenue_usd": null,
+        "orphan_pages_count": null,
+        "last_updated": "2026-02-15T20:29:04.978505",
+        "source": "gsc_audit"
+      },
+      "deltas": {
+        "organic_clicks_28d": {
+          "absolute": 0.0,
+          "pct": 0.0
+        },
+        "top20_keywords_count": {
+          "absolute": 0.0,
+          "pct": 0.0
+        },
+        "affiliate_ctr_pct": {
+          "absolute": null,
+          "pct": null
+        },
+        "revenue_per_session_usd": {
+          "absolute": null,
+          "pct": null
+        },
+        "monthly_revenue_usd": {
+          "absolute": null,
+          "pct": null
+        },
+        "orphan_pages_count": {
+          "absolute": null,
+          "pct": null
+        }
+      },
+      "notes": "3/3 steps succeeded",
+      "confidence": "high"
+    },
+    {
+      "at": "2026-02-15T20:05:35.401222",
+      "plan_name": "Traffic Drop Investigation",
+      "baseline_kpis": {
+        "organic_clicks_28d": 14,
+        "top20_keywords_count": 3,
+        "affiliate_ctr_pct": null,
+        "revenue_per_session_usd": null,
+        "monthly_revenue_usd": null,
+        "orphan_pages_count": null,
+        "last_updated": "2026-02-15T20:05:01.024215",
+        "source": "gsc_audit"
+      },
+      "post_kpis": {
+        "organic_clicks_28d": 14,
+        "top20_keywords_count": 3,
+        "affiliate_ctr_pct": null,
+        "revenue_per_session_usd": null,
+        "monthly_revenue_usd": null,
+        "orphan_pages_count": null,
+        "last_updated": "2026-02-15T20:05:35.400081",
+        "source": "post_execution_refresh"
+      },
+      "deltas": {
+        "organic_clicks_28d": {
+          "absolute": 0.0,
+          "pct": 0.0
+        },
+        "top20_keywords_count": {
+          "absolute": 0.0,
+          "pct": 0.0
+        },
+        "affiliate_ctr_pct": {
+          "absolute": null,
+          "pct": null
+        },
+        "revenue_per_session_usd": {
+          "absolute": null,
+          "pct": null
+        },
+        "monthly_revenue_usd": {
+          "absolute": null,
+          "pct": null
+        },
+        "orphan_pages_count": {
+          "absolute": null,
+          "pct": null
+        }
+      },
+      "notes": "3/3 steps succeeded",
+      "confidence": "high"
+    },
+    {
+      "at": "2026-02-15T19:43:46.364216",
+      "plan_name": "Page 2 CTR Rescue Mission",
+      "baseline_kpis": {
+        "organic_clicks_28d": 14,
+        "top20_keywords_count": 3,
+        "affiliate_ctr_pct": null,
+        "revenue_per_session_usd": null,
+        "monthly_revenue_usd": null,
+        "orphan_pages_count": null,
+        "last_updated": "2026-02-15T19:39:25.211175",
+        "source": "gsc_audit"
+      },
+      "post_kpis": {
+        "organic_clicks_28d": 14,
+        "top20_keywords_count": 3,
+        "affiliate_ctr_pct": null,
+        "revenue_per_session_usd": null,
+        "monthly_revenue_usd": null,
+        "orphan_pages_count": null,
+        "last_updated": "2026-02-15T19:43:46.362920",
+        "source": "post_execution_refresh"
+      },
+      "deltas": {
+        "organic_clicks_28d": {
+          "absolute": 0.0,
+          "pct": 0.0
+        },
+        "top20_keywords_count": {
+          "absolute": 0.0,
+          "pct": 0.0
+        },
+        "affiliate_ctr_pct": {
+          "absolute": null,
+          "pct": null
+        },
+        "revenue_per_session_usd": {
+          "absolute": null,
+          "pct": null
+        },
+        "monthly_revenue_usd": {
+          "absolute": null,
+          "pct": null
+        },
+        "orphan_pages_count": {
+          "absolute": null,
+          "pct": null
+        }
+      },
+      "notes": "3/3 steps succeeded",
+      "confidence": "high"
+    },
+    {
+      "at": "2026-02-15T19:18:36.619602",
+      "plan_name": "Page 2 Blitz + CTR Recovery",
+      "baseline_kpis": {
+        "organic_clicks_28d": 14,
+        "top20_keywords_count": 3,
+        "affiliate_ctr_pct": null,
+        "revenue_per_session_usd": null,
+        "monthly_revenue_usd": null,
+        "orphan_pages_count": null,
+        "last_updated": "2026-02-15T19:14:27.307723",
+        "source": "gsc_audit"
+      },
+      "post_kpis": {
+        "organic_clicks_28d": 14,
+        "top20_keywords_count": 3,
+        "affiliate_ctr_pct": null,
+        "revenue_per_session_usd": null,
+        "monthly_revenue_usd": null,
+        "orphan_pages_count": null,
+        "last_updated": "2026-02-15T19:18:36.618772",
+        "source": "post_execution_refresh"
+      },
+      "deltas": {
+        "organic_clicks_28d": {
+          "absolute": 0.0,
+          "pct": 0.0
+        },
+        "top20_keywords_count": {
+          "absolute": 0.0,
+          "pct": 0.0
+        },
+        "affiliate_ctr_pct": {
+          "absolute": null,
+          "pct": null
+        },
+        "revenue_per_session_usd": {
+          "absolute": null,
+          "pct": null
+        },
+        "monthly_revenue_usd": {
+          "absolute": null,
+          "pct": null
+        },
+        "orphan_pages_count": {
+          "absolute": null,
+          "pct": null
+        }
+      },
+      "notes": "3/3 steps succeeded",
+      "confidence": "high"
+    }
+  ],
+  "timeline": [
+    {
+      "at": "2026-02-16T07:45:38.341373",
+      "type": "plan_rejected",
+      "message": "Plan rejected: Fresh Territory Revenue Hunt",
+      "metadata": {
+        "feedback": "You're right about the over-optimization problem, but you've run this exact plan twice already (see completed tasks). Instead: (1) Use search_analytics to find your TOP revenue page from 30+ days ago (not touched recently), (2) Run competitor_keywords on THAT page to find expansion opportunities, (3"
+      }
+    },
+    {
+      "at": "2026-02-16T07:45:30.988359",
+      "type": "assessment_completed",
+      "message": "Assessment complete. Priority: STOP touching existing URLs and find fresh revenue territory. Execute a targeted keyword research scan to identify untapped opportunities outside our current URL set, then create NEW content or fix completely different pages.",
+      "metadata": {
+        "plan_name": "Fresh Territory Revenue Hunt"
+      }
+    },
+    {
+      "at": "2026-02-16T07:45:30.972420",
+      "type": "plan_submitted",
+      "message": "Submitted plan for review: Fresh Territory Revenue Hunt",
+      "metadata": {
+        "plan_name": "Fresh Territory Revenue Hunt"
+      }
+    },
+    {
+      "at": "2026-02-16T07:45:14.205578",
+      "type": "status_change",
+      "message": "Status changed assessing -> planning",
+      "metadata": {
+        "task": "Creating action plan"
+      }
+    },
+    {
+      "at": "2026-02-16T07:45:14.199394",
+      "type": "kpi_update",
+      "message": "Updated canonical KPI snapshot.",
+      "metadata": {
+        "source": "gsc_audit",
+        "organic_clicks_28d": 15,
+        "top20_keywords_count": 2,
+        "orphan_pages_count": null
+      }
+    },
+    {
+      "at": "2026-02-16T07:45:13.471595",
+      "type": "assessment_started",
+      "message": "Started assessment cycle for fresh site diagnosis."
+    },
+    {
+      "at": "2026-02-16T07:45:13.463753",
+      "type": "status_change",
+      "message": "Status changed idle -> assessing",
+      "metadata": {
+        "task": "Site assessment"
+      }
+    },
+    {
+      "at": "2026-02-16T07:44:58.417986",
+      "type": "task_completed",
+      "message": "Plan 'Fresh Territory Revenue Hunt' completed"
+    },
+    {
+      "at": "2026-02-16T07:44:58.410483",
+      "type": "status_change",
+      "message": "Status changed executing -> reporting",
+      "metadata": {
+        "task": "Generating report"
+      }
+    },
+    {
+      "at": "2026-02-16T07:44:58.397921",
+      "type": "execution_outcome",
+      "message": "Captured KPI outcome for plan 'Fresh Territory Revenue Hunt'.",
+      "metadata": {
+        "confidence": "high",
+        "organic_clicks_delta": 0.0,
+        "revenue_delta": null
+      }
+    },
+    {
+      "at": "2026-02-16T07:44:50.476713",
+      "type": "status_change",
+      "message": "Status changed executing -> executing",
+      "metadata": {
+        "task": "Fresh Territory Revenue Hunt (step 3/4: affiliate_audit)"
+      }
+    },
+    {
+      "at": "2026-02-16T07:44:43.372259",
+      "type": "status_change",
+      "message": "Status changed executing -> executing",
+      "metadata": {
+        "task": "Fresh Territory Revenue Hunt (step 2/4: seo_audit)"
+      }
+    },
+    {
+      "at": "2026-02-16T07:44:37.363791",
+      "type": "status_change",
+      "message": "Status changed executing -> executing",
+      "metadata": {
+        "task": "Fresh Territory Revenue Hunt (step 1/4: gsc_audit)"
+      }
+    },
+    {
+      "at": "2026-02-16T07:44:37.353246",
+      "type": "execution_started",
+      "message": "Executing approved plan: Fresh Territory Revenue Hunt",
+      "metadata": {
+        "steps": 4
+      }
+    },
+    {
+      "at": "2026-02-16T07:44:37.345089",
+      "type": "status_change",
+      "message": "Status changed idle -> executing",
+      "metadata": {
+        "task": "Fresh Territory Revenue Hunt"
+      }
+    },
+    {
+      "at": "2026-02-16T07:44:37.310079",
+      "type": "plan_approved",
+      "message": "Plan approved: Fresh Territory Revenue Hunt",
+      "metadata": {
+        "feedback": "Excellent strategic pivot. The site needs diversification beyond ASI585MC and Dwarf II pages. Execute the audits to find untapped opportunities, then prioritize based on revenue potential and competitive difficulty."
+      }
+    },
+    {
+      "at": "2026-02-16T07:44:32.875331",
+      "type": "assessment_completed",
+      "message": "Assessment complete. Priority: STOP re-working ASI585MC and Dwarf II pages - they have 10+ recent interventions and need time to settle. Shift focus to FRESH revenue opportunities outside current cooldown windows.",
+      "metadata": {
+        "plan_name": "Fresh Territory Revenue Hunt"
+      }
+    },
+    {
+      "at": "2026-02-16T07:44:32.857685",
+      "type": "plan_submitted",
+      "message": "Submitted plan for review: Fresh Territory Revenue Hunt",
+      "metadata": {
+        "plan_name": "Fresh Territory Revenue Hunt"
+      }
+    },
+    {
+      "at": "2026-02-16T07:44:21.778530",
+      "type": "status_change",
+      "message": "Status changed assessing -> planning",
+      "metadata": {
+        "task": "Creating action plan"
+      }
+    },
+    {
+      "at": "2026-02-16T07:44:21.770194",
+      "type": "kpi_update",
+      "message": "Updated canonical KPI snapshot.",
+      "metadata": {
+        "source": "gsc_audit",
+        "organic_clicks_28d": 15,
+        "top20_keywords_count": 2,
+        "orphan_pages_count": null
+      }
+    },
+    {
+      "at": "2026-02-16T07:44:21.043760",
+      "type": "assessment_started",
+      "message": "Started assessment cycle for fresh site diagnosis."
+    },
+    {
+      "at": "2026-02-16T07:44:21.030326",
+      "type": "status_change",
+      "message": "Status changed idle -> assessing",
+      "metadata": {
+        "task": "Site assessment"
+      }
+    },
+    {
+      "at": "2026-02-16T07:44:05.980782",
+      "type": "task_completed",
+      "message": "Plan 'Fresh Territory Revenue Hunt' completed"
+    },
+    {
+      "at": "2026-02-16T07:44:05.973978",
+      "type": "status_change",
+      "message": "Status changed executing -> reporting",
+      "metadata": {
+        "task": "Generating report"
+      }
+    },
+    {
+      "at": "2026-02-16T07:44:05.963070",
+      "type": "execution_outcome",
+      "message": "Captured KPI outcome for plan 'Fresh Territory Revenue Hunt'.",
+      "metadata": {
+        "confidence": "high",
+        "organic_clicks_delta": 0.0,
+        "revenue_delta": null
+      }
+    },
+    {
+      "at": "2026-02-16T07:43:59.397304",
+      "type": "status_change",
+      "message": "Status changed executing -> executing",
+      "metadata": {
+        "task": "Fresh Territory Revenue Hunt (step 4/4: keyword_research)"
+      }
+    },
+    {
+      "at": "2026-02-16T07:43:53.594250",
+      "type": "status_change",
+      "message": "Status changed executing -> executing",
+      "metadata": {
+        "task": "Fresh Territory Revenue Hunt (step 3/4: affiliate_audit)"
+      }
+    },
+    {
+      "at": "2026-02-16T07:43:47.577551",
+      "type": "status_change",
+      "message": "Status changed executing -> executing",
+      "metadata": {
+        "task": "Fresh Territory Revenue Hunt (step 2/4: gsc_audit)"
+      }
+    },
+    {
+      "at": "2026-02-16T07:43:40.420138",
+      "type": "status_change",
+      "message": "Status changed executing -> executing",
+      "metadata": {
+        "task": "Fresh Territory Revenue Hunt (step 1/4: seo_audit)"
+      }
+    },
+    {
+      "at": "2026-02-16T07:43:40.407393",
+      "type": "execution_started",
+      "message": "Executing approved plan: Fresh Territory Revenue Hunt",
+      "metadata": {
+        "steps": 4
+      }
+    },
+    {
+      "at": "2026-02-16T07:43:40.399985",
+      "type": "status_change",
+      "message": "Status changed idle -> executing",
+      "metadata": {
+        "task": "Fresh Territory Revenue Hunt"
+      }
+    },
+    {
+      "at": "2026-02-16T07:43:40.364838",
+      "type": "plan_approved",
+      "message": "Plan approved: Fresh Territory Revenue Hunt",
+      "metadata": {
+        "feedback": "Good strategic pivot. Focus the audits on finding URLs with zero current impact windows. The affiliate_audit for broken links is a smart immediate-win play."
+      }
+    },
+    {
+      "at": "2026-02-16T07:43:36.567376",
+      "type": "assessment_completed",
+      "message": "Assessment complete. Priority: Stop churning the same URLs and find fresh revenue opportunities. Current Page 2 targets are in cooldown hell with overlapping impact windows through Feb 21.",
+      "metadata": {
+        "plan_name": "Fresh Territory Revenue Hunt"
+      }
+    },
+    {
+      "at": "2026-02-16T07:43:36.550275",
+      "type": "plan_submitted",
+      "message": "Submitted plan for review: Fresh Territory Revenue Hunt",
+      "metadata": {
+        "plan_name": "Fresh Territory Revenue Hunt"
+      }
+    },
+    {
+      "at": "2026-02-16T07:43:23.888787",
+      "type": "status_change",
+      "message": "Status changed assessing -> planning",
+      "metadata": {
+        "task": "Creating action plan"
+      }
+    },
+    {
+      "at": "2026-02-16T07:43:23.882517",
+      "type": "kpi_update",
+      "message": "Updated canonical KPI snapshot.",
+      "metadata": {
+        "source": "gsc_audit",
+        "organic_clicks_28d": 15,
+        "top20_keywords_count": 2,
+        "orphan_pages_count": null
+      }
+    },
+    {
+      "at": "2026-02-16T07:43:23.152552",
+      "type": "assessment_started",
+      "message": "Started assessment cycle for fresh site diagnosis."
+    },
+    {
+      "at": "2026-02-16T07:43:23.140208",
+      "type": "status_change",
+      "message": "Status changed idle -> assessing",
+      "metadata": {
+        "task": "Site assessment"
+      }
+    },
+    {
+      "at": "2026-02-16T07:43:08.097166",
+      "type": "task_completed",
+      "message": "Plan 'Page 2 CTR Emergency: Title + Content Overhaul' completed"
+    },
+    {
+      "at": "2026-02-16T07:43:08.092353",
+      "type": "status_change",
+      "message": "Status changed executing -> reporting",
+      "metadata": {
+        "task": "Generating report"
+      }
+    },
+    {
+      "at": "2026-02-16T07:43:08.087267",
+      "type": "url_cooldown",
+      "message": "Recorded 2 URL impact window(s).",
+      "metadata": {
+        "review_not_before": "2026-02-18T02:43:08.081896"
+      }
+    },
+    {
+      "at": "2026-02-16T07:43:08.074647",
+      "type": "execution_outcome",
+      "message": "Captured KPI outcome for plan 'Page 2 CTR Emergency: Title + Content Overhaul'.",
+      "metadata": {
+        "confidence": "high",
+        "organic_clicks_delta": 0.0,
+        "revenue_delta": null
+      }
+    },
+    {
+      "at": "2026-02-16T07:43:08.068768",
+      "type": "kpi_update",
+      "message": "Updated canonical KPI snapshot.",
+      "metadata": {
+        "source": "post_execution_refresh",
+        "organic_clicks_28d": 15,
+        "top20_keywords_count": 2,
+        "orphan_pages_count": null
+      }
+    },
+    {
+      "at": "2026-02-16T07:42:58.858211",
+      "type": "status_change",
+      "message": "Status changed executing -> executing",
+      "metadata": {
+        "task": "Page 2 CTR Emergency: Title + Content Overhaul (step 3/3: affiliate_audit)"
+      }
+    },
+    {
+      "at": "2026-02-16T07:42:53.928274",
+      "type": "status_change",
+      "message": "Status changed executing -> executing",
+      "metadata": {
+        "task": "Page 2 CTR Emergency: Title + Content Overhaul (step 2/3: keyword_research)"
+      }
+    },
+    {
+      "at": "2026-02-16T07:42:46.936052",
+      "type": "status_change",
+      "message": "Status changed executing -> executing",
+      "metadata": {
+        "task": "Page 2 CTR Emergency: Title + Content Overhaul (step 1/3: seo_audit)"
+      }
+    },
+    {
+      "at": "2026-02-16T07:42:46.927126",
+      "type": "execution_started",
+      "message": "Executing approved plan: Page 2 CTR Emergency: Title + Content Overhaul",
+      "metadata": {
+        "steps": 3
+      }
+    },
+    {
+      "at": "2026-02-16T07:42:46.916246",
+      "type": "status_change",
+      "message": "Status changed idle -> executing",
+      "metadata": {
+        "task": "Page 2 CTR Emergency: Title + Content Overhaul"
+      }
+    },
+    {
+      "at": "2026-02-16T07:42:46.881873",
+      "type": "plan_approved",
+      "message": "Plan approved: Page 2 CTR Emergency: Title + Content Overhaul",
+      "metadata": {
+        "feedback": "Excellent break from the planning loop. Focus on title/meta optimization first - these CTRs suggest the snippets aren't compelling. Move fast on implementation after audit."
+      }
+    },
+    {
+      "at": "2026-02-16T07:42:42.445525",
+      "type": "assessment_completed",
+      "message": "Assessment complete. Priority: Break the plan loop and execute actual content fixes on the Page 2 opportunities with disastrous CTRs (0.19% and 0.27%)",
+      "metadata": {
+        "plan_name": "Page 2 CTR Emergency: Title + Content Overhaul"
+      }
+    },
+    {
+      "at": "2026-02-16T07:42:42.428433",
+      "type": "plan_submitted",
+      "message": "Submitted plan for review: Page 2 CTR Emergency: Title + Content Overhaul",
+      "metadata": {
+        "plan_name": "Page 2 CTR Emergency: Title + Content Overhaul"
+      }
+    },
+    {
+      "at": "2026-02-16T07:42:30.159031",
+      "type": "status_change",
+      "message": "Status changed assessing -> planning",
+      "metadata": {
+        "task": "Creating action plan"
+      }
+    },
+    {
+      "at": "2026-02-16T07:42:30.152979",
+      "type": "kpi_update",
+      "message": "Updated canonical KPI snapshot.",
+      "metadata": {
+        "source": "gsc_audit",
+        "organic_clicks_28d": 15,
+        "top20_keywords_count": 2,
+        "orphan_pages_count": null
+      }
+    },
+    {
+      "at": "2026-02-16T07:42:29.292539",
+      "type": "assessment_started",
+      "message": "Started assessment cycle for fresh site diagnosis."
+    },
+    {
+      "at": "2026-02-16T07:42:29.283487",
+      "type": "status_change",
+      "message": "Status changed idle -> assessing",
+      "metadata": {
+        "task": "Site assessment"
+      }
+    },
+    {
+      "at": "2026-02-16T07:42:14.235813",
+      "type": "task_completed",
+      "message": "Plan 'Fresh Revenue Territory Hunt' completed"
+    },
+    {
+      "at": "2026-02-16T07:42:14.227529",
+      "type": "status_change",
+      "message": "Status changed executing -> reporting",
+      "metadata": {
+        "task": "Generating report"
+      }
+    },
+    {
+      "at": "2026-02-16T07:42:14.211874",
+      "type": "execution_outcome",
+      "message": "Captured KPI outcome for plan 'Fresh Revenue Territory Hunt'.",
+      "metadata": {
+        "confidence": "high",
+        "organic_clicks_delta": 0.0,
+        "revenue_delta": null
+      }
+    },
+    {
+      "at": "2026-02-16T07:42:09.433799",
+      "type": "status_change",
+      "message": "Status changed executing -> executing",
+      "metadata": {
+        "task": "Fresh Revenue Territory Hunt (step 4/4: keyword_research)"
+      }
+    },
+    {
+      "at": "2026-02-16T07:42:03.217944",
+      "type": "status_change",
+      "message": "Status changed executing -> executing",
+      "metadata": {
+        "task": "Fresh Revenue Territory Hunt (step 3/4: affiliate_audit)"
+      }
+    },
+    {
+      "at": "2026-02-16T07:41:56.977090",
+      "type": "status_change",
+      "message": "Status changed executing -> executing",
+      "metadata": {
+        "task": "Fresh Revenue Territory Hunt (step 2/4: seo_audit)"
+      }
+    },
+    {
+      "at": "2026-02-16T07:41:50.541376",
+      "type": "status_change",
+      "message": "Status changed executing -> executing",
+      "metadata": {
+        "task": "Fresh Revenue Territory Hunt (step 1/4: gsc_audit)"
+      }
+    },
+    {
+      "at": "2026-02-16T07:41:50.531826",
+      "type": "execution_started",
+      "message": "Executing approved plan: Fresh Revenue Territory Hunt",
+      "metadata": {
+        "steps": 4
+      }
+    },
+    {
+      "at": "2026-02-16T07:41:50.523974",
+      "type": "status_change",
+      "message": "Status changed idle -> executing",
+      "metadata": {
+        "task": "Fresh Revenue Territory Hunt"
+      }
+    },
+    {
+      "at": "2026-02-16T07:41:50.489413",
+      "type": "plan_approved",
+      "message": "Plan approved: Fresh Revenue Territory Hunt",
+      "metadata": {
+        "feedback": "Excellent strategic thinking. The audit sequence (GSC \u2192 SEO \u2192 Affiliate \u2192 Keywords) is logical and will surface actionable work outside the exhausted URLs. Execute quickly to identify new opportunities."
+      }
+    },
+    {
+      "at": "2026-02-16T07:41:45.746758",
+      "type": "assessment_completed",
+      "message": "Assessment complete. Priority: Stop touching the 3 active URLs until their cooldowns expire. Run fresh discovery: find NEW declining pages or untapped Page 2 targets we haven't worked yet, or identify revenue leaks in different parts of the site.",
+      "metadata": {
+        "plan_name": "Fresh Revenue Territory Hunt"
+      }
+    },
+    {
+      "at": "2026-02-16T07:41:45.730208",
+      "type": "plan_submitted",
+      "message": "Submitted plan for review: Fresh Revenue Territory Hunt",
+      "metadata": {
+        "plan_name": "Fresh Revenue Territory Hunt"
+      }
+    },
+    {
+      "at": "2026-02-16T07:41:30.555601",
+      "type": "status_change",
+      "message": "Status changed assessing -> planning",
+      "metadata": {
+        "task": "Creating action plan"
+      }
+    },
+    {
+      "at": "2026-02-16T07:41:30.549464",
+      "type": "kpi_update",
+      "message": "Updated canonical KPI snapshot.",
+      "metadata": {
+        "source": "gsc_audit",
+        "organic_clicks_28d": 15,
+        "top20_keywords_count": 2,
+        "orphan_pages_count": null
+      }
+    },
+    {
+      "at": "2026-02-16T07:41:29.788459",
+      "type": "assessment_started",
+      "message": "Started assessment cycle for fresh site diagnosis."
+    },
+    {
+      "at": "2026-02-16T07:41:29.776231",
+      "type": "status_change",
+      "message": "Status changed idle -> assessing",
+      "metadata": {
+        "task": "Site assessment"
+      }
+    },
+    {
+      "at": "2026-02-16T06:41:35.715183",
+      "type": "plan_rejected",
+      "message": "Plan rejected: Fresh Revenue Territory Hunt",
+      "metadata": {
+        "feedback": "STOP submitting reconnaissance-only plans. You have 2 declining pages and 2 Page 2 opportunities that need immediate action. Pick ONE of these 4 URLs and create a concrete optimization plan with specific changes (title rewrites, content additions, link fixes). The 'cooldown' excuse is invalid - diff"
+      }
+    },
+    {
+      "at": "2026-02-16T06:41:29.616786",
+      "type": "assessment_completed",
+      "message": "Assessment complete. Priority: Stop touching the same 3 URLs (all in cooldown until Feb 17-21) and find NEW revenue opportunities with fresh keyword research + content gaps",
+      "metadata": {
+        "plan_name": "Fresh Revenue Territory Hunt"
+      }
+    },
+    {
+      "at": "2026-02-16T06:41:29.600666",
+      "type": "plan_submitted",
+      "message": "Submitted plan for review: Fresh Revenue Territory Hunt",
+      "metadata": {
+        "plan_name": "Fresh Revenue Territory Hunt"
+      }
+    },
+    {
+      "at": "2026-02-16T06:41:18.360380",
+      "type": "status_change",
+      "message": "Status changed assessing -> planning",
+      "metadata": {
+        "task": "Creating action plan"
+      }
+    },
+    {
+      "at": "2026-02-16T06:41:18.354237",
+      "type": "kpi_update",
+      "message": "Updated canonical KPI snapshot.",
+      "metadata": {
+        "source": "gsc_audit",
+        "organic_clicks_28d": 15,
+        "top20_keywords_count": 2,
+        "orphan_pages_count": null
+      }
+    },
+    {
+      "at": "2026-02-16T06:41:17.612522",
+      "type": "assessment_started",
+      "message": "Started assessment cycle for fresh site diagnosis."
+    },
+    {
+      "at": "2026-02-16T06:41:17.604968",
+      "type": "status_change",
+      "message": "Status changed idle -> assessing",
+      "metadata": {
+        "task": "Site assessment"
+      }
+    },
+    {
+      "at": "2026-02-16T06:41:02.561912",
+      "type": "task_completed",
+      "message": "Plan 'Fresh Revenue Territory Hunt' completed"
+    },
+    {
+      "at": "2026-02-16T06:41:02.554191",
+      "type": "status_change",
+      "message": "Status changed executing -> reporting",
+      "metadata": {
+        "task": "Generating report"
+      }
+    },
+    {
+      "at": "2026-02-16T06:41:02.539615",
+      "type": "execution_outcome",
+      "message": "Captured KPI outcome for plan 'Fresh Revenue Territory Hunt'.",
+      "metadata": {
+        "confidence": "high",
+        "organic_clicks_delta": 0.0,
+        "revenue_delta": null
+      }
+    },
+    {
+      "at": "2026-02-16T06:40:57.080266",
+      "type": "status_change",
+      "message": "Status changed executing -> executing",
+      "metadata": {
+        "task": "Fresh Revenue Territory Hunt (step 4/4: keyword_research)"
+      }
+    },
+    {
+      "at": "2026-02-16T06:40:51.640140",
+      "type": "status_change",
+      "message": "Status changed executing -> executing",
+      "metadata": {
+        "task": "Fresh Revenue Territory Hunt (step 3/4: gsc_audit)"
+      }
+    },
+    {
+      "at": "2026-02-16T06:40:46.756454",
+      "type": "status_change",
+      "message": "Status changed executing -> executing",
+      "metadata": {
+        "task": "Fresh Revenue Territory Hunt (step 2/4: affiliate_audit)"
+      }
+    },
+    {
+      "at": "2026-02-16T06:40:39.910607",
+      "type": "status_change",
+      "message": "Status changed executing -> executing",
+      "metadata": {
+        "task": "Fresh Revenue Territory Hunt (step 1/4: seo_audit)"
+      }
+    },
+    {
+      "at": "2026-02-16T06:40:39.898005",
+      "type": "execution_started",
+      "message": "Executing approved plan: Fresh Revenue Territory Hunt",
+      "metadata": {
+        "steps": 4
+      }
+    },
+    {
+      "at": "2026-02-16T06:40:39.891274",
+      "type": "status_change",
+      "message": "Status changed idle -> executing",
+      "metadata": {
+        "task": "Fresh Revenue Territory Hunt"
+      }
+    },
+    {
+      "at": "2026-02-16T06:40:39.856498",
+      "type": "plan_approved",
+      "message": "Plan approved: Fresh Revenue Territory Hunt",
+      "metadata": {
+        "feedback": "Smart strategic shift. The site is bleeding traffic (-59%) but hammering the same 3 URLs creates measurement chaos. This inventory scan will reveal clean targets with proper impact windows. Execute the audits sequentially and prioritize URLs with impressions but zero recent modifications."
+      }
+    },
+    {
+      "at": "2026-02-16T06:40:32.412643",
+      "type": "assessment_completed",
+      "message": "Assessment complete. Priority: STOP touching the same 3 URLs. Audit the full 321-post inventory to find UNTAPPED revenue opportunities that aren't in cooldown\u2014we need fresh targets with clean measurement windows.",
+      "metadata": {
+        "plan_name": "Fresh Revenue Territory Hunt"
+      }
+    },
+    {
+      "at": "2026-02-16T06:40:32.396259",
+      "type": "plan_submitted",
+      "message": "Submitted plan for review: Fresh Revenue Territory Hunt",
+      "metadata": {
+        "plan_name": "Fresh Revenue Territory Hunt"
+      }
+    },
+    {
+      "at": "2026-02-16T06:40:19.043207",
+      "type": "status_change",
+      "message": "Status changed assessing -> planning",
+      "metadata": {
+        "task": "Creating action plan"
+      }
+    },
+    {
+      "at": "2026-02-16T06:40:19.037120",
+      "type": "kpi_update",
+      "message": "Updated canonical KPI snapshot.",
+      "metadata": {
+        "source": "gsc_audit",
+        "organic_clicks_28d": 15,
+        "top20_keywords_count": 2,
+        "orphan_pages_count": null
+      }
+    },
+    {
+      "at": "2026-02-16T06:40:18.175193",
+      "type": "assessment_started",
+      "message": "Started assessment cycle for fresh site diagnosis."
+    },
+    {
+      "at": "2026-02-16T06:40:18.163661",
+      "type": "status_change",
+      "message": "Status changed idle -> assessing",
+      "metadata": {
+        "task": "Site assessment"
+      }
+    },
+    {
+      "at": "2026-02-16T06:40:03.119461",
+      "type": "task_completed",
+      "message": "Plan 'Fresh Revenue Territory Hunt' completed"
+    },
+    {
+      "at": "2026-02-16T06:40:03.114770",
+      "type": "status_change",
+      "message": "Status changed executing -> reporting",
+      "metadata": {
+        "task": "Generating report"
+      }
+    },
+    {
+      "at": "2026-02-16T06:40:03.107733",
+      "type": "execution_outcome",
+      "message": "Captured KPI outcome for plan 'Fresh Revenue Territory Hunt'.",
+      "metadata": {
+        "confidence": "high",
+        "organic_clicks_delta": 0.0,
+        "revenue_delta": null
+      }
+    },
+    {
+      "at": "2026-02-16T06:40:03.102054",
+      "type": "kpi_update",
+      "message": "Updated canonical KPI snapshot.",
+      "metadata": {
+        "source": "post_execution_refresh",
+        "organic_clicks_28d": 15,
+        "top20_keywords_count": 2,
+        "orphan_pages_count": null
+      }
+    },
+    {
+      "at": "2026-02-16T06:39:55.545324",
+      "type": "status_change",
+      "message": "Status changed executing -> executing",
+      "metadata": {
+        "task": "Fresh Revenue Territory Hunt (step 2/3: affiliate_audit)"
+      }
+    },
+    {
+      "at": "2026-02-16T06:39:49.713941",
+      "type": "status_change",
+      "message": "Status changed executing -> executing",
+      "metadata": {
+        "task": "Fresh Revenue Territory Hunt (step 1/3: seo_audit)"
+      }
+    },
+    {
+      "at": "2026-02-16T06:39:49.701467",
+      "type": "execution_started",
+      "message": "Executing approved plan: Fresh Revenue Territory Hunt",
+      "metadata": {
+        "steps": 3
+      }
+    },
+    {
+      "at": "2026-02-16T06:39:49.694479",
+      "type": "status_change",
+      "message": "Status changed idle -> executing",
+      "metadata": {
+        "task": "Fresh Revenue Territory Hunt"
+      }
+    },
+    {
+      "at": "2026-02-16T06:39:49.659809",
+      "type": "plan_approved",
+      "message": "Plan approved: Fresh Revenue Territory Hunt",
+      "metadata": {
+        "feedback": "Approved. Smart pivot away from diminishing returns. Execute quickly to identify fresh targets."
+      }
+    },
+    {
+      "at": "2026-02-16T06:39:46.419904",
+      "type": "assessment_completed",
+      "message": "Assessment complete. Priority: STOP touching the same URLs. Find fresh revenue targets outside the current Page 2 tunnel vision. Need new inventory scan for untapped affiliate opportunities.",
+      "metadata": {
+        "plan_name": "Fresh Revenue Territory Hunt"
+      }
+    },
+    {
+      "at": "2026-02-16T06:39:46.403847",
+      "type": "plan_submitted",
+      "message": "Submitted plan for review: Fresh Revenue Territory Hunt",
+      "metadata": {
+        "plan_name": "Fresh Revenue Territory Hunt"
+      }
+    },
+    {
+      "at": "2026-02-16T06:39:36.159892",
+      "type": "status_change",
+      "message": "Status changed assessing -> planning",
+      "metadata": {
+        "task": "Creating action plan"
+      }
+    },
+    {
+      "at": "2026-02-16T06:39:36.154012",
+      "type": "kpi_update",
+      "message": "Updated canonical KPI snapshot.",
+      "metadata": {
+        "source": "gsc_audit",
+        "organic_clicks_28d": 15,
+        "top20_keywords_count": 2,
+        "orphan_pages_count": null
+      }
+    },
+    {
+      "at": "2026-02-16T06:39:35.409408",
+      "type": "assessment_started",
+      "message": "Started assessment cycle for fresh site diagnosis."
+    },
+    {
+      "at": "2026-02-16T06:39:35.399435",
+      "type": "status_change",
+      "message": "Status changed idle -> assessing",
+      "metadata": {
+        "task": "Site assessment"
+      }
+    },
+    {
+      "at": "2026-02-16T06:39:20.353693",
+      "type": "task_completed",
+      "message": "Plan 'Fresh Revenue Territory Hunt' completed"
+    },
+    {
+      "at": "2026-02-16T06:39:20.345965",
+      "type": "status_change",
+      "message": "Status changed executing -> reporting",
+      "metadata": {
+        "task": "Generating report"
+      }
+    },
+    {
+      "at": "2026-02-16T06:39:20.331456",
+      "type": "execution_outcome",
+      "message": "Captured KPI outcome for plan 'Fresh Revenue Territory Hunt'.",
+      "metadata": {
+        "confidence": "high",
+        "organic_clicks_delta": 0.0,
+        "revenue_delta": null
+      }
+    },
+    {
+      "at": "2026-02-16T06:39:15.529816",
+      "type": "status_change",
+      "message": "Status changed executing -> executing",
+      "metadata": {
+        "task": "Fresh Revenue Territory Hunt (step 4/4: keyword_research)"
+      }
+    },
+    {
+      "at": "2026-02-16T06:39:09.339949",
+      "type": "status_change",
+      "message": "Status changed executing -> executing",
+      "metadata": {
+        "task": "Fresh Revenue Territory Hunt (step 3/4: affiliate_audit)"
+      }
+    },
+    {
+      "at": "2026-02-16T06:39:04.162064",
+      "type": "status_change",
+      "message": "Status changed executing -> executing",
+      "metadata": {
+        "task": "Fresh Revenue Territory Hunt (step 2/4: gsc_audit)"
+      }
+    },
+    {
+      "at": "2026-02-16T06:38:57.849104",
+      "type": "status_change",
+      "message": "Status changed executing -> executing",
+      "metadata": {
+        "task": "Fresh Revenue Territory Hunt (step 1/4: seo_audit)"
+      }
+    },
+    {
+      "at": "2026-02-16T06:38:57.837121",
+      "type": "execution_started",
+      "message": "Executing approved plan: Fresh Revenue Territory Hunt",
+      "metadata": {
+        "steps": 4
+      }
+    },
+    {
+      "at": "2026-02-16T06:38:57.830446",
+      "type": "status_change",
+      "message": "Status changed idle -> executing",
+      "metadata": {
+        "task": "Fresh Revenue Territory Hunt"
+      }
+    },
+    {
+      "at": "2026-02-16T06:38:57.795878",
+      "type": "plan_approved",
+      "message": "Plan approved: Fresh Revenue Territory Hunt",
+      "metadata": {
+        "feedback": "Excellent situational awareness recognizing cooldown fatigue. The tool sequence (inventory audit \u2192 GSC data \u2192 affiliate gaps \u2192 fresh Page 2 targets) follows proper discovery logic. Execute and find those revenue leaks."
+      }
+    },
+    {
+      "at": "2026-02-16T06:38:53.336705",
+      "type": "assessment_completed",
+      "message": "Assessment complete. Priority: Emergency revenue scan across the entire 321-post inventory to find untouched URLs with monetization potential while the Page 2 URLs recover from over-optimization",
+      "metadata": {
+        "plan_name": "Fresh Revenue Territory Hunt"
+      }
+    },
+    {
+      "at": "2026-02-16T06:38:53.322113",
+      "type": "plan_submitted",
+      "message": "Submitted plan for review: Fresh Revenue Territory Hunt",
+      "metadata": {
+        "plan_name": "Fresh Revenue Territory Hunt"
+      }
+    },
+    {
+      "at": "2026-02-16T06:38:38.591258",
+      "type": "status_change",
+      "message": "Status changed assessing -> planning",
+      "metadata": {
+        "task": "Creating action plan"
+      }
+    },
+    {
+      "at": "2026-02-16T06:38:38.585377",
+      "type": "kpi_update",
+      "message": "Updated canonical KPI snapshot.",
+      "metadata": {
+        "source": "gsc_audit",
+        "organic_clicks_28d": 15,
+        "top20_keywords_count": 2,
+        "orphan_pages_count": null
+      }
+    },
+    {
+      "at": "2026-02-16T06:38:37.830926",
+      "type": "assessment_started",
+      "message": "Started assessment cycle for fresh site diagnosis."
+    },
+    {
+      "at": "2026-02-16T06:38:37.821824",
+      "type": "status_change",
+      "message": "Status changed idle -> assessing",
+      "metadata": {
+        "task": "Site assessment"
+      }
+    },
+    {
+      "at": "2026-02-16T06:38:22.775289",
+      "type": "task_completed",
+      "message": "Plan 'Traffic Collapse: Fresh Target Discovery' completed"
+    },
+    {
+      "at": "2026-02-16T06:38:22.767419",
+      "type": "status_change",
+      "message": "Status changed executing -> reporting",
+      "metadata": {
+        "task": "Generating report"
+      }
+    },
+    {
+      "at": "2026-02-16T06:38:22.751895",
+      "type": "execution_outcome",
+      "message": "Captured KPI outcome for plan 'Traffic Collapse: Fresh Target Discovery'.",
+      "metadata": {
+        "confidence": "high",
+        "organic_clicks_delta": 0.0,
+        "revenue_delta": null
+      }
+    },
+    {
+      "at": "2026-02-16T06:38:17.848669",
+      "type": "status_change",
+      "message": "Status changed executing -> executing",
+      "metadata": {
+        "task": "Traffic Collapse: Fresh Target Discovery (step 3/3: affiliate_audit)"
+      }
+    },
+    {
+      "at": "2026-02-16T06:38:11.992181",
+      "type": "status_change",
+      "message": "Status changed executing -> executing",
+      "metadata": {
+        "task": "Traffic Collapse: Fresh Target Discovery (step 2/3: seo_audit)"
+      }
+    },
+    {
+      "at": "2026-02-16T06:38:05.705490",
+      "type": "status_change",
+      "message": "Status changed executing -> executing",
+      "metadata": {
+        "task": "Traffic Collapse: Fresh Target Discovery (step 1/3: gsc_audit)"
+      }
+    },
+    {
+      "at": "2026-02-16T06:38:05.692970",
+      "type": "execution_started",
+      "message": "Executing approved plan: Traffic Collapse: Fresh Target Discovery",
+      "metadata": {
+        "steps": 3
+      }
+    },
+    {
+      "at": "2026-02-16T06:38:05.685912",
+      "type": "status_change",
+      "message": "Status changed idle -> executing",
+      "metadata": {
+        "task": "Traffic Collapse: Fresh Target Discovery"
+      }
+    },
+    {
+      "at": "2026-02-16T06:38:05.650981",
+      "type": "plan_approved",
+      "message": "Plan approved: Traffic Collapse: Fresh Target Discovery",
+      "metadata": {
+        "feedback": "Good strategic thinking. Focus on finding NEW targets that haven't been touched recently, and prioritize quick revenue wins (affiliate audits) while existing plans settle. Execute fast."
+      }
+    },
+    {
+      "at": "2026-02-16T06:38:01.446224",
+      "type": "assessment_completed",
+      "message": "Assessment complete. Priority: Run a fresh GSC audit to find NEW declining pages or Page 2 opportunities we haven't touched yet, then pivot to pages outside the current impact window flood",
+      "metadata": {
+        "plan_name": "Traffic Collapse: Fresh Target Discovery"
+      }
+    },
+    {
+      "at": "2026-02-16T06:38:01.429725",
+      "type": "plan_submitted",
+      "message": "Submitted plan for review: Traffic Collapse: Fresh Target Discovery",
+      "metadata": {
+        "plan_name": "Traffic Collapse: Fresh Target Discovery"
+      }
+    },
+    {
+      "at": "2026-02-16T06:37:51.228389",
+      "type": "status_change",
+      "message": "Status changed assessing -> planning",
+      "metadata": {
+        "task": "Creating action plan"
+      }
+    },
+    {
+      "at": "2026-02-16T06:37:51.222549",
+      "type": "kpi_update",
+      "message": "Updated canonical KPI snapshot.",
+      "metadata": {
+        "source": "gsc_audit",
+        "organic_clicks_28d": 15,
+        "top20_keywords_count": 2,
+        "orphan_pages_count": null
+      }
+    },
+    {
+      "at": "2026-02-16T06:37:50.485292",
+      "type": "assessment_started",
+      "message": "Started assessment cycle for fresh site diagnosis."
+    },
+    {
+      "at": "2026-02-16T06:37:50.476327",
+      "type": "status_change",
+      "message": "Status changed idle -> assessing",
+      "metadata": {
+        "task": "Site assessment"
+      }
+    },
+    {
+      "at": "2026-02-16T06:37:35.434074",
+      "type": "task_completed",
+      "message": "Plan 'Emergency: Fresh Inventory Revenue Scan' completed"
+    },
+    {
+      "at": "2026-02-16T06:37:35.429387",
+      "type": "status_change",
+      "message": "Status changed executing -> reporting",
+      "metadata": {
+        "task": "Generating report"
+      }
+    },
+    {
+      "at": "2026-02-16T06:37:35.422070",
+      "type": "execution_outcome",
+      "message": "Captured KPI outcome for plan 'Emergency: Fresh Inventory Revenue Scan'.",
+      "metadata": {
+        "confidence": "high",
+        "organic_clicks_delta": 0.0,
+        "revenue_delta": null
+      }
+    },
+    {
+      "at": "2026-02-16T06:37:28.890823",
+      "type": "status_change",
+      "message": "Status changed executing -> executing",
+      "metadata": {
+        "task": "Emergency: Fresh Inventory Revenue Scan (step 3/3: keyword_research)"
+      }
+    },
+    {
+      "at": "2026-02-16T06:37:23.822851",
+      "type": "status_change",
+      "message": "Status changed executing -> executing",
+      "metadata": {
+        "task": "Emergency: Fresh Inventory Revenue Scan (step 2/3: affiliate_audit)"
+      }
+    },
+    {
+      "at": "2026-02-16T06:37:18.949858",
+      "type": "status_change",
+      "message": "Status changed executing -> executing",
+      "metadata": {
+        "task": "Emergency: Fresh Inventory Revenue Scan (step 1/3: gsc_audit)"
+      }
+    },
+    {
+      "at": "2026-02-16T06:37:18.937668",
+      "type": "execution_started",
+      "message": "Executing approved plan: Emergency: Fresh Inventory Revenue Scan",
+      "metadata": {
+        "steps": 3
+      }
+    },
+    {
+      "at": "2026-02-16T06:37:18.931685",
+      "type": "status_change",
+      "message": "Status changed idle -> executing",
+      "metadata": {
+        "task": "Emergency: Fresh Inventory Revenue Scan"
+      }
+    },
+    {
+      "at": "2026-02-16T06:37:18.900249",
+      "type": "plan_approved",
+      "message": "Plan approved: Emergency: Fresh Inventory Revenue Scan",
+      "metadata": {
+        "feedback": "Strong plan. The 12-hour reassessment window is appropriate given the emergency situation. Focus on finding quick wins - pages that need minor fixes rather than full rewrites - to stabilize traffic faster."
+      }
+    },
+    {
+      "at": "2026-02-16T06:37:14.269574",
+      "type": "assessment_completed",
+      "message": "Assessment complete. Priority: Find NEW revenue-ready URLs outside the current 3-URL loop that are getting impressions but zero clicks, or identify content gaps in profitable queries where we have no coverage at all.",
+      "metadata": {
+        "plan_name": "Emergency: Fresh Inventory Revenue Scan"
+      }
+    },
+    {
+      "at": "2026-02-16T06:37:14.253270",
+      "type": "plan_submitted",
+      "message": "Submitted plan for review: Emergency: Fresh Inventory Revenue Scan",
+      "metadata": {
+        "plan_name": "Emergency: Fresh Inventory Revenue Scan"
+      }
+    },
+    {
+      "at": "2026-02-16T06:37:01.012862",
+      "type": "status_change",
+      "message": "Status changed assessing -> planning",
+      "metadata": {
+        "task": "Creating action plan"
+      }
+    },
+    {
+      "at": "2026-02-16T06:37:01.006954",
+      "type": "kpi_update",
+      "message": "Updated canonical KPI snapshot.",
+      "metadata": {
+        "source": "gsc_audit",
+        "organic_clicks_28d": 15,
+        "top20_keywords_count": 2,
+        "orphan_pages_count": null
+      }
+    },
+    {
+      "at": "2026-02-16T06:37:00.158177",
+      "type": "assessment_started",
+      "message": "Started assessment cycle for fresh site diagnosis."
+    },
+    {
+      "at": "2026-02-16T06:37:00.149844",
+      "type": "status_change",
+      "message": "Status changed idle -> assessing",
+      "metadata": {
+        "task": "Site assessment"
+      }
+    },
+    {
+      "at": "2026-02-16T06:36:45.098818",
+      "type": "task_completed",
+      "message": "Plan 'Untapped Inventory Revenue Discovery' completed"
+    },
+    {
+      "at": "2026-02-16T06:36:45.092140",
+      "type": "status_change",
+      "message": "Status changed executing -> reporting",
+      "metadata": {
+        "task": "Generating report"
+      }
+    },
+    {
+      "at": "2026-02-16T06:36:45.080682",
+      "type": "execution_outcome",
+      "message": "Captured KPI outcome for plan 'Untapped Inventory Revenue Discovery'.",
+      "metadata": {
+        "confidence": "high",
+        "organic_clicks_delta": 0.0,
+        "revenue_delta": null
+      }
+    },
+    {
+      "at": "2026-02-16T06:36:38.983945",
+      "type": "status_change",
+      "message": "Status changed executing -> executing",
+      "metadata": {
+        "task": "Untapped Inventory Revenue Discovery (step 3/3: gsc_audit)"
+      }
+    },
+    {
+      "at": "2026-02-16T06:36:34.596952",
+      "type": "status_change",
+      "message": "Status changed executing -> executing",
+      "metadata": {
+        "task": "Untapped Inventory Revenue Discovery (step 2/3: affiliate_audit)"
+      }
+    },
+    {
+      "at": "2026-02-16T06:36:27.544233",
+      "type": "status_change",
+      "message": "Status changed executing -> executing",
+      "metadata": {
+        "task": "Untapped Inventory Revenue Discovery (step 1/3: seo_audit)"
+      }
+    },
+    {
+      "at": "2026-02-16T06:36:27.533060",
+      "type": "execution_started",
+      "message": "Executing approved plan: Untapped Inventory Revenue Discovery",
+      "metadata": {
+        "steps": 3
+      }
+    },
+    {
+      "at": "2026-02-16T06:36:27.526676",
+      "type": "status_change",
+      "message": "Status changed idle -> executing",
+      "metadata": {
+        "task": "Untapped Inventory Revenue Discovery"
+      }
+    },
+    {
+      "at": "2026-02-16T06:36:27.493004",
+      "type": "plan_approved",
+      "message": "Plan approved: Untapped Inventory Revenue Discovery",
+      "metadata": {
+        "feedback": "Good strategic shift. Focus on the 249 Tier 3 posts and avoid the URLs already in cooldown (dwarf-ii, asi585mc, sv503). The 48-hour reassessment gives time to break the pattern."
+      }
+    },
+    {
+      "at": "2026-02-16T06:36:23.485139",
+      "type": "assessment_completed",
+      "message": "Assessment complete. Priority: Break the URL-churning loop and discover fresh revenue opportunities in the 249 Tier 3 posts that haven't been touched yet",
+      "metadata": {
+        "plan_name": "Untapped Inventory Revenue Discovery"
+      }
+    },
+    {
+      "at": "2026-02-16T06:36:23.468429",
+      "type": "plan_submitted",
+      "message": "Submitted plan for review: Untapped Inventory Revenue Discovery",
+      "metadata": {
+        "plan_name": "Untapped Inventory Revenue Discovery"
+      }
+    },
+    {
+      "at": "2026-02-16T06:36:12.180368",
+      "type": "status_change",
+      "message": "Status changed assessing -> planning",
+      "metadata": {
+        "task": "Creating action plan"
+      }
+    },
+    {
+      "at": "2026-02-16T06:36:12.174575",
+      "type": "kpi_update",
+      "message": "Updated canonical KPI snapshot.",
+      "metadata": {
+        "source": "gsc_audit",
+        "organic_clicks_28d": 15,
+        "top20_keywords_count": 2,
+        "orphan_pages_count": null
+      }
+    },
+    {
+      "at": "2026-02-16T06:36:11.429173",
+      "type": "assessment_started",
+      "message": "Started assessment cycle for fresh site diagnosis."
+    },
+    {
+      "at": "2026-02-16T06:36:11.419575",
+      "type": "status_change",
+      "message": "Status changed idle -> assessing",
+      "metadata": {
+        "task": "Site assessment"
+      }
+    },
+    {
+      "at": "2026-02-16T05:36:16.372553",
+      "type": "plan_rejected",
+      "message": "Plan rejected: Fresh Territory Revenue Scan + Monetization Gaps",
+      "metadata": {
+        "feedback": "STOP running discovery plans. You've done 'Fresh Territory Revenue Scan' 3 times already. Use those findings to CREATE AN EXECUTION PLAN with specific target URLs and concrete changes (title rewrites, affiliate link additions, internal linking). Pick 2-3 URLs from your previous scans and optimize th"
+      }
+    },
+    {
+      "at": "2026-02-16T05:36:11.273512",
+      "type": "assessment_completed",
+      "message": "Assessment complete. Priority: Stop working the same 3 URLs and discover fresh revenue opportunities across the entire 321-post inventory",
+      "metadata": {
+        "plan_name": "Fresh Territory Revenue Scan + Monetization Gaps"
+      }
+    },
+    {
+      "at": "2026-02-16T05:36:11.257040",
+      "type": "plan_submitted",
+      "message": "Submitted plan for review: Fresh Territory Revenue Scan + Monetization Gaps",
+      "metadata": {
+        "plan_name": "Fresh Territory Revenue Scan + Monetization Gaps"
+      }
+    },
+    {
+      "at": "2026-02-16T05:36:00.543598",
+      "type": "status_change",
+      "message": "Status changed assessing -> planning",
+      "metadata": {
+        "task": "Creating action plan"
+      }
+    },
+    {
+      "at": "2026-02-16T05:36:00.537929",
+      "type": "kpi_update",
+      "message": "Updated canonical KPI snapshot.",
+      "metadata": {
+        "source": "gsc_audit",
+        "organic_clicks_28d": 15,
+        "top20_keywords_count": 2,
+        "orphan_pages_count": null
+      }
+    },
+    {
+      "at": "2026-02-16T05:35:59.802580",
+      "type": "assessment_started",
+      "message": "Started assessment cycle for fresh site diagnosis."
+    },
+    {
+      "at": "2026-02-16T05:35:59.794778",
+      "type": "status_change",
+      "message": "Status changed idle -> assessing",
+      "metadata": {
+        "task": "Site assessment"
+      }
+    },
+    {
+      "at": "2026-02-16T05:35:44.751194",
+      "type": "task_completed",
+      "message": "Plan 'Fresh Territory Revenue Scan + Monetization Gaps' completed"
+    },
+    {
+      "at": "2026-02-16T05:35:44.746562",
+      "type": "status_change",
+      "message": "Status changed executing -> reporting",
+      "metadata": {
+        "task": "Generating report"
+      }
+    },
+    {
+      "at": "2026-02-16T05:35:44.739509",
+      "type": "execution_outcome",
+      "message": "Captured KPI outcome for plan 'Fresh Territory Revenue Scan + Monetization Gaps'.",
+      "metadata": {
+        "confidence": "high",
+        "organic_clicks_delta": 0.0,
+        "revenue_delta": null
+      }
+    },
+    {
+      "at": "2026-02-16T05:35:44.733765",
+      "type": "kpi_update",
+      "message": "Updated canonical KPI snapshot.",
+      "metadata": {
+        "source": "post_execution_refresh",
+        "organic_clicks_28d": 15,
+        "top20_keywords_count": 2,
+        "orphan_pages_count": null
+      }
+    },
+    {
+      "at": "2026-02-16T05:35:40.081376",
+      "type": "status_change",
+      "message": "Status changed executing -> executing",
+      "metadata": {
+        "task": "Fresh Territory Revenue Scan + Monetization Gaps (step 3/3: keyword_research)"
+      }
+    },
+    {
+      "at": "2026-02-16T05:35:35.260271",
+      "type": "status_change",
+      "message": "Status changed executing -> executing",
+      "metadata": {
+        "task": "Fresh Territory Revenue Scan + Monetization Gaps (step 2/3: affiliate_audit)"
+      }
+    },
+    {
+      "at": "2026-02-16T05:35:29.019053",
+      "type": "status_change",
+      "message": "Status changed executing -> executing",
+      "metadata": {
+        "task": "Fresh Territory Revenue Scan + Monetization Gaps (step 1/3: seo_audit)"
+      }
+    },
+    {
+      "at": "2026-02-16T05:35:29.009921",
+      "type": "execution_started",
+      "message": "Executing approved plan: Fresh Territory Revenue Scan + Monetization Gaps",
+      "metadata": {
+        "steps": 3
+      }
+    },
+    {
+      "at": "2026-02-16T05:35:29.003232",
+      "type": "status_change",
+      "message": "Status changed idle -> executing",
+      "metadata": {
+        "task": "Fresh Territory Revenue Scan + Monetization Gaps"
+      }
+    },
+    {
+      "at": "2026-02-16T05:35:28.969779",
+      "type": "plan_approved",
+      "message": "Plan approved: Fresh Territory Revenue Scan + Monetization Gaps",
+      "metadata": {
+        "feedback": "Good strategic pivot. Focus on finding URLs with >50 impressions that haven't been touched in recent tasks. After discovery, prioritize any revenue leaks found over new content optimization."
+      }
+    },
+    {
+      "at": "2026-02-16T05:35:24.804441",
+      "type": "assessment_completed",
+      "message": "Assessment complete. Priority: Break the cooldown paralysis by finding FRESH revenue opportunities in untouched URLs - stop revisiting the same 3 URLs that are already in 5+ cooldown windows each",
+      "metadata": {
+        "plan_name": "Fresh Territory Revenue Scan + Monetization Gaps"
+      }
+    },
+    {
+      "at": "2026-02-16T05:35:24.788131",
+      "type": "plan_submitted",
+      "message": "Submitted plan for review: Fresh Territory Revenue Scan + Monetization Gaps",
+      "metadata": {
+        "plan_name": "Fresh Territory Revenue Scan + Monetization Gaps"
+      }
+    },
+    {
+      "at": "2026-02-16T05:35:13.003241",
+      "type": "status_change",
+      "message": "Status changed assessing -> planning",
+      "metadata": {
+        "task": "Creating action plan"
+      }
+    },
+    {
+      "at": "2026-02-16T05:35:12.997629",
+      "type": "kpi_update",
+      "message": "Updated canonical KPI snapshot.",
+      "metadata": {
+        "source": "gsc_audit",
+        "organic_clicks_28d": 15,
+        "top20_keywords_count": 2,
+        "orphan_pages_count": null
+      }
+    },
+    {
+      "at": "2026-02-16T05:35:12.242345",
+      "type": "assessment_started",
+      "message": "Started assessment cycle for fresh site diagnosis."
+    },
+    {
+      "at": "2026-02-16T05:35:12.235286",
+      "type": "status_change",
+      "message": "Status changed idle -> assessing",
+      "metadata": {
+        "task": "Site assessment"
+      }
+    },
+    {
+      "at": "2026-02-16T05:34:57.203487",
+      "type": "task_completed",
+      "message": "Plan 'Fresh Territory Revenue Scan + Monetization Gaps' completed"
+    },
+    {
+      "at": "2026-02-16T05:34:57.198908",
+      "type": "status_change",
+      "message": "Status changed executing -> reporting",
+      "metadata": {
+        "task": "Generating report"
+      }
+    },
+    {
+      "at": "2026-02-16T05:34:57.191992",
+      "type": "execution_outcome",
+      "message": "Captured KPI outcome for plan 'Fresh Territory Revenue Scan + Monetization Gaps'.",
+      "metadata": {
+        "confidence": "high",
+        "organic_clicks_delta": 0.0,
+        "revenue_delta": null
+      }
+    },
+    {
+      "at": "2026-02-16T05:34:57.186322",
+      "type": "kpi_update",
+      "message": "Updated canonical KPI snapshot.",
+      "metadata": {
+        "source": "post_execution_refresh",
+        "organic_clicks_28d": 15,
+        "top20_keywords_count": 2,
+        "orphan_pages_count": null
+      }
+    },
+    {
+      "at": "2026-02-16T05:34:49.547557",
+      "type": "status_change",
+      "message": "Status changed executing -> executing",
+      "metadata": {
+        "task": "Fresh Territory Revenue Scan + Monetization Gaps (step 2/4: affiliate_audit)"
+      }
+    },
+    {
+      "at": "2026-02-16T05:34:42.387221",
+      "type": "status_change",
+      "message": "Status changed executing -> executing",
+      "metadata": {
+        "task": "Fresh Territory Revenue Scan + Monetization Gaps (step 1/4: seo_audit)"
+      }
+    },
+    {
+      "at": "2026-02-16T05:34:42.376196",
+      "type": "execution_started",
+      "message": "Executing approved plan: Fresh Territory Revenue Scan + Monetization Gaps",
+      "metadata": {
+        "steps": 4
+      }
+    }
+  ],
+  "recent_url_actions": [
+    {
+      "url": "https://phototipsguy.com/asi585mc-pro-review/",
+      "action": "Plan execution: Page 2 CTR Emergency: Title + Content Overhaul | cooldown=43h | monetization changes need longer signal; competition=high; scope=medium; age unknown; blended with agent proposal 72h",
+      "acted_at": "2026-02-16T07:43:08.081896",
+      "review_not_before": "2026-02-18T02:43:08.081896"
+    },
+    {
+      "url": "https://phototipsguy.com/dwarf-ii-smart-telescope-review/",
+      "action": "Plan execution: Page 2 CTR Emergency: Title + Content Overhaul | cooldown=43h | monetization changes need longer signal; competition=high; scope=medium; age unknown; blended with agent proposal 72h",
+      "acted_at": "2026-02-16T07:43:08.081896",
+      "review_not_before": "2026-02-18T02:43:08.081896"
+    },
+    {
+      "url": "https://phototipsguy.com/asi585mc-pro-review/",
+      "action": "Plan execution: Page 2 Monetization Conversion Fix | cooldown=122h | monetization changes need longer signal; competition=high; scope=medium; age unknown; blended with agent proposal 72h",
+      "acted_at": "2026-02-16T00:19:45.420346",
+      "review_not_before": "2026-02-21T02:19:45.420346"
+    },
+    {
+      "url": "https://phototipsguy.com/dwarf-ii-smart-telescope-review/",
+      "action": "Plan execution: Page 2 Monetization Conversion Fix | cooldown=122h | monetization changes need longer signal; competition=high; scope=medium; age unknown; blended with agent proposal 72h",
+      "acted_at": "2026-02-16T00:19:45.420346",
+      "review_not_before": "2026-02-21T02:19:45.420346"
+    },
+    {
+      "url": "https://phototipsguy.com/svbony-sv503-70ed-telescope-review/",
+      "action": "Plan execution: Page 2 Conversion Blockage: Title Surgery + Fresh Target Hunt | cooldown=51h | balanced default for mixed SEO updates; competition=high; scope=light; age unknown; blended with agent pr",
+      "acted_at": "2026-02-15T23:11:04.483152",
+      "review_not_before": "2026-02-18T02:11:04.483152"
+    },
+    {
+      "url": "https://phototipsguy.com/asi585mc-pro-review/",
+      "action": "Plan execution: Page 2 Conversion Blockage: Title Surgery + Fresh Target Hunt | cooldown=51h | balanced default for mixed SEO updates; competition=high; scope=light; age unknown; blended with agent pr",
+      "acted_at": "2026-02-15T23:11:04.483152",
+      "review_not_before": "2026-02-18T02:11:04.483152"
+    },
+    {
+      "url": "https://phototipsguy.com/dwarf-ii-smart-telescope-review/",
+      "action": "Plan execution: Page 2 Conversion Blockage: Title Surgery + Fresh Target Hunt | cooldown=51h | balanced default for mixed SEO updates; competition=high; scope=light; age unknown; blended with agent pr",
+      "acted_at": "2026-02-15T23:11:04.483152",
+      "review_not_before": "2026-02-18T02:11:04.483152"
+    },
+    {
+      "url": "https://phototipsguy.com/svbony-sv503-70ed-telescope-review/",
+      "action": "Plan execution: Page 2 CTR Emergency Surgery | cooldown=43h | technical fixes can be validated sooner; competition=high; scope=light; age unknown; blended with agent proposal 72h",
+      "acted_at": "2026-02-15T21:53:01.530456",
+      "review_not_before": "2026-02-17T16:53:01.530456"
+    },
+    {
+      "url": "https://phototipsguy.com/asi585mc-pro-review/",
+      "action": "Plan execution: Page 2 CTR Emergency Surgery | cooldown=43h | technical fixes can be validated sooner; competition=high; scope=light; age unknown; blended with agent proposal 72h",
+      "acted_at": "2026-02-15T21:53:01.530456",
+      "review_not_before": "2026-02-17T16:53:01.530456"
+    },
+    {
+      "url": "https://phototipsguy.com/dwarf-ii-smart-telescope-review/",
+      "action": "Plan execution: Page 2 CTR Emergency Surgery | cooldown=43h | technical fixes can be validated sooner; competition=high; scope=light; age unknown; blended with agent proposal 72h",
+      "acted_at": "2026-02-15T21:53:01.530456",
+      "review_not_before": "2026-02-17T16:53:01.530456"
+    },
+    {
+      "url": "https://phototipsguy.com/svbony-sv503-70ed-telescope-review/",
+      "action": "Plan execution: Parallel Attack: CTR Revival + Fresh Target Mining | cooldown=99h | monetization changes need longer signal; competition=high; scope=light; age unknown; blended with agent proposal 48h",
+      "acted_at": "2026-02-15T21:49:23.122985",
+      "review_not_before": "2026-02-20T00:49:23.122985"
+    },
+    {
+      "url": "https://phototipsguy.com/asi585mc-pro-review/",
+      "action": "Plan execution: Parallel Attack: CTR Revival + Fresh Target Mining | cooldown=99h | monetization changes need longer signal; competition=high; scope=light; age unknown; blended with agent proposal 48h",
+      "acted_at": "2026-02-15T21:49:23.122985",
+      "review_not_before": "2026-02-20T00:49:23.122985"
+    },
+    {
+      "url": "https://phototipsguy.com/dwarf-ii-smart-telescope-review/",
+      "action": "Plan execution: Parallel Attack: CTR Revival + Fresh Target Mining | cooldown=99h | monetization changes need longer signal; competition=high; scope=light; age unknown; blended with agent proposal 48h",
+      "acted_at": "2026-02-15T21:49:23.122985",
+      "review_not_before": "2026-02-20T00:49:23.122985"
+    },
+    {
+      "url": "https://phototipsguy.com/svbony-sv503-70ed-telescope-review/",
+      "action": "Plan execution: Revenue Leak Emergency Patch | cooldown=19h | monetization changes need longer signal; competition=high; scope=light; age unknown; blended with agent proposal 12h",
+      "acted_at": "2026-02-15T21:47:15.009510",
+      "review_not_before": "2026-02-16T16:47:15.009510"
+    },
+    {
+      "url": "https://phototipsguy.com/asi585mc-pro-review/",
+      "action": "Plan execution: Revenue Leak Emergency Patch | cooldown=19h | monetization changes need longer signal; competition=high; scope=light; age unknown; blended with agent proposal 12h",
+      "acted_at": "2026-02-15T21:47:15.009510",
+      "review_not_before": "2026-02-16T16:47:15.009510"
+    },
+    {
+      "url": "https://phototipsguy.com/dwarf-ii-smart-telescope-review/",
+      "action": "Plan execution: Revenue Leak Emergency Patch | cooldown=19h | monetization changes need longer signal; competition=high; scope=light; age unknown; blended with agent proposal 12h",
+      "acted_at": "2026-02-15T21:47:15.009510",
+      "review_not_before": "2026-02-16T16:47:15.009510"
+    },
+    {
+      "url": "https://phototipsguy.com/svbony-sv503-70ed-telescope-review/",
+      "action": "Plan execution: CTR Emergency: Title + Snippet Overhaul | cooldown=53h | technical fixes can be validated sooner; competition=high; scope=light; age unknown; blended with agent proposal 96h",
+      "acted_at": "2026-02-15T20:46:10.111624",
+      "review_not_before": "2026-02-18T01:46:10.111624"
+    },
+    {
+      "url": "https://phototipsguy.com/asi585mc-pro-review/",
+      "action": "Plan execution: CTR Emergency: Title + Snippet Overhaul | cooldown=53h | technical fixes can be validated sooner; competition=high; scope=light; age unknown; blended with agent proposal 96h",
+      "acted_at": "2026-02-15T20:46:10.111624",
+      "review_not_before": "2026-02-18T01:46:10.111624"
+    },
+    {
+      "url": "https://phototipsguy.com/dwarf-ii-smart-telescope-review/",
+      "action": "Plan execution: CTR Emergency: Title + Snippet Overhaul | cooldown=53h | technical fixes can be validated sooner; competition=high; scope=light; age unknown; blended with agent proposal 96h",
+      "acted_at": "2026-02-15T20:46:10.111624",
+      "review_not_before": "2026-02-18T01:46:10.111624"
+    },
+    {
+      "url": "https://phototipsguy.com/svbony-sv503-70ed-telescope-review/",
+      "action": "Plan execution: Emergency Revenue Architecture Audit | cooldown=84h | monetization changes need longer signal; competition=high; scope=light; age unknown; blended with agent proposal 12h",
+      "acted_at": "2026-02-15T20:39:47.500349",
+      "review_not_before": "2026-02-19T08:39:47.500349"
+    },
+    {
+      "url": "https://phototipsguy.com/asi585mc-pro-review/",
+      "action": "Plan execution: Emergency Revenue Architecture Audit | cooldown=84h | monetization changes need longer signal; competition=high; scope=light; age unknown; blended with agent proposal 12h",
+      "acted_at": "2026-02-15T20:39:47.500349",
+      "review_not_before": "2026-02-19T08:39:47.500349"
+    },
+    {
+      "url": "https://phototipsguy.com/dwarf-ii-smart-telescope-review/",
+      "action": "Plan execution: Emergency Revenue Architecture Audit | cooldown=84h | monetization changes need longer signal; competition=high; scope=light; age unknown; blended with agent proposal 12h",
+      "acted_at": "2026-02-15T20:39:47.500349",
+      "review_not_before": "2026-02-19T08:39:47.500349"
+    },
+    {
+      "url": "https://phototipsguy.com/svbony-sv503-70ed-telescope-review/",
+      "action": "Plan execution: Page 2 CTR Rescue Mission | cooldown=43h | monetization changes need longer signal; competition=medium; scope=light; age unknown; blended with agent proposal 72h",
+      "acted_at": "2026-02-15T19:43:46.365687",
+      "review_not_before": "2026-02-17T14:43:46.365687"
+    },
+    {
+      "url": "https://phototipsguy.com/asi585mc-pro-review/",
+      "action": "Plan execution: Page 2 CTR Rescue Mission | cooldown=43h | monetization changes need longer signal; competition=medium; scope=light; age unknown; blended with agent proposal 72h",
+      "acted_at": "2026-02-15T19:43:46.365687",
+      "review_not_before": "2026-02-17T14:43:46.365687"
+    },
+    {
+      "url": "https://phototipsguy.com/dwarf-ii-smart-telescope-review/",
+      "action": "Plan execution: Page 2 CTR Rescue Mission | cooldown=43h | monetization changes need longer signal; competition=medium; scope=light; age unknown; blended with agent proposal 72h",
+      "acted_at": "2026-02-15T19:43:46.365687",
+      "review_not_before": "2026-02-17T14:43:46.365687"
+    }
+  ],
+  "force_reassess": false,
+  "force_reassess_reason": null
+}

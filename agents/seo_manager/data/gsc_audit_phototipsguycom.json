@@ -1,0 +1,40 @@
+{
+  "timestamp": "2026-02-16T07:45:14.134551",
+  "drops": [
+    {
+      "url": "https://phototipsguy.com/dwarf-3-vs-dwarf-2-smart-telescopes-compared/",
+      "prev_clicks": 19,
+      "current_clicks": 3,
+      "change_pct": -84.21052631578947,
+      "position": 5.465601965601966
+    },
+    {
+      "url": "https://phototipsguy.com/best-telescope-for-astrophotography/",
+      "prev_clicks": 12,
+      "current_clicks": 5,
+      "change_pct": -58.333333333333336,
+      "position": 46.23891625615764
+    }
+  ],
+  "page2_opportunities": [
+    {
+      "url": "https://phototipsguy.com/dwarf-ii-smart-telescope-review/",
+      "position": 18.769980506822613,
+      "clicks": 1,
+      "impressions": 513,
+      "ctr": 0.001949317738791423
+    },
+    {
+      "url": "https://phototipsguy.com/asi585mc-pro-review/",
+      "position": 12.685082872928177,
+      "clicks": 1,
+      "impressions": 362,
+      "ctr": 0.0027624309392265192
+    }
+  ],
+  "summary": {
+    "current_clicks": 15,
+    "prev_clicks": 37,
+    "change_pct": -59.45945945945946
+  }
+}

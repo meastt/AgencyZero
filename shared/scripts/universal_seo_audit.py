@@ -16,30 +16,46 @@ import time
 from dotenv import load_dotenv
 
 # Load root .env
+
+# Load root .env
 load_dotenv(os.path.join(os.path.dirname(__file__), '../../.env'))
 
-sys.path.insert(0, os.path.join(os.path.dirname(__file__), 'scripts'))
 from telegram_utils import send_telegram_alert
 
+
 # Configuration
-SITE_URL = os.getenv('GSC_SITE_URL', 'https://griddleking.com/')
+# Usage: SITE_PREFIX=PHOTO python3 universal_seo_audit.py
+# This will look for PHOTO_WP_URL, PHOTO_GSC_JSON_KEY, etc.
+
+SITE_PREFIX = os.getenv('SITE_PREFIX', '')
+if SITE_PREFIX:
+    SITE_PREFIX += '_'
+
+# Dynamic Env Loading
+WP_URL = os.getenv(f'{SITE_PREFIX}URL', 'https://griddleking.com').rstrip('/')
+WP_USERNAME = os.getenv(f'{SITE_PREFIX}USERNAME', os.getenv('WP_USERNAME'))
+WP_APP_PASS = os.getenv(f'{SITE_PREFIX}PASSWORD', os.getenv('WP_APP_PASS'))
+BRAVE_API_KEY = os.getenv('BRAVE_SEARCH_API_KEY') # Shared key
+GSC_JSON_KEY = os.getenv(f'{SITE_PREFIX}GSC_JSON_KEY', os.getenv('GSC_JSON_KEY'))
+SITE_URL = os.getenv(f'{SITE_PREFIX}GSC_SITE_URL', 'https://griddleking.com/')
+
+print(f"🚀 UNIVERSAL SEO AUDIT - TARGET: {SITE_URL}")
+print(f"📡 CFG PREFIX: {SITE_PREFIX if SITE_PREFIX else 'DEFAULT (Griddle King)'}")
 
 # Force URL-prefix property if domain property is detected (domain properties often cause 403 if not explicitly authorized)
 if SITE_URL.startswith('sc-domain:'):
-    print(f"⚠️  Detecting domain property '{SITE_URL}'. Switching to authorized URL-prefix 'https://griddleking.com/'")
-    SITE_URL = 'https://griddleking.com/'
+    print(f"⚠️  Detecting domain property '{SITE_URL}'. Switching to authorized URL-prefix equivalent.")
+    # Extract domain from sc-domain:example.com
+    domain = SITE_URL.replace('sc-domain:', '')
+    SITE_URL = f'https://{domain}/'
+    print(f"🔄 Switched to: {SITE_URL}")
 
 print(f"🔍 SITE_URL: {SITE_URL}")
-WP_URL = os.getenv('WP_URL', 'https://griddleking.com').rstrip('/')
-WP_USERNAME = os.getenv('WP_USERNAME')
-WP_APP_PASS = os.getenv('WP_APP_PASS')
-BRAVE_API_KEY = os.getenv('BRAVE_SEARCH_API_KEY')
-GSC_JSON_KEY = os.getenv('GSC_JSON_KEY')
 
 # Parse GSC credentials
 if not GSC_JSON_KEY:
-    msg = ("🚨 *GSC API BLOCKED*\n"
-           "• `GSC_JSON_KEY` is not set in environment\n"
+    msg = (f"🚨 *GSC API BLOCKED ({SITE_PREFIX or 'DEFAULT'})*\n"
+           f"• `{SITE_PREFIX}GSC_JSON_KEY` is not set in environment\n"
            "• Traffic analysis, decline detection, and Page 2 opportunities are all offline\n"
            "• Action needed: set the service account JSON key")
     print(msg)
@@ -58,13 +74,14 @@ try:
     )
     gsc_service = build('searchconsole', 'v1', credentials=credentials)
 except Exception as e:
-    msg = (f"🚨 *GSC AUTHENTICATION FAILED*\n"
+    msg = (f"🚨 *GSC AUTHENTICATION FAILED ({SITE_PREFIX or 'DEFAULT'})*\n"
            f"• Error: `{str(e)[:200]}`\n"
            f"• Traffic analysis is completely offline\n"
            f"• Check service account credentials")
     print(msg)
     send_telegram_alert(msg)
     exit(1)
+
 
 print("🚀 SEO KICKSTART MISSION - GRIDDLE KING\n")
 

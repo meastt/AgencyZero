@@ -8,9 +8,18 @@ from datetime import datetime, timedelta
 from google.oauth2 import service_account
 from googleapiclient.discovery import build
 from telegram_utils import send_telegram_alert
+from dotenv import load_dotenv
+
+# Load root .env
+load_dotenv(os.path.join(os.path.dirname(__file__), '../../../.env'))
+
+# SITE_PREFIX support for multi-site
+SITE_PREFIX = os.getenv('SITE_PREFIX', '')
+if SITE_PREFIX:
+    SITE_PREFIX += '_'
 
 # Load credentials
-creds_json = os.environ.get('GSC_JSON_KEY')
+creds_json = os.environ.get(f'{SITE_PREFIX}GSC_JSON_KEY', os.environ.get('GSC_JSON_KEY'))
 if not creds_json:
     msg = ("🚨 *GSC AUDIT BLOCKED*\n"
            "• `GSC_JSON_KEY` not found in environment\n"
@@ -22,6 +31,10 @@ if not creds_json:
 
 try:
     creds_dict = json.loads(creds_json)
+    # Fix double-escaped newlines in private key
+    if 'private_key' in creds_dict:
+        creds_dict['private_key'] = creds_dict['private_key'].replace('\\n', '\n')
+    
     credentials = service_account.Credentials.from_service_account_info(
         creds_dict,
         scopes=['https://www.googleapis.com/auth/webmasters.readonly']
@@ -36,8 +49,15 @@ except Exception as e:
     send_telegram_alert(msg)
     exit(1)
 
-# Site property
-SITE_URL = os.getenv('GSC_SITE_URL', 'https://griddleking.com/')
+# Site property (use SITE_PREFIX for multi-site support)
+SITE_URL = os.getenv(f'{SITE_PREFIX}GSC_SITE_URL', os.getenv('GSC_SITE_URL', 'https://griddleking.com/'))
+
+# Force URL-prefix property if domain property is detected
+if SITE_URL.startswith('sc-domain:'):
+    print(f"⚠️  Detecting domain property '{SITE_URL}'. Switching to authorized URL-prefix 'https://griddleking.com/'")
+    SITE_URL = 'https://griddleking.com/'
+
+print(f"🔍 SITE_URL: {SITE_URL}")
 
 # Date ranges - last 28 days vs previous 28 days
 end_date = datetime.now().date()
@@ -182,7 +202,14 @@ output = {
     }
 }
 
-with open('data/gsc_audit_latest.json', 'w') as f:
+DATA_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), '../data')
+os.makedirs(DATA_DIR, exist_ok=True)
+# Use SITE_PREFIX in filename to avoid agents overwriting each other
+raw_prefix = os.getenv('SITE_PREFIX', '')
+file_slug = raw_prefix.lower().replace('wp_', '').replace('_', '') if raw_prefix else 'default'
+output_path = os.path.join(DATA_DIR, f'gsc_audit_{file_slug}.json')
+
+with open(output_path, 'w') as f:
     json.dump(output, f, indent=2)
 
-print(f"\n✅ Data saved to data/gsc_audit_latest.json")
+print(f"\n✅ Data saved to {output_path}")

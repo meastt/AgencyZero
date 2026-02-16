@@ -13,37 +13,86 @@ from datetime import datetime, timedelta
 from dotenv import load_dotenv
 
 # Load root .env
+
+# Load root .env
 load_dotenv(os.path.join(os.path.dirname(__file__), '../../.env'))
 
-sys.path.insert(0, os.path.join(os.path.dirname(__file__), 'scripts'))
 from telegram_utils import send_telegram_alert
 
+
+# Configuration
+# Usage: SITE_PREFIX=PHOTO python3 universal_keyword_research.py
+
+SITE_PREFIX = os.getenv('SITE_PREFIX', '')
+if SITE_PREFIX:
+    SITE_PREFIX += '_'
+
 BRAVE_API_KEY = os.getenv('BRAVE_SEARCH_API_KEY')
-SITE_URL = 'griddleking.com'
+SITE_URL = os.getenv(f'{SITE_PREFIX}GSC_SITE_URL', 'griddleking.com').replace('https://', '').replace('/', '')
 REQUEST_TIMEOUT = int(os.getenv('HTTP_TIMEOUT_SECONDS', '30'))
 
-# Top competitors in griddle/grill niche
-COMPETITORS = [
-    'blackstonegriddles.com',
-    'seriouseats.com',
-    'thespruceeats.com',
-    'foodandwine.com',
-    'bonappetit.com'
-]
+# Niche-Specific Config Loader
+# Expected format in env: WP_PHOTOTIPSGUY_COM_COMPETITORS="site A,site B,site C"
+# Expected format in env: WP_PHOTOTIPSGUY_COM_TARGET_KEYWORDS="keyword A,keyword B,keyword C"
 
-# Target keywords for griddle niche
-TARGET_KEYWORDS = [
-    'best flat top grill',
-    'blackstone griddle recipes',
-    'how to season a griddle',
-    'outdoor griddle reviews',
-    'flat top grill vs griddle',
-    'commercial griddle buying guide',
-    'griddle cleaning tips',
-    'best griddle for camping',
-    'electric vs gas griddle',
-    'griddle breakfast recipes'
-]
+# Per-site defaults — each site gets its own niche keywords and competitors.
+NICHE_DEFAULTS = {
+    "WP_GRIDDLEKING_": {
+        "competitors": [
+            'blackstonegriddles.com', 'seriouseats.com', 'thespruceeats.com',
+            'foodandwine.com', 'bonappetit.com', 'theflattopking.com',
+        ],
+        "keywords": [
+            'best flat top grill', 'blackstone griddle recipes',
+            'how to season a griddle', 'outdoor griddle reviews',
+            'commercial griddle buying guide',
+        ],
+    },
+    "WP_PHOTOTIPSGUY_COM_": {
+        "competitors": [
+            'digital-photography-school.com', 'petapixel.com',
+            'photographylife.com', 'bhphotovideo.com', 'dpreview.com',
+        ],
+        "keywords": [
+            'best beginner camera', 'astrophotography for beginners',
+            'best smart telescope', 'night sky photography tips',
+            'telescope vs camera for astrophotography',
+        ],
+    },
+    "WP_TIGERTRIBE_NET_": {
+        "competitors": [
+            'worldwildlife.org', 'nationalgeographic.com',
+            'defenders.org', 'panthera.org', 'bigcatrescue.org',
+        ],
+        "keywords": [
+            'biggest wild cats', 'tiger conservation efforts',
+            'types of wild cats', 'endangered big cats',
+            'wild cat species list',
+        ],
+    },
+}
+
+# Resolve defaults for the current site prefix
+niche = NICHE_DEFAULTS.get(SITE_PREFIX, {})
+DEFAULT_COMPETITORS = niche.get("competitors", [])
+DEFAULT_KEYWORDS = niche.get("keywords", [])
+
+# Load from ENV or fall back to per-site defaults
+competitors_env = os.getenv(f'{SITE_PREFIX}COMPETITORS')
+COMPETITORS = competitors_env.split(',') if competitors_env else DEFAULT_COMPETITORS
+
+keywords_env = os.getenv(f'{SITE_PREFIX}TARGET_KEYWORDS')
+TARGET_KEYWORDS = keywords_env.split(',') if keywords_env else DEFAULT_KEYWORDS
+
+if not TARGET_KEYWORDS:
+    print(f"⚠️  No keywords configured for prefix '{SITE_PREFIX}'. Exiting.")
+    exit(1)
+
+print(f"🚀 UNIVERSAL KEYWORD RESEARCH - TARGET: {SITE_URL}")
+print(f"📡 CFG PREFIX: {SITE_PREFIX if SITE_PREFIX else 'DEFAULT (Griddle King)'}")
+print(f"⚔️  COMPETITORS: {len(COMPETITORS)}")
+print(f"🎯 KEYWORDS: {len(TARGET_KEYWORDS)}")
+
 
 # Caching Configuration
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))

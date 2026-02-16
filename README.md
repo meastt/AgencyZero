@@ -1,109 +1,183 @@
 # OpenClawSEO
 
-AI-assisted SEO automation workspace for OpenClaw.
+Autonomous SEO agency powered by Claude. Three self-directed agents each manage a WordPress niche site, coordinated by a Commander bot via Telegram.
 
-This repository is set up to run an SEO manager agent (currently focused on `griddleking.com`) that performs recurring audits, identifies growth opportunities, and reports issues through Telegram.
+## Sites
 
-## What This Repo Does
+| Agent | Site | Niche |
+|-------|------|-------|
+| Griddle King | griddleking.com | Outdoor cooking, griddles, BBQ |
+| Photo Tips Guy | phototipsguy.com | Photography, astrophotography, telescopes |
+| Tiger Tribe | tigertribe.net | Wild cats, predatory wildlife, conservation |
 
-- Runs an OpenClaw agent workspace from `agents/seo_manager`
-- Pulls Google Search Console data for ranking/click analysis
-- Audits WordPress content for decay, orphan pages, and refresh targets
-- Produces JSON outputs for follow-up actions and tracking
-- Sends failure alerts to Telegram when critical integrations break
+## Architecture
+
+```
+┌──────────────────────────────────────────────────────┐
+│                    SCHEDULER                          │
+│  Agent ticks every 15 min  |  Commander review 15 min │
+└────────┬──────────┬──────────┬──────────┬────────────┘
+         │          │          │          │
+    ┌────▼────┐ ┌───▼───┐ ┌───▼───┐ ┌────▼─────────┐
+    │ Griddle │ │ Photo │ │ Tiger │ │  Commander   │
+    │  Brain  │ │ Brain │ │ Brain │ │    Brain     │
+    └────┬────┘ └───┬───┘ └───┬───┘ └────┬─────────┘
+         │          │          │          │
+    ┌────▼──────────▼──────────▼──────────▼────────────┐
+    │               TOOL REGISTRY                       │
+    │  gsc_audit, seo_audit, keyword_research,          │
+    │  affiliate_audit, orphan_rescue, generate_image   │
+    └────────────────────┬─────────────────────────────┘
+                         │
+    ┌────────────────────▼─────────────────────────────┐
+    │               STATE STORE                         │
+    │  state/agent_griddle.json                         │
+    │  state/agent_photo.json                           │
+    │  state/agent_tiger.json                           │
+    │  state/commander.json                             │
+    └──────────────────────────────────────────────────┘
+```
+
+Each agent runs an autonomous loop: **assess** (audit + KPI refresh) -> **plan** (Claude creates action plan) -> **review** (Commander approves/rejects) -> **execute** (run tools + before/after KPI outcomes) -> **report** (Telegram summary + timeline state).
 
 ## Project Layout
 
-- `main.sh` - bootstrap script (`openclaw` install + gateway start)
-- `agents/seo_manager/seo_kickstart.py` - end-to-end kickstart analysis (GSC + WP + linking)
-- `agents/seo_manager/scripts/gsc_audit.py` - periodic GSC drop/opportunity audit
-- `agents/seo_manager/scripts/content_audit.py` - WordPress content opportunity scan
-- `scripts/gsc_bridge.py` - lightweight GSC query helper
-- `data/` - generated audit outputs
-- `docs/` - architecture and operator documentation
+```
+core/                          # Autonomous brain system
+  state_store.py               # Persistent JSON state (timeline, KPIs, outcomes; atomic writes)
+  claude_client.py             # Shared Claude API client
+  commander_brain.py           # Intelligent Commander + weekly portfolio allocation strategy
+  agent_brain.py               # Autonomous agent loop (assess/plan/execute/report with KPI outcomes)
+  tool_registry.py             # Wraps scripts as callable tools
+  scheduler.py                 # Timer-based agent + review scheduling
+
+commander_bot.py               # Telegram bot — entry point, safety-gated triggers + natural language
+
+agents/
+  agent_dispatch.py            # Agent registry, script runner, Telegram routing
+  seo_manager/                 # Griddle King agent workspace
+    scripts/gsc_audit.py       # Google Search Console performance audit
+    scripts/tech_seo_fixer.py  # Technical SEO fixes
+    seo_kickstart.py           # Full site kickstart analysis
+    keyword_research.py        # Keyword opportunity finder
+    STRATEGIC_PLAN.md          # Griddle King strategic roadmap
+  photo_manager/               # Photo Tips Guy agent workspace
+  cat_manager/                 # Tiger Tribe agent workspace
+
+shared/scripts/                # Universal scripts (work with any site via SITE_PREFIX)
+  universal_seo_audit.py       # SEO audit (internal links, orphans, content quality)
+  universal_keyword_research.py # Keyword research
+  affiliate_audit.py           # Affiliate link audit
+  generate_featured_image.py   # AI-generated featured images
+  telegram_utils.py            # Telegram alerting utility
+
+scripts/                       # Standalone tools
+  orphan_rescue.py             # Find and fix orphaned posts
+  wp_link_injector.py          # Internal link injection
+
+state/                         # Live agent state files (JSON)
+data/                          # Generated audit outputs and logs
+```
 
 ## Requirements
 
-- macOS/Linux shell environment
-- Python 3.10+ (recommended)
-- Node.js + npm (for `npm start`)
-- OpenClaw CLI (auto-installed by `main.sh` if missing)
-- Access credentials for:
-  - Google Search Console service account
-  - WordPress API (username + app password)
-  - Brave Search API (optional for extended keyword/competitor workflows)
-  - Telegram bot (optional, for alerting)
-
-## Environment Variables
-
-Create a `.env` file in the repo root and set the variables your workflow needs:
-
-- `GSC_JSON_KEY` (required): full JSON service account key as a string
-- `GSC_SITE_URL` (optional): defaults to `https://griddleking.com/`
-- `WP_URL` (required for WP audits)
-- `WP_USERNAME` (required for WP audits)
-- `WP_APP_PASS` (required for WP audits)
-- `BRAVE_SEARCH_API_KEY` (used by kickstart/expansion workflows)
-- `TELEGRAM_BOT_TOKEN` (optional, for alerts)
-- `TELEGRAM_CHAT_ID` (optional, for alerts)
+- Python 3.10+
+- Credentials in `.env`:
+  - `ANTHROPIC_API_KEY` — Claude API (powers all agent brains)
+  - `GSC_JSON_KEY` — Google Search Console service account JSON
+  - `WP_URL`, `WP_USERNAME`, `WP_APP_PASS` — WordPress API access per site
+  - `TELEGRAM_BOT_TOKEN`, `TELEGRAM_CHAT_ID` — Commander bot
+  - Per-site Telegram bot tokens (`WP_GRIDDLEKING_TELEGRAM_BOT_TOKEN`, etc.)
+  - `BRAVE_SEARCH_API_KEY` — keyword research
 
 ## Quick Start
 
-1. Install dependencies:
+1. Install Python dependencies:
 
 ```bash
-npm install
+pip install requests python-dotenv google-auth google-api-python-client
 ```
 
-2. Configure `.env` with the variables above.
+2. Configure `.env` with credentials (see above).
 
-3. Start OpenClaw + register the SEO agent:
+3. Start the Commander bot:
 
 ```bash
-npm start
+python3 commander_bot.py
 ```
 
-This runs `main.sh`, which:
-- installs `openclaw` if needed
-- registers agent `seo_manager` with workspace `./agents/seo_manager`
-- starts the OpenClaw gateway
+This starts:
+- Telegram polling for commands and natural language
+- Commander Brain with conversation history and live state awareness
+- 3 autonomous agent brains (tick every 15 min)
+- Commander review cycle (every 15 min)
+- Single-instance lock for poller safety (`state/commander_bot.lock`)
 
-## Common Operations
+## Telegram Commands
 
-Run from the repository root.
+| Command | Description |
+|---------|-------------|
+| `/help` | Show commands without triggering execution |
+| `/status` | Live fleet status from agent state files |
+| `/mission` | Current mission overview |
+| `/portfolio` | Executive allocation + KPI outcomes |
+| `/start` | Safety-gated immediate full reassessment request |
+| `/start confirm` | Confirm forced reassessment within 2 minutes |
+| `/griddle [task]` | Griddle King operations |
+| `/photo [task]` | Photo Tips Guy operations |
+| `/tiger [task]` | Tiger Tribe operations |
+| `/audit [site]` | Run SEO audit |
+| `/keywords [site]` | Run keyword research |
 
-### Full kickstart mission
+Or just type naturally — the Commander Brain understands context and remembers your conversation.
 
-```bash
-python3 agents/seo_manager/seo_kickstart.py
-```
+## How Autonomy Works
 
-Output: `seo_kickstart_results.json`
+1. **Scheduler** ticks each agent every 15 minutes
+2. **Agent Brain** checks if its site assessment is stale (>1 hour)
+3. If stale, runs GSC audit and/or SEO audit to get fresh data
+4. **Claude** analyzes the data and creates a prioritized action plan
+5. Plan is submitted to **Commander Brain** for review
+6. Commander auto-reviews every 15 minutes (approve/reject with reasoning)
+7. Approved plans trigger immediate execution (no idle approval lag)
+8. Manual trigger intent (`/start confirm`, or natural-language trigger action) forces reassessment even when state is fresh
+9. Each execution captures baseline KPIs, post-execution KPIs, and deltas
+10. Results and agent updates are routed into Commander timeline/state (single chain of command by default)
+11. Commander generates weekly portfolio allocation weights by ROI pressure
+12. Errors/escalations flow through Commander to the user
 
-### GSC performance audit
+Priority order: revenue leaks > declining pages > Page 2 pushes > orphan fixes > new content.
 
-```bash
-python3 agents/seo_manager/scripts/gsc_audit.py
-```
+## Canonical KPI Schema
 
-Output: `data/gsc_audit_latest.json`
+Each agent persists KPI snapshots in its state file and records before/after deltas for every executed plan:
 
-### Content opportunity audit
+- `organic_clicks_28d`
+- `top20_keywords_count`
+- `affiliate_ctr_pct`
+- `revenue_per_session_usd`
+- `monthly_revenue_usd`
+- `orphan_pages_count` (supporting operational KPI)
 
-```bash
-python3 agents/seo_manager/scripts/content_audit.py
-```
+Outcome records are written to `execution_history` with baseline, post-execution values, and confidence notes.
 
-Input required: `data/wp_posts.json`  
-Output: `data/content_opportunities.json`
+## Adaptive Reassessment Windows
 
-## Monitoring & Health Checks
+URL-level impact windows are tracked in `recent_url_actions` with `review_not_before` timestamps.
 
-- `openclaw status` - verify gateway/agent health
-- `openclaw logs --follow` - stream runtime logs
-- Re-run `npm start` to poke/restart local workflow
+- Agents propose reassessment context in plan JSON:
+  - `target_urls`
+  - `reassess_after_hours`
+  - `content_type`
+  - `competition_level`
+  - `change_scope`
+  - `critical_override`
+- Runtime applies a hybrid model (agent proposal + system signals from tools/snapshot/content age) to determine final cooldown.
+- Active cooldown URLs are injected into the next assessment prompt to avoid unnecessary rapid rework.
+- `/portfolio` exposes latest cooldown rationale and the next reassessment timestamp per agent.
 
-## Notes
+## Safety Notes
 
-- This repo currently reflects a single-agent implementation (`seo_manager`) with docs that also describe a future multi-agent architecture.
-- Keep credentials out of version control; never commit real API keys or secrets.
+- **Single poller only:** Telegram `getUpdates` allows one active poller per bot token. The bot now fails fast on 409 conflict.
+- **Default message chain:** direct site-agent Telegram messages are disabled by default; internal updates flow to Commander timeline/state.
+- **Debug override:** set `AGENT_DIRECT_TELEGRAM=true` to re-enable direct site-agent bot messages temporarily.
